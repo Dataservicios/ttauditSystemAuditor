@@ -1,0 +1,991 @@
+id,codclient,fullname,district,region,ubigeo,Ejecutivo,Rubro
+40,DIR15027,Bodega Jos,San Juan de Lurigancho,Lima,Lima,Vacante - Alberto Mc Lellan,Bodega
+41,DIR63005,Librer,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Librería
+42,DIRM4240,BODEGA COQUITO,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Bodega
+43,DIR49339,Cabina de Internet D,San Juan de Lurigancho,Lima,Lima,Vacante - Alberto Mc Lellan,Otros
+44,DIRM3755,Xtreme Gamers Club,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Locutorios
+46,DIRM3565,Bazar Omar,San Juan de Lurigancho,Lima,Lima,Vacante - Alberto Mc Lellan,Librería
+47,DIRM4020,Botica Se,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Farmacias
+48,DIR13963,Botica Se,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Farmacias
+49,DIRM3559,Botica Pharma + Salud,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Farmacias
+51,DIRM2784,Centro de Pagos J y C,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Tiendas Comerciales
+52,DIR15021,Bodega Julio Cesar,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Bodega
+53,DIR49330,Rimari telecomunicaciones I - SJL,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Tiendas Comerciales
+54,DIRM4045,Casa de Cambios Andy,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Otros
+55,DIR49344,Botica Tumifarma,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Farmacias
+56,DIR49318,Casa de Cambios Roly - Chimu,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Otros
+57,DIR49319,Casa de Cambios Roly - Sensitivas,San Juan de Lurigancho,Lima,Lima,Vacante - Alberto Mc Lellan,Otros
+58,DIR15025,Boticas Biofas,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Farmacias
+59,DIRM3773,Botica Linda ,San Juan de Lurigancho,Lima,Lima,Vacante - Alberto Mc Lellan,Farmacias
+60,DIRM4133,INTERNET WILL,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Locutorios
+61,DIRM2933,Panificadora Milagros,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Otros
+62,DIR49370,Bodega Licorer,San Juan de Lurigancho,Lima,Lima,Vacante - Alberto Mc Lellan,Bodega
+63,DIR15004,Cambios Alexandra I,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Otros
+64,DIR49316,Boticfarma - Campoy,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Farmacias
+65,DIR49105,La Sagrada Familia,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Bodega
+66,DIR13950,Botica Altafarma I,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Farmacias
+67,DIR49323,Bodega Maleni,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Bodega
+68,DIRM4046,Supermercado Candy II,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Otros
+69,DIR15017,Bodega Yoselyn,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Bodega
+70,DIRM2711,Comercial Inlusa,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Bodega
+71,DIR49363,Farmacia Universal - SJL Los Pinos,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Farmacias
+72,DIR35501,Bazar Paola,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Librería
+73,DIR09110,Internet Adriano II,San Juan de Lurigancho,Lima,Lima,Vacante - Alberto Mc Lellan,Locutorios
+74,DIR15708,Bodega Bazar Sonia,San Juan de Miraflores,Lima,Lima,Dante Saira,Bodega
+76,DIRM3624,Bodega Bazar Erika,San Juan de Miraflores,Lima,Lima,Dante Saira,Bodega
+77,DIRM3741,Bristol,San Juan de Miraflores,Lima,Lima,Peter Egacila,Otros
+78,DIR15766,Copias Librer,San Juan de Miraflores,Lima,Lima,Dante Saira,Librería
+79,DIR15764,Lenceria Cordova,San Juan de Miraflores,Lima,Lima,Dante Saira,Otros
+80,DIR27413,Lencer,San Juan de Miraflores,Lima,Lima,Dante Saira,Otros
+81,DIRM0601,Farmacia Andy,San Juan de Miraflores,Lima,Lima,Dante Saira,Farmacias
+82,DIRM0825,Casa de Cambio Mary I,San Juan de Miraflores,Lima,Lima,Dante Saira,Otros
+83,DIRM4183,LIBRER,San Juan de Miraflores,Lima,Lima,Dante Saira,Tiendas Comerciales
+84,DIRM2929,Librer,San Juan de Miraflores,Lima,Lima,Dante Saira,Librería
+85,DIR15756,Botica Antuane,San Juan de Miraflores,Lima,Lima,Dante Saira,Farmacias
+86,DIR27411,Locutorio Palabras Sin Fin,San Juan de Miraflores,Lima,Lima,Dante Saira,Locutorios
+87,DIRM3323,Mundo Tec II,San Juan de Miraflores,Lima,Lima,Dante Saira,Otros
+88,DIR15757,Bodega Fajardo,San Juan de Miraflores,Lima,Lima,Dante Saira,Bodega
+89,DIR15793,Bodega Angela,San Juan de Miraflores,Lima,Lima,Peter Egacila,Bodega
+90,DIR15755,Panader,San Juan de Miraflores,Lima,Lima,Dante Saira,Otros
+91,DIR16207,Ferreter,San Juan de Miraflores,Lima,Lima,Dante Saira,Otros
+92,DIRM3362,Bazar Jamle,San Juan de Miraflores,Lima,Lima,Peter Egacila,Tiendas Comerciales
+93,DIR15794,Librer,San Juan de Miraflores,Lima,Lima,Dante Saira,Locutorios
+94,DIRM3956,Librer,Villa Mar,Lima,Lima,Peter Egacila,Librería
+95,DIRM3005,Internet Don Javi,San Juan de Miraflores,Lima,Lima,Dante Saira,Locutorios
+97,DIR15785,Casa de Cambios El Gordito II,San Juan de Miraflores,Lima,Lima,Dante Saira,Otros
+98,DIRM2728,Minimarket Faben,Villa Mar,Lima,Lima,Peter Egacila,Bodega
+99,DIRM3636,Miguel & Anahael,Villa Mar,Lima,Lima,Peter Egacila,Locutorios
+100,DIR17060,Multiservicios Delta III,Villa Mar,Lima,Lima,Peter Egacila,Otros
+101,DIRM3628,Bazar Electro G&S,Villa Mar,Lima,Lima,Peter Egacila,Tiendas Comerciales
+102,DIRM3315,Botica Melissa II,Villa Mar,Lima,Lima,Peter Egacila,Farmacias
+105,DIR17048,Multiservicios Claudia,Villa Mar,Lima,Lima,Peter Egacila,Librería
+106,DIRM1861,M y S Comunicaciones II,Villa Mar,Lima,Lima,Peter Egacila,Tiendas Comerciales
+107,DIRM3987,Negociaciones Gisprolar,Villa Mar,Lima,Lima,Gabriele de la Borda,Locutorios
+108,DIRM4261,MULTISERVICIOS J&J ,Villa Mar,Lima,Lima,Peter Egacila,Otros
+110,DIRM3409,Multiservicios Hilda,Villa Mar,Lima,Lima,Peter Egacila,Librería
+111,DIRM0739,Locutorios D&C I,Villa Mar,Lima,Lima,Peter Egacila,Locutorios
+112,DIR17057,Intercambios Progreso III,Villa Mar,Lima,Lima,Peter Egacila,Otros
+113,DIRM3763,Estudio Juridico Estacio,Villa Mar,Lima,Lima,Peter Egacila,Otros
+114,DIRM3946,Bodega Carmen,Villa Mar,Lima,Lima,Peter Egacila,Otros
+116,DIR09066,Multiservicios San Gabriel II,Villa Mar,Lima,Lima,Peter Egacila,Otros
+117,DIRM3447,Distribuidora Ramiro,Villa Mar,Lima,Lima,Peter Egacila,Tiendas Comerciales
+118,DIR33007,Librer,Villa Mar,Lima,Lima,Peter Egacila,Librería
+119,DIR17079,Bodega La Skinita,Villa Mar,Lima,Lima,Peter Egacila,Bodega
+120,DIR16209,Botica M.A. Farma,Villa Mar,Lima,Lima,Peter Egacila,Farmacias
+121,DIRM3782,Distribuidora G&S II,Villa Mar,Lima,Lima,Peter Egacila,Tiendas Comerciales
+122,DIR16211,Comercial Ckarlohs,Villa Mar,Lima,Lima,Peter Egacila,Tiendas Comerciales
+124,DIR17085,Librer,Villa Mar,Lima,Lima,Peter Egacila,Librería
+125,DIRM2260,Bodega Bazar Nicole,Villa Mar,Lima,Lima,Peter Egacila,Bodega
+126,DIR17090,Botica San Jos,Villa Mar,Lima,Lima,Peter Egacila,Farmacias
+127,DIR15522,Bazar Bodega San Miguel Arcangel ,Villa Mar,Lima,Lima,Peter Egacila,Librería
+128,DIR17095,Botica San Francisco de Asis,Villa Mar,Lima,Lima,Peter Egacila,Farmacias
+129,DIRM4185,Bazar Bodega LaColins II,Chorrillos,Lima,Lima,Gabriele de la Borda,Librería
+130,DIRM3000,Internet Mary,Chorrillos,Lima,Lima,Dante Saira,Locutorios
+131,DIR14325,Botica Yanira,Chorrillos,Lima,Lima,Dante Saira,Farmacias
+132,DIR11518,Botica Virgen De Chapi II,Santiago de Surco,Lima,Lima,Bruno Apolaya,Farmacias
+133,DIR14364,Cambios Diluci,Chorrillos,Lima,Lima,Vacante - Claudia Cicirello,Otros
+134,DIRM2803,Bodega Fabricio,Santiago de Surco,Lima,Lima,Gabriele de la Borda,Bodega
+135,DIRM3358,Farmacia Santiago Apostol,Santiago de Surco,Lima,Lima,Bruno Apolaya,Tiendas Comerciales
+136,DIRM3610,Minimarket Mariscal Castilla,Santiago de Surco,Lima,Lima,Bruno Apolaya,Bodega
+137,DIRM0651,Minimarket Dina,Chorrillos,Lima,Lima,Vacante - Claudia Cicirello,Bodega
+138,DIR14348,Bodega El Huerto I,Chorrillos,Lima,Lima,Dante Saira,Bodega
+139,DIR25415,Botica Buena Salud,Santiago de Surco,Lima,Lima,Bruno Apolaya,Farmacias
+140,DIRM3354,CopyNet Servicios,Chorrillos,Lima,Lima,Dante Saira,Tiendas Comerciales
+141,DIR25434,Librer,Santiago de Surco,Lima,Lima,Bruno Apolaya,Librería
+142,DIRM4187,Internet 3 de Octubre II,Chorrillos,Lima,Lima,Dante Saira,Locutorios
+143,DIR15700,Internet El T,Chorrillos,Lima,Lima,Peter Egacila,Locutorios
+144,DIR14368,Centro Medico Veterinario Prosapvet II,Santiago de Surco,Lima,Lima,Bruno Apolaya,Tiendas Comerciales
+145,DIR04617,Lavander,Santiago de Surco,Lima,Lima,Bruno Apolaya,Otros
+146,DIR14340,Botica Vida Farma I,Santiago de Surco,Lima,Lima,Bruno Apolaya,Farmacias
+147,DIR14236,Minimarket Loma Amarilla,Santiago de Surco,Lima,Lima,Bruno Apolaya,Bodega
+148,DIR25422,Comercial Nicolle,Santiago de Surco,Lima,Lima,Gabriele de la Borda,Bodega
+149,DIR14232,Mega Hard Inversiones SAC,Santiago de Surco,Lima,Lima,Gabriele de la Borda,Otros
+150,DIRM2800,Bodega Luchito - Los Proceres,Santiago de Surco,Lima,Lima,Gabriele de la Borda,Bodega
+151,DIRM2797,Fiestas y Colores,Santiago de Surco,Lima,Lima,Bruno Apolaya,Tiendas Comerciales
+152,DIRM1224,Farmacia Queens - Santiago de Surco,Santiago de Surco,Lima,Lima,Bruno Apolaya,Farmacias
+153,DIR27009,Bodega Shalon Deliveri I,Santiago de Surco,Lima,Lima,Bruno Apolaya,Bodega
+154,DIR26402,Casa de Cambios Gregory,Santiago de Surco,Lima,Lima,Bruno Apolaya,Otros
+156,DIRM2572,PGN - Ganagas I,Santiago de Surco,Lima,Lima,Gabriele de la Borda,Otros
+157,DIRM3619,CANGURO MM VEA CHORRILLOS   ,Chorrillos,Lima,Lima,Carlos Medina,Otros
+158,DIRM0395,Canguro MM Bolichera,Santiago de Surco,Lima,Lima,Carlos Medina,Otros
+159,DIRM2478,Librer,Santiago de Surco,Lima,Lima,Bruno Apolaya,Librería
+160,DIR14330,Locutorio de Telef,Chorrillos,Lima,Lima,Dante Saira,Locutorios
+161,DIRM2403,Locutorio Aries,Chorrillos,Lima,Lima,Dante Saira,Locutorios
+162,DIRM3304,Locutorio Kazaanet II,Santiago de Surco,Lima,Lima,Bruno Apolaya,Locutorios
+163,DIR14361,Minimarket Virgen de Chapi,Chorrillos,Lima,Lima,Vacante - Claudia Cicirello,Bodega
+164,DIR16145,Distribuidora El Gringo II,Santiago de Surco,Lima,Lima,Bruno Apolaya,Bodega
+166,DIR05200,Internet Librer,Santa Anita,Lima,Lima,Gabriele De la borda,Librería
+167,DIRM2770,Bodega Se,Santa Anita,Lima,Lima,Bruno Apolaya,Bodega
+168,DIRM4125,LIBRER,Santa Anita,Lima,Lima,Gabriele De la borda,Librería
+169,DIR25025,Casa de Cambios Luis,Santa Anita,Lima,Lima,Gabriele De la borda,Otros
+170,DIR05257,Botica San Nicol,Santa Anita,Lima,Lima,Gabriele De la borda,Farmacias
+171,DIR09323,Botica Ni,Santa Anita,Lima,Lima,Gabriele De la borda,Farmacias
+172,DIR05244,Ancro - Centro Bancario III,Santa Anita,Lima,Lima,Gabriele De la borda,Otros
+173,DIR05271,Bodega Santa Barbara I,Santa Anita,Lima,Lima,Bruno Apolaya,Bodega
+174,DIRM3627,Multiservicios Fabian,Santa Anita,Lima,Lima,Gabriele De la borda,Librería
+175,DIRM3795,Botica Lelis,Santa Anita,Lima,Lima,Gabriele De la borda,Farmacias
+176,DIR24320,Cabinas Pacific,La Molina,Lima,Lima,Bruno Apolaya,Tiendas Comerciales
+177,DIRM3457,Bazar Yes,La Molina,Lima,Lima,Bruno Apolaya,Tiendas Comerciales
+178,DIR24314,Librer,La Molina,Lima,Lima,Bruno Apolaya,Librería
+179,DIRM4112,BOTICA FARMA JADE,Santa Anita,Lima,Lima,Gabriele De la borda,Farmacias
+180,DIR24315,Geniusnet,La Molina,Lima,Lima,Bruno Apolaya,Tiendas Comerciales
+181,DIR05264,Minimarket Edith,Santa Anita,Lima,Lima,Bruno Apolaya,Bodega
+182,DIR28304,Librer,Santa Anita,Lima,Lima,Gabriele De la borda,Librería
+183,DIRM3218,Panader,La Molina,Lima,Lima,Gabriele de la Borda,Bodega
+185,DIRM4118,L&E Net II,Santa Anita,Lima,Lima,Bruno Apolaya,Locutorios
+186,DIRM3520,Fuente de Soda Lizbeth,Santa Anita,Lima,Lima,Bruno Apolaya,Bodega
+188,DIR09309,Locutorio Comun,Santa Anita,Lima,Lima,Gabriele De la borda,Locutorios
+189,DIR05246,Botica Carri,Santa Anita,Lima,Lima,Gabriele De la borda,Farmacias
+190,DIR04309,Western Union - La Molina I,La Molina,Lima,Lima,Bruno Apolaya,Otros
+191,DIR25533,Botica Massalud,La Molina,Lima,Lima,Bruno Apolaya,Farmacias
+192,DIR25519,Corporaci,La Molina,Lima,Lima,Bruno Apolaya,Otros
+193,DIR05281,Botica Se,Santa Anita,Lima,Lima,Gabriele De la borda,Farmacias
+194,DIRM1444,Money Gram - La Fontana I,La Molina,Lima,Lima,Bruno Apolaya,Otros
+195,DIR04356,PGN - La Molina II,La Molina,Lima,Lima,Gabriele de la Borda,Otros
+196,DIRM3059,Librer,La Molina,Lima,Lima,Bruno Apolaya,Librería
+197,DIR05279,Jamesystem,Santa Anita,Lima,Lima,Gabriele De la borda,Locutorios
+198,DIR09322,Saminet,Santa Anita,Lima,Lima,Gabriele De la borda,Locutorios
+199,DIRM3038,Locutorio Nehemias ,Santa Anita,Lima,Lima,Gabriele De la borda,Locutorios
+201,DIR25529,Minimarket Trapiche,La Molina,Lima,Lima,Gabriele de la Borda,Bodega
+202,DIR12106,Locutorio Don Pablito,San Mart,Lima,Lima,Oscar Córdova,Locutorios
+203,DIR12109,Anibal Mass,San Mart,Lima,Lima,Oscar Córdova,Bodega
+204,DIRM3485,Locutorio Kiarita,San Mart,Lima,Lima,Oscar Córdova,Locutorios
+206,DIR14057,Multibazar Flores,San Mart,Lima,Lima,Oscar Córdova,Librería
+207,DIR14022,Bodega Librer,San Mart,Lima,Lima,Oscar Córdova,Bodega
+208,DIR14036,Botica Ahorro & Farma I,San Mart,Lima,Lima,Oscar Córdova,Farmacias
+209,DIR14003,Botica Kurifarma I,San Mart,Lima,Lima,Oscar Córdova,Farmacias
+210,DIR14025,Multiservicios El & Mo I,San Mart,Lima,Lima,Oscar Córdova,Otros
+211,DIRM3623,Bodega Mary,San Mart,Lima,Lima,Oscar Córdova,Bodega
+212,DIRM3982,Bodega Monchito,San Mart,Lima,Lima,Oscar Córdova,Bodega
+213,DIRM4034,Bazar Mercer,San Mart,Lima,Lima,Oscar Córdova,Librería
+214,DIR14061,Lbrer,San Mart,Lima,Lima,Oscar Córdova,Librería
+215,DIRM4237,LOCUTORIO BLANQUITA,San Mart,Lima,Lima,Oscar Córdova,Locutorios
+216,DIR14020,Farma Se,San Mart,Lima,Lima,Oscar Córdova,Farmacias
+217,DIRM4235,FERRE SPEW CENTER,San Mart,Lima,Lima,Oscar Córdova,Otros
+218,DIR14024,Multiservicios Jessica,San Mart,Lima,Lima,Oscar Córdova,Otros
+219,DIRM4234,BODEGA BAZAR RUBY,San Mart,Lima,Lima,Oscar Córdova,Bodega
+220,DIR14060,Locutorio Conecta Per,San Mart,Lima,Lima,Oscar Córdova,Locutorios
+221,DIRM2486,Bodega Portuguez II,San Mart,Lima,Lima,Oscar Córdova,Bodega
+222,DIR34707,Farma San Bartolom,San Mart,Lima,Lima,Oscar Córdova,Farmacias
+223,DIR08234,Bodega Bazar Fabios,San Mart,Lima,Lima,Oscar Córdova,Bodega
+224,DIR37004,Locutorio Ni,Independencia,Lima,Lima,Alvaro Ramírez,Locutorios
+225,DIR34723,Librer,San Mart,Lima,Lima,Oscar Córdova,Librería
+226,DIR04825,Noal Farma II,San Mart,Lima,Lima,Oscar Córdova,Farmacias
+228,DIRM4095,BODEGA ALEDAN,San Mart,Lima,Lima,Oscar Córdova,Bodega
+229,DIRM3599,S,San Mart,Lima,Lima,Oscar Córdova,Bodega
+230,DIRM4206,DBM MULTISERVICIOS,San Mart,Lima,Lima,Oscar Córdova,Otros
+231,DIRM0009,Botica Farma Per,Independencia,Lima,Lima,Alvaro Ramírez,Farmacias
+232,DIRM3021,Locutorio Fevacel,Independencia,Lima,Lima,Alvaro Ramírez,Locutorios
+233,DIR34725,Librer,Los Olivos,Lima,Lima,Alvaro Ramírez,Librería
+234,DIRM2793,Cyber Crack,Los Olivos,Lima,Lima,Alvaro Ramírez,Locutorios
+235,DIRM2824,Botica Anita - Ermita,Independencia,Lima,Lima,Alvaro Ramírez,Farmacias
+236,DIR14919,Bodega Bazar Eli,San Mart,Lima,Lima,Oscar Córdova,Bodega
+238,DIR37835,Minimarket Candy,San Mart,Lima,Lima,Oscar Córdova,Bodega
+239,DIRM3519,Comercial Karen,Los Olivos,Lima,Lima,Alvaro Ramírez,Tiendas Comerciales
+240,DIR04820,Farma San Bartolom,Los Olivos,Lima,Lima,Alvaro Ramírez,Farmacias
+241,DIRM4214,SISTEMAS J E,Los Olivos,Lima,Lima,Alvaro Ramírez,Locutorios
+243,DIR16758,Librer,Los Olivos,Lima,Lima,Alvaro Ramírez,Librería
+246,DIRM3979,Minimarket Milenium,Los Olivos,Lima,Lima,Alvaro Ramírez,Bodega
+247,DIRM3383,Botica Gyra,San Mart,Lima,Lima,Oscar Córdova,Farmacias
+248,DIRM3532,Multitiendas Ciber J&M,San Mart,Lima,Lima,Oscar Córdova,Locutorios
+249,DIRM3324,Bodega Los Pitufos - Los Olivos II,Los Olivos,Lima,Lima,Alvaro Ramírez,Bodega
+250,DIR06719,Multimarket El bambino,Independencia,Lima,Lima,Alvaro Ramírez,Bodega
+251,DIRM3975,Celulares Joselito,Los Olivos,Lima,Lima,Alvaro Ramírez,Locutorios
+252,DIRM3976,Bodega Valkyria,Los Olivos,Lima,Lima,Alfredo Morales,Bodega
+253,DIRM3970,Librer,Los Olivos,Lima,Lima,Alvaro Ramírez,Librería
+254,DIR13655,Locutorio A & M,Los Olivos,Lima,Lima,Alvaro Ramírez,Locutorios
+255,DIR28407,Minimarket Fibia - Los Olivos,Los Olivos,Lima,Lima,Alvaro Ramírez,Otros
+256,DIRM4048,Bodega Locutorio Ariana,Independencia,Lima,Lima,Alvaro Ramírez,Bodega
+257,DIRM4100,LIBRER,Independencia,Lima,Lima,Alvaro Ramírez,Librería
+258,DIR14912,Farmacia Shecofarma,Los Olivos,Lima,Lima,Alvaro Ramírez,Farmacias
+260,DIRM4190,LIBRER,Independencia,Lima,Lima,Alvaro Ramírez,Librería
+261,DIR37005,Librer,Independencia,Lima,Lima,Alvaro Ramírez,Librería
+262,DIR16901,Botica Virgen Nina,Independencia,Lima,Lima,Alvaro Ramírez,Farmacias
+263,DIRM1772,Centro de Pagos San Francisco Javier - Tahuan,Independencia,Lima,Lima,Alvaro Ramírez,Otros
+264,DIR09505,Botica Flor de Mar,Independencia,Lima,Lima,Alvaro Ramírez,Farmacias
+265,DIRM4212,LOCUTORIO LEO,Independencia,Lima,Lima,Alvaro Ramírez,Locutorios
+267,DIR28440,Minimarket Yajo,San Mart,Lima,Lima,Oscar Córdova,Bodega
+268,DIRM3739,Locutorio Jesusito,Los Olivos,Lima,Lima,Alvaro Ramírez,Locutorios
+269,DIR28442,Farma Norte,San Mart,Lima,Lima,Oscar Córdova,Farmacias
+270,DIRM3875,Multiservicios Juancitos II,Comas,Lima,Lima,Lizandro Alvarez,Bodega
+272,DIR14904,Librer,Los Olivos,Lima,Lima,Alvaro Ramírez,Librería
+273,DIRM4083,LIBRERIAS MIGUELITO - PALMERAS,Los Olivos,Lima,Lima,Alvaro Ramírez,Bodega
+276,DIRM3484,Locutorio Meryl,San Mart,Lima,Lima,Oscar Córdova,Locutorios
+277,DIR24227,Libreria Bazar Crely,Comas,Lima,Lima,Lizandro Alvarez,Librería
+278,DIR13625,Botica Uni,Los Olivos,Lima,Lima,Alvaro Ramírez,Farmacias
+279,DIR14832,Botica S Farma,Comas,Lima,Lima,Lizandro Alvarez,Farmacias
+280,DIRM3715,Librer,Los Olivos,Lima,Lima,Alvaro Ramírez,Librería
+281,DIRM0780,Botica Central San El,Los Olivos,Lima,Lima,Alvaro Ramírez,Farmacias
+282,DIR13627,Botica Central San El,Los Olivos,Lima,Lima,Alvaro Ramírez,Farmacias
+284,DIRM4200,CIBERMED,Independencia,Lima,Lima,Alvaro Ramírez,Tiendas Comerciales
+285,DIRM4058,Bodega Dios te Bendiga,Comas,Lima,Lima,Lizandro Alvarez,Bodega
+286,DIR14842,Librer,Comas,Lima,Lima,Lizandro Alvarez,Librería
+287,DIR14815,Casa de Cambio Dany,Comas,Lima,Lima,Lizandro Alvarez,Otros
+288,DIR14843,Multimarket Reynaldo,Comas,Lima,Lima,Lizandro Alvarez,Bodega
+289,DIRM4101,LA ESQUINA DE CHARLOTE,Comas,Lima,Lima,Lizandro Alvarez,Librería
+291,DIR24252,Bazar Boutique Rosina II,Comas,Lima,Lima,Lizandro Alvarez,Tiendas Comerciales
+292,DIR63602,Ferreter,Comas,Lima,Lima,Lizandro Alvarez,Otros
+293,DIR14933,Boticas Elyfarma,Los Olivos,Lima,Lima,Alvaro Ramírez,Farmacias
+294,DIR13832,Cambios El Im,Comas,Lima,Lima,Lizandro Alvarez,Otros
+295,DIRM3360,Telecomunicaciones Bryan,Comas,Lima,Lima,Lizandro Alvarez,Locutorios
+297,DIRM3404,LibrerÃ­a Bazar Andisito,San Mart,Lima,Lima,Oscar Córdova,Librería
+298,DIR24269,Bodega Bazar Librer,Comas,Lima,Lima,Lizandro Alvarez,Librería
+299,DIRM3638,Bodega Zaid,Comas,Lima,Lima,Lizandro Alvarez,Bodega
+300,DIRM3386,Bodega Sequeiros,Comas,Lima,Lima,Lizandro Alvarez,Librería
+301,DIRM2898,Botica Farma Familia,Los Olivos,Lima,Lima,Alvaro Ramírez,Farmacias
+302,DIRM4210,LIBRER,San Mart,Lima,Lima,Oscar Córdova,Librería
+303,DIR28201,Botica San Jose - Los Olivos,Los Olivos,Lima,Lima,Alvaro Ramírez,Farmacias
+304,DIR14841,Servigas,Comas,Lima,Lima,Lizandro Alvarez,Otros
+305,DIR16711,Inversiones Karmelay  - SMP,San Mart,Lima,Lima,Oscar Córdova,Otros
+306,DIRM4096,BOTICA FARMALIFE,Los Olivos,Lima,Lima,Alvaro Ramírez,Farmacias
+307,DIRM4232,DECORACIONES XIMENA,Comas,Lima,Lima,Lizandro Alvarez,Tiendas Comerciales
+308,DIR14820,Librer,Comas,Lima,Lima,Lizandro Alvarez,Bodega
+309,DIR26127,Librer,Los Olivos,Lima,Lima,Alvaro Ramírez,Librería
+310,DIRM2667,Locutorio Servitel,Comas,Lima,Lima,Lizandro Alvarez,Locutorios
+311,DIR24243,Botica Sinchi Roca ,Comas,Lima,Lima,Lizandro Alvarez,Farmacias
+312,DIR14925,Locutorio Castillo I,Comas,Lima,Lima,Lizandro Alvarez,Locutorios
+313,DIRM3530,Ian Center Aaron,Comas,Lima,Lima,Lizandro Alvarez,Locutorios
+314,DIR13880,Bodega Susy,Comas,Lima,Lima,Lizandro Alvarez,Bodega
+315,DIRM3635,Botica del Descuento,Comas,Lima,Lima,Lizandro Alvarez,Farmacias
+316,DIR14848,Taurus Cellphone,Comas,Lima,Lima,Lizandro Alvarez,Tiendas Comerciales
+317,DIRM2889,Bodega Librer,Comas,Lima,Lima,Lizandro Alvarez,Bodega
+318,DIR36333,Distribuidora Patty,Comas,Lima,Lima,Lizandro Alvarez,Bodega
+319,DIR13891,Doris Cambios & Tours I,Comas,Lima,Lima,Lizandro Alvarez,Otros
+320,DIR13897,Doris Cambios & Tours IV,Comas,Lima,Lima,Lizandro Alvarez,Otros
+322,DIR13810,Multiservicios Geraldine III,Comas,Lima,Lima,Lizandro Alvarez,Otros
+323,DIRM2661,Bazar Locutorio Dianita,Comas,Lima,Lima,Lizandro Alvarez,Librería
+324,DIRM3984,Botica Villafarma,Comas,Lima,Lima,Lizandro Alvarez,Farmacias
+327,DIRM3696,Galaxy Net,Comas,Lima,Lima,Lizandro Alvarez,Locutorios
+328,DIR14923,Minimarket Valencia,Los Olivos,Lima,Lima,Alvaro Ramírez,Bodega
+329,DIR14038,Boticas Novafarma Pac,Los Olivos,Lima,Lima,Alvaro Ramírez,Farmacias
+330,DIR15107,Botica Real Farma - Betancourt ,Los Olivos,Lima,Lima,Alvaro Ramírez,Farmacias
+331,DIR16742,Farmacia Universal - Las Palmeras,Los Olivos,Lima,Lima,Alvaro Ramírez,Farmacias
+332,DIRM3758,Boticas Ahorro Farma -  Los Olivos,Los Olivos,Lima,Lima,Alvaro Ramírez,Farmacias
+333,DIR28433,Botica Hogar y Tu Vida,San Mart,Lima,Lima,Oscar Córdova,Farmacias
+335,DIR14826,Multiservicios Miami,Comas,Lima,Lima,Lizandro Alvarez,Otros
+336,DIRM2273,Casa de Cambio Okane,Comas,Lima,Lima,Lizandro Alvarez,Otros
+337,DIRM3054,Casa de Cambios Sa,Comas,Lima,Lima,Lizandro Alvarez,Otros
+338,DIR16756,Efectos Fotograficos Studio II,Los Olivos,Lima,Lima,Alvaro Ramírez,Otros
+339,DIR28436,PGN-Ovalo Naranjal,Los Olivos,Lima,Lima,Alvaro Ramírez,Otros
+340,DIR08228,Minimarket Tres Amazonas,Independencia,Lima,Lima,Alvaro Ramírez,Otros
+341,DIR16750,Librer,Los Olivos,Lima,Lima,Alvaro Ramírez,Librería
+342,DIRM3089,Multiservicios Emilie Store,Los Olivos,Lima,Lima,Alvaro Ramírez,Librería
+343,DIR36305,Mundo - Tec,Comas,Lima,Lima,Lizandro Alvarez,Locutorios
+344,DIR16725,Locutorio Librer,San Mart,Lima,Lima,Oscar Córdova,Locutorios
+346,DIRM2295,Locutorio Willys,San Mart,Lima,Lima,Oscar Córdova,Locutorios
+347,DIRM3645,Negocios Hans III,Comas,Lima,Lima,Lizandro Alvarez,Tiendas Comerciales
+348,DIR16745,Bodega Bazar Crhisty & Camilo,Los Olivos,Lima,Lima,Alvaro Ramírez,Tiendas Comerciales
+349,DIRM1994,Internet Bodega Angelica I,Los Olivos,Lima,Lima,Alvaro Ramírez,Bodega
+350,DIRM3778,Megabotikas - San Diego,San Mart,Lima,Lima,Oscar Córdova,Farmacias
+352,DIRM1818,MM Universitaria,Los Olivos,Lima,Lima,Carlos Medina,Otros
+353,DIR18506,Multiservicios Bazar Rosita ,Comas,Lima,Lima,Lizandro Alvarez,Tiendas Comerciales
+354,DIR49364,Rimari Telecomunicaciones - SMP,Independencia,Lima,Lima,Alvaro Ramírez,Tiendas Comerciales
+357,DIR14807,Botica Santa Lucia,Los Olivos,Lima,Lima,Alvaro Ramírez,Farmacias
+358,DIR34720,Farmafel,Los Olivos,Lima,Lima,Alvaro Ramírez,Farmacias
+359,DIRM2707,LibrerÃ­a Bazar Gemas,Los Olivos,Lima,Lima,Alvaro Ramírez,Librería
+360,DIR34727,LibrerÃ­a Bazar Fabiola,Los Olivos,Lima,Lima,Alvaro Ramírez,Librería
+361,DIR26107,Mini Market Miguelito I,Los Olivos,Lima,Lima,Alvaro Ramírez,Bodega
+362,DIR28447,Codecsinsa,Los Olivos,Lima,Lima,Alvaro Ramírez,Bodega
+363,DIRM3400,Bodega RocÃ­o,Los Olivos,Lima,Lima,Alvaro Ramírez,Bodega
+364,DIR26122,Check In Travel,Los Olivos,Lima,Lima,Alvaro Ramírez,Otros
+365,DIRM0089,Farmacia del Rosario,Los Olivos,Lima,Lima,Alvaro Ramírez,Farmacias
+366,DIR16751,Librer,Los Olivos,Lima,Lima,Alvaro Ramírez,Librería
+367,DIRM4211,QST INFORMATICA,Los Olivos,Lima,Lima,Alvaro Ramírez,Tiendas Comerciales
+368,DIR14935,Bodega Tisha,Los Olivos,Lima,Lima,Alvaro Ramírez,Bodega
+369,DIR04809,Farma San Bartolom,Los Olivos,Lima,Lima,Alvaro Ramírez,Farmacias
+370,DIR13605,Botica Universitaria I,Los Olivos,Lima,Lima,Alvaro Ramírez,Farmacias
+371,DIR16723,Bodega LibrerÃ­a Bazar Catjos I,Los Olivos,Lima,Lima,Alvaro Ramírez,Librería
+372,DIRM3992,Locutorio Taty,Los Olivos,Lima,Lima,Alvaro Ramírez,Locutorios
+373,DIR13644,Botica 608 II,Los Olivos,Lima,Lima,Alvaro Ramírez,Farmacias
+374,DIRM3697,Bodega Sandy,Los Olivos,Lima,Lima,Alvaro Ramírez,Bodega
+375,DIR14920,Botica Kinfarma PerÃº,Los Olivos,Lima,Lima,Alvaro Ramírez,Farmacias
+376,DIRM4231,BOTICA N Y V FARMA,Los Olivos,Lima,Lima,Alvaro Ramírez,Farmacias
+377,DIR49343,LibrerÃ­a Bazar Leito,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Librería
+378,DIRM2745,Minimarket Cesar,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Bodega
+379,DIRM4075,Natural Plaza,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Bodega
+380,DIR19301,Botica Mi Farma,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Farmacias
+381,DIRM4074,Botica B & C,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Farmacias
+382,DIRM3051,Botica Europa,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Farmacias
+383,DIR15007,Casa de Cambio Shalon,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Otros
+384,DIRM3055,Pago de Servicios S&C,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Otros
+385,DIRM2941,LibrerÃ­a Bodega ToÃ±ito,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Bodega
+386,DIR49307,Botica San Rafael - San Juan de Lurigancho ,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Farmacias
+387,DIR49348,Farmacia Aaron,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Farmacias
+388,DIR49322,Bodega Bazar AJGEDL,San Juan de Lurigancho,Lima,Lima,Jackelin Solis,Bodega
+389,DIR15791,Bazar D&J,San Juan de Miraflores,Lima,Lima,Dante Saira,Locutorios
+390,DIR27415,Multiservicios Bel,San Juan de Miraflores,Lima,Lima,Dante Saira,Locutorios
+391,DIRM4168,CASA DE CAMBIO JUAN CARLOS,San Juan de Miraflores,Lima,Lima,Dante Saira,Tiendas Comerciales
+392,DIRM0679,Comercial Progreso,San Juan de Miraflores,Lima,Lima,Dante Saira,Bodega
+393,DIRM3402,Botica Virgen del Carmen - SJM,San Juan de Miraflores,Lima,Lima,Dante Saira,Farmacias
+394,DIRM2027,Bodega Mechita,San Juan de Miraflores,Lima,Lima,Dante Saira,Bodega
+395,DIR15736,Bodega Mechita,San Juan de Miraflores,Lima,Lima,Dante Saira,Bodega
+396,DIR15781,Librer,San Juan de Miraflores,Lima,Lima,Dante Saira,Librería
+397,DIRM2617,Botica Santa Rosa - Infantas,San Mart,Lima,Lima,Oscar Córdova,Farmacias
+398,DIR14037,Boticas Novafarma Pac,San Mart,Lima,Lima,Oscar Córdova,Farmacias
+400,DIR08232,A & L Internet,San Mart,Lima,Lima,Oscar Córdova,Farmacias
+401,DIRM3097,Bodega el chinchanito ,San Mart,Lima,Lima,Oscar Córdova,Bodega
+402,DIRM3499,Bodega Don Sergio,San Mart,Lima,Lima,Oscar Córdova,Bodega
+403,DIR12111,Bodega Luis,San Mart,Lima,Lima,Oscar Córdova,Bodega
+404,DIR14059,Negociaciones Flores,San Mart,Lima,Lima,Oscar Córdova,Librería
+405,DIRM4066,Bodega Blanquita,San Mart,Lima,Lima,Oscar Córdova,Bodega
+406,DIRM3492,Bazar Adonay & Salud,San Mart,Lima,Lima,Oscar Córdova,Tiendas Comerciales
+407,DIRM3716,Internet Locutorio PCBIT,San Mart,Lima,Lima,Oscar Córdova,Locutorios
+408,DIRM2300,Botica Elizabeth,San Mart,Lima,Lima,Oscar Córdova,Farmacias
+409,DIR26126,Noa Farma,San Mart,Lima,Lima,Oscar Córdova,Farmacias
+410,DIRM4031,Josuepharm II,San Mart,Lima,Lima,Oscar Córdova,Bodega
+411,DIR28444,Bodega Licorer,San Mart,Lima,Lima,Oscar Córdova,Bodega
+412,DIR28448,Bodega Rio Frio,San Mart,Lima,Lima,Oscar Córdova,Bodega
+413,DIR04828,Noal Farma - Germ,San Mart,Lima,Lima,Oscar Córdova,Farmacias
+414,DIRM2333,Boticas Triunfo I,Ate Vitarte,Lima,Lima,Gabriele De la borda,Farmacias
+415,DIRM3378,Bodega Bazar Libreria La Familia,Ate Vitarte,Lima,Lima,Gabriele De la borda,Bodega
+416,DIR26806,Botica Pareja  Quechuas 10,Ate Vitarte,Lima,Lima,Gabriele De la borda,Farmacias
+417,DIR26810,Casa de Cambios Kevin,Ate Vitarte,Lima,Lima,Gabriele De la borda,Otros
+418,DIRM0951,Minimarket Mayra I,Ate Vitarte,Lima,Lima,Gabriele De la borda,Bodega
+419,DIR25021,Internet Diego - Los Sauces,Ate Vitarte,Lima,Lima,Gabriele De la borda,Locutorios
+420,DIR09324,Locutorio C y S,Ate Vitarte,Lima,Lima,Gabriele De la borda,Locutorios
+421,DIR25014,Bodega Yamir I,Ate Vitarte,Lima,Lima,Gabriele De la borda,Bodega
+422,DIR16367,Abarrotes Alvarito,Ate Vitarte,Lima,Lima,Gabriele De la borda,Bodega
+423,DIR16315,Libreria Bazar Alex,Ate Vitarte,Lima,Lima,Gabriele De la borda,Librería
+424,DIR34408,Bodega Bazar Libreria Mery,Ate Vitarte,Lima,Lima,Gabriele De la borda,Librería
+425,DIRM3785,Bodega Bazar Ocderey II,Ate Vitarte,Lima,Lima,Gabriele De la borda,Bodega
+426,DIR16398,Bodega La Economica,Ate Vitarte,Lima,Lima,Gabriele De la borda,Bodega
+428,DIR09320,Botica M&L Farma,Ate Vitarte,Lima,Lima,Gabriele De la borda,Bodega
+429,DIRM3430,Bazar Boutique Amarelly,Ate Vitarte,Lima,Lima,Gabriele De la borda,Librería
+430,DIR16394,Jimmy MS,Ate Vitarte,Lima,Lima,Gabriele De la borda,Librería
+431,DIR05292,Multiservicios Jan Audio y Video,Ate Vitarte,Lima,Lima,Gabriele De la borda,Librería
+432,DIR16393,PYM Centro de Pagos,Ate Vitarte,Lima,Lima,Gabriele De la borda,Locutorios
+433,DIRM3330,Cada Dia,Ate Vitarte,Lima,Lima,Gabriele De la borda,Tiendas Comerciales
+434,DIR16310,411  Sol de Vitarte,Ate Vitarte,Lima,Lima,Gabriele De la borda,Otros
+435,DIRM3882,Libreria Bazar Jeanpierre II,Ate Vitarte,Lima,Lima,Gabriele De la borda,Librería
+436,DIRM1496,411  Las Brisas tienda 77,Ate Vitarte,Lima,Lima,Gabriele De la borda,Otros
+437,DIR16376,Lizeth@net,Ate Vitarte,Lima,Lima,Gabriele De la borda,Bodega
+438,DIR05266,Botica El Triunfo II,Ate Vitarte,Lima,Lima,Gabriele De la borda,Farmacias
+439,DIRM3392,Centro de Pagos Costa Rica,Ate Vitarte,Lima,Lima,Gabriele De la borda,Otros
+440,DIRM3659,Multiservicios MCM,Ate Vitarte,Lima,Lima,Gabriele De la borda,Otros
+441,DIRM1501,411  Plaza Vitarte,Ate Vitarte,Lima,Lima,Gabriele De la borda,Otros
+442,DIRM3968,Bodega Uriel II,Ate Vitarte,Lima,Lima,Gabriele De la borda,Bodega
+443,DIRM3835,Minimarket David y Noelia II,Ate Vitarte,Lima,Lima,Gabriele De la borda,Bodega
+444,DIR49509,Botica Judiths,Ate Vitarte,Lima,Lima,Gabriele De la borda,Farmacias
+445,DIRM3772,Libreria Bazar Perutel,Ate Vitarte,Lima,Lima,Gabriele De la borda,Librería
+446,DIRM3377,Ferreteria Miriam,Ate Vitarte,Lima,Lima,Gabriele De la borda,Otros
+447,DIR34407,Botica W. Elifarma Dos de Mayo,Ate Vitarte,Lima,Lima,Gabriele De la borda,Farmacias
+448,DIR09614,C.E.P. Harvard I,Ate Vitarte,Lima,Lima,Gabriele De la borda,Otros
+449,DIR25002,Ancro  Huaycan I,Ate Vitarte,Lima,Lima,Gabriele De la borda,Otros
+450,DIRM2958,Botica Quique,Ate Vitarte,Lima,Lima,Gabriele De la borda,Farmacias
+451,DIRM2744,Bodega Didi,Ate Vitarte,Lima,Lima,Gabriele De la borda,Bodega
+452,DIRM0296,Botica San Cristobal - Pariachi,Ate Vitarte,Lima,Lima,Gabriele De la borda,Farmacias
+453,DIRM3479,Servicentro NSG,Ate Vitarte,Lima,Lima,Gabriele De la borda,Otros
+454,DIR25020,Botica Linka Farma,Ate Vitarte,Lima,Lima,Gabriele De la borda,Farmacias
+456,DIR16374,Botica Biofarma  Ate,Ate Vitarte,Lima,Lima,Gabriele De la borda,Farmacias
+457,DIR16369,Botica El Olivar  Virgen del Carmen,Ate Vitarte,Lima,Lima,Gabriele De la borda,Farmacias
+458,DIR16379,Boticas Univision I,Ate Vitarte,Lima,Lima,Gabriele De la borda,Farmacias
+459,DIR05284,Jan Audio y Videos,Ate Vitarte,Lima,Lima,Gabriele De la borda,Otros
+460,DIRM1499,411  Huaycan,Ate Vitarte,Lima,Lima,Gabriele De la borda,Otros
+461,DIRM2581,Libreria Bazar Gamaliel,Ate Vitarte,Lima,Lima,Gabriele De la borda,Librería
+462,DIR16387,Libreria Valeska,Ate Vitarte,Lima,Lima,Gabriele De la borda,Librería
+463,DIRM2389,Internet System JV,Ate Vitarte,Lima,Lima,Gabriele De la borda,Locutorios
+464,DIR16386,Multiservicios Bonusnet ,Ate Vitarte,Lima,Lima,Gabriele De la borda,Locutorios
+465,DIRM2810,Cosmeticos Daniella,Ate Vitarte,Lima,Lima,Gabriele De la borda,Tiendas Comerciales
+466,DIR09611,Datamarcell I,Ate Vitarte,Lima,Lima,Gabriele De la borda,Tiendas Comerciales
+467,DIR24722,Libreria Bazar Phanter Rose,Cercado de Lima,Lima,Lima,Graciela Castillo,Librería
+468,DIR01133,Libreria Bazar Servi Koky,Cercado de Lima,Lima,Lima,Graciela Castillo,Bodega
+469,DIR12204,Comercial Don Lalo,Cercado de Lima,Lima,Lima,Graciela Castillo,Bodega
+470,DIR02409,Botica La Alborada,Cercado de Lima,Lima,Lima,Graciela Castillo,Farmacias
+472,DIR02327,Minimarket Urcosol I,Cercado de Lima,Lima,Lima,Graciela Castillo,Bodega
+473,DIR02415,Bodega Las Margaritas,Cercado de Lima,Lima,Lima,Graciela Castillo,Bodega
+474,DIRM1494,411 - Andahuaylas I,Cercado de Lima,Lima,Lima,Graciela Castillo,Otros
+475,DIR02424,Botica Central San Pedro,Cercado de Lima,Lima,Lima,Graciela Castillo,Farmacias
+476,DIRM3683,Cabinas de Internet Rafo,Cercado de Lima,Lima,Lima,Graciela Castillo,Locutorios
+477,DIR10073,Bodega Huari ,Cercado de Lima,Lima,Lima,Graciela Castillo,Bodega
+478,DIR48902,Agencia de Viajes Travel Dupri,Cercado de Lima,Lima,Lima,Graciela Castillo,Otros
+479,DIRM3491,Locutorio Condesuyos,Cercado de Lima,Lima,Lima,Graciela Castillo,Tiendas Comerciales
+480,DIR08504,Bodega Bazar Maria Auxiliadora I,Cercado de Lima,Lima,Lima,Graciela Castillo,Bodega
+481,DIRM2708,Comunicaciones Carlos,Cercado de Lima,Lima,Lima,Graciela Castillo,Locutorios
+482,DIR10000,Bodega Moley,Cercado de Lima,Lima,Lima,Graciela Castillo,Bodega
+483,DIR10091,Bodega Carmencita,Cercado de Lima,Lima,Lima,Graciela Castillo,Bodega
+484,DIR11703,Sumac Inversiones,Cercado de Lima,Lima,Lima,Graciela Castillo,Tiendas Comerciales
+485,DIRM2623,Internet Ciber Kosmo.Net,El Agustino,Lima,Lima,Jackelin Solis,Locutorios
+486,DIR09421,Lima Farma,El Agustino,Lima,Lima,Jackelin Solis,Farmacias
+487,DIR09405,Bodega Alicia - El Agustino,El Agustino,Lima,Lima,Jackelin Solis,Bodega
+488,DIRM0040,Botica Farma Antonio,El Agustino,Lima,Lima,Jackelin Solis,Farmacias
+489,DIRM0719,Bodega PeÃ±a II,El Agustino,Lima,Lima,Jackelin Solis,Bodega
+490,DIR16350,Botica Sofia,El Agustino,Lima,Lima,Jackelin Solis,Farmacias
+491,DIRM3490,Comercial Fernando,El Agustino,Lima,Lima,Jackelin Solis,Bodega
+492,DIRM3560,Bazar Plus,El Agustino,Lima,Lima,Jackelin Solis,Farmacias
+493,DIR09412,Libreria Orlando y Sofia II,El Agustino,Lima,Lima,Jackelin Solis,Librería
+494,DIR29210,Bazar libreria Susan ,Bre,Lima,Lima,Graciela Castillo,Librería
+495,DIR29208,Bodega Amazonas,Bre,Lima,Lima,Graciela Castillo,Bodega
+496,DIR02430,Perfumeria Maribel,Bre,Lima,Lima,Graciela Castillo,Tiendas Comerciales
+497,DIR02428,Bodega Lupita - BreÃ±a II,Bre,Lima,Lima,Graciela Castillo,Bodega
+498,DIR02410,Boticas Minerva - Venezuela 1287 ,Bre,Lima,Lima,Graciela Castillo,Farmacias
+499,DIR00925,DPS Peru,Jesus Maria,Lima,Lima,Massiel Saco,Librería
+500,DIR00930,Lorena Salon Spa,Jesus Maria,Lima,Lima,Massiel Saco,Otros
+501,DIRM1466,Bodega Huascar,Jesus Maria,Lima,Lima,Massiel Saco,Bodega
+502,DIR00918,Mary's Servicios Integrales II,Jesus Maria,Lima,Lima,Massiel Saco,Locutorios
+503,DIRM2041,Libreria Bazar y Confiteria Alavedra,Jesus Maria,Lima,Lima,Massiel Saco,Bodega
+504,DIR24714,Bodega Miguelito - Jesus Maria,Jesus Maria,Lima,Lima,Massiel Saco,Bodega
+505,DIRM2893,Coditeza,Jesus Maria,Lima,Lima,Massiel Saco,Bodega
+506,DIR20063,Bodega Pasen Al Fondo,La Victoria,Lima,Lima,Graciela Castillo,Bodega
+507,DIRM1619,Bodega Castillo II,La Victoria,Lima,Lima,Graciela Castillo,Bodega
+508,DIR14103,Fruta Loca II,La Victoria,Lima,Lima,Graciela Castillo,Locutorios
+509,DIRM3042,Internet HCS NET II,La Victoria,Lima,Lima,Graciela Castillo,Otros
+510,DIR00326,Botica B&C,La Victoria,Lima,Lima,Graciela Castillo,Farmacias
+511,DIR08406,Boticas Quito,La Victoria,Lima,Lima,Graciela Castillo,Farmacias
+512,DIRM3953,Hierbamiel II,La Victoria,Lima,Lima,Graciela Castillo,Tiendas Comerciales
+513,DIR14108,Ferreteria Metali-k - Mochicas,La Victoria,Lima,Lima,Graciela Castillo,Otros
+514,DIRM1226,Locutorio Libreria Camila II,La Victoria,Lima,Lima,Graciela Castillo,Locutorios
+515,DIRM2457,Representaciones San Martin,La Victoria,Lima,Lima,Graciela Castillo,Tiendas Comerciales
+516,DIRM4159,ZAPATERIA ALEXANDRA,La Victoria,Lima,Lima,Graciela Castillo,Otros
+517,DIRM4116,LIBRERiA JUANITA CHUMBERIZA,La Victoria,Lima,Lima,Graciela Castillo,Librería
+518,DIRM3040,Panificadora Dulcinea II,Lince,Lima,Lima,Massiel Saco,Otros
+519,DIRM4057,Bodega Fuente de Soda Josefina II,Lince,Lima,Lima,Massiel Saco,Bodega
+520,DIR01142,Comercial Omar,Lince,Lima,Lima,Massiel Saco,Bodega
+521,DIR25707,Locutorio Julio C. Tello II,Lince,Lima,Lima,Massiel Saco,Locutorios
+522,DIR01121,Bodega Juanito,Lince,Lima,Lima,Massiel Saco,Bodega
+523,DIR01128,Bodega Anita - Lince,Lince,Lima,Lima,Massiel Saco,Bodega
+524,DIRM0970,Money Gram - Lince II,Lince,Lima,Lima,Massiel Saco,Otros
+525,DIR01144,El Sicaino de Oro,Lince,Lima,Lima,Massiel Saco,Bodega
+526,DIR08715,Lavanderia Aqua Clean ,Lince,Lima,Lima,Massiel Saco,Otros
+527,DIR08702,Botica Kerigma,Lince,Lima,Lima,Massiel Saco,Bodega
+528,DIRM3682,Botica Yovis,Lince,Lima,Lima,Massiel Saco,Farmacias
+529,DIRM3068,Copias Cinthia,Lince,Lima,Lima,Massiel Saco,Librería
+530,DIRM2639,Inversiones Jhafet Pharma - Pacasmayo,Callao,Lima,Lima,Alfredo Morales,Farmacias
+532,DIRM0797,Farma El Sol - Callao,Callao,Lima,Lima,Alfredo Morales,Farmacias
+533,DIR08932,Botica La Amistad - Jardines de Viru,Callao,Lima,Lima,Alfredo Morales,Locutorios
+535,DIR38803,Libreria Aldair ,Callao,Lima,Lima,Alfredo Morales,Librería
+536,DIR38804,Bazar Fantabuloso,Callao,Lima,Lima,Alfredo Morales,Librería
+537,DIR15517,Morbank ,Callao,Lima,Lima,Alfredo Morales,Otros
+539,DIR14043,Minimarket Martha - Callao,Callao,Lima,Lima,Alfredo Morales,Bodega
+540,DIR07520,Bodega La Cusque,Callao,Lima,Lima,Alfredo Morales,Bodega
+541,DIRM3079,Bodega Bazar J&M,Callao,Lima,Lima,Alfredo Morales,Bodega
+542,DIR09808,Bodega Maria Elena I,Callao,Lima,Lima,Alfredo Morales,Bodega
+543,DIRM4130,COMERCIAL ANGEL,Callao,Lima,Lima,Alfredo Morales,Otros
+544,DIRM3688,Servicios y Locutorio Criseb,Callao,Lima,Lima,Alfredo Morales,Locutorios
+545,DIRM3724,Multiservicios Correa,Callao,Lima,Lima,Alfredo Morales,Bodega
+546,DIR37830,Bodega Bazar El Chinito,Callao,Lima,Lima,Alfredo Morales,Bodega
+547,DIRM4128,BODEGA CORAZON DE JESUS,Callao,Lima,Lima,Alfredo Morales,Bodega
+548,DIRM3608,Libreria Bazar Isabel,Callao,Lima,Lima,Alfredo Morales,Librería
+549,DIRM3611,Bodega Don Panchito,Callao,Lima,Lima,Alfredo Morales,Bodega
+550,DIRM3509,Bodega Victoria,Callao,Lima,Lima,Alfredo Morales,Bodega
+551,DIRM3529,Jazcom Telecomunicaciones,Callao,Lima,Lima,Alfredo Morales,Locutorios
+555,DIR16154,Foto Laderas II,Puente Piedra,Lima,Lima,Alvaro Ramírez,Librería
+556,DIR24270,Katiana,Carabayllo,Lima,Lima,Lizandro Alvarez,Tiendas Comerciales
+557,DIR24297,Farmacia El Progreso - Tupac,Carabayllo,Lima,Lima,Lizandro Alvarez,Farmacias
+558,DIRM3131,Bodega Jehova Proveera  II,Carabayllo,Lima,Lima,Lizandro Alvarez,Bodega
+559,DIR16140,Multiservicios Miluska,Carabayllo,Lima,Lima,Lizandro Alvarez,Locutorios
+560,DIR13823,Servicios Generales Carlitos 2 - I,Carabayllo,Lima,Lima,Lizandro Alvarez,Otros
+561,DIRM4132,INTERNET LOCUTORIO MARIBEL,Puente Piedra,Lima,Lima,Alvaro Ramírez,Locutorios
+562,DIR36331,Minimarket Matos,Carabayllo,Lima,Lima,Lizandro Alvarez,Bodega
+563,DIRM3381,Bodega Rojas,Carabayllo,Lima,Lima,Lizandro Alvarez,Bodega
+564,DIRM3439,Mini Market Yoli,Carabayllo,Lima,Lima,Lizandro Alvarez,Bodega
+565,DIR24271,Libreria Bisuteria Jhamb,Carabayllo,Lima,Lima,Lizandro Alvarez,Librería
+566,DIRM1800,Casa de cambios Sol de Carabayllo II,Carabayllo,Lima,Lima,Lizandro Alvarez,Otros
+567,DIR13890,Centro Financiero de Pagos Ponte al Dia IV,Carabayllo,Lima,Lima,Lizandro Alvarez,Otros
+568,DIRM3999,Bodega Galaxy II,Carabayllo,Lima,Lima,Lizandro Alvarez,Bodega
+569,DIRM4049,Bodega Bazar Valle del Colca,Carabayllo,Lima,Lima,Lizandro Alvarez,Bodega
+570,DIR16123,Casa de Cambios LILI - Santo Domingo,Puente Piedra,Lima,Lima,Alvaro Ramírez,Otros
+571,DIR16129,Libreria Bazar Deyla,Puente Piedra,Lima,Lima,Alvaro Ramírez,Librería
+572,DIR16103,Comercial el Trebol I,Puente Piedra,Lima,Lima,Alvaro Ramírez,Otros
+573,DIRM0555,Botica Refarma,Puente Piedra,Lima,Lima,Alvaro Ramírez,Farmacias
+574,DIRM2421,Bodega N7 On Line,Carabayllo,Lima,Lima,Lizandro Alvarez,Bodega
+575,DIRM3379,Bodega Bazar Libreria Camila,Puente Piedra,Lima,Lima,Alvaro Ramírez,Bodega
+576,DIR34608,Botica Segura II,Carabayllo,Lima,Lima,Lizandro Alvarez,Farmacias
+577,DIR13881,Casa de Cambio Nuevo Milenio II,Carabayllo,Lima,Lima,Lizandro Alvarez,Otros
+578,DIRM4012,Bazar Orellana - SFS,Puente Piedra,Lima,Lima,Alvaro Ramírez,Librería
+579,DIR27506,Farmacia Corazon de Jesus,San Miguel,Lima,Lima,Alfredo Morales,Farmacias
+580,DIRM2570,Inversiones Hernandez - Bolognesi I,San Miguel,Lima,Lima,Alfredo Morales,Bodega
+581,DIRM2224,Mezzanine Libreria Bazar,San Miguel,Lima,Lima,Alfredo Morales,Librería
+582,DIR28910,Casa de Cambio A&A I,San Miguel,Lima,Lima,Alfredo Morales,Otros
+583,DIR02347,Acti Net,San Miguel,Lima,Lima,Alfredo Morales,Locutorios
+585,DIRM2261,NV Autoradios,San Miguel,Lima,Lima,Alfredo Morales,Tiendas Comerciales
+586,DIRM0668,Botica San Martin de Porres,La Perla,Lima,Lima,Alfredo Morales,Farmacias
+587,DIR05617,Libreria M. Montes ,La Perla,Lima,Lima,Alfredo Morales,Librería
+588,DIR04216,Boticas America Salud - Faucett,San Miguel,Lima,Lima,Alfredo Morales,Farmacias
+589,DIR04227,Botica Mary Carmen,San Miguel,Lima,Lima,Alfredo Morales,Farmacias
+590,DIR20116,Bodega Rosita de Jesus - Colina,Bellavista,Lima,Lima,Alfredo Morales,Bodega
+591,DIR04242,Bodega Pando,San Miguel,Lima,Lima,Alfredo Morales,Bodega
+592,DIR20101,Pharma Yola,Bellavista,Lima,Lima,Alfredo Morales,Farmacias
+593,DIR20114,Bazar B&T De Todo para todos,Bellavista,Lima,Lima,Alfredo Morales,Librería
+594,DIR08507,Libreria Bazar Reynoso,Carmen de la Legua Reynoso,Lima,Lima,Alfredo Morales,Librería
+595,DIR15814,Maika,Magdalena del Mar,Lima,Lima,Massiel Saco,Bodega
+596,DIR02312,Bodega San Rocco,Magdalena del Mar,Lima,Lima,Massiel Saco,Bodega
+597,DIR02325,Panaderia Edelwais,Magdalena del Mar,Lima,Lima,Massiel Saco,Otros
+598,DIR20049,Boticas America Salud - Magdalena,Magdalena del Mar,Lima,Lima,Massiel Saco,Farmacias
+599,DIR02342,D&S Orbe I,Pueblo Libre,Lima,Lima,Massiel Saco,Librería
+600,DIR15816,La Oficina 3,Magdalena del Mar,Lima,Lima,Massiel Saco,Librería
+601,DIR02348,Comercial Rosita,Pueblo Libre,Lima,Lima,Massiel Saco,Tiendas Comerciales
+602,DIR02337,Libreria Corazon de Jesus,Pueblo Libre,Lima,Lima,Massiel Saco,Librería
+603,DIRM1046,Cambios Sucre II,Pueblo Libre,Lima,Lima,Massiel Saco,Otros
+604,DIR02328,Cambios Clement I,Pueblo Libre,Lima,Lima,Massiel Saco,Otros
+605,DIRM0981,Botica San Ignacio I,Pueblo Libre,Lima,Lima,Massiel Saco,Farmacias
+606,DIR04137,Bodega Gustitos - Pueblo Libre,Pueblo Libre,Lima,Lima,Massiel Saco,Bodega
+607,DIRM3528,Servicios Nuna,La Perla,Lima,Lima,Alfredo Morales,Bodega
+608,DIRM3442,NoraCraft,Bellavista,Lima,Lima,Alfredo Morales,Librería
+609,DIRM3405,Bodega Jorge,Bellavista,Lima,Lima,Alfredo Morales,Bodega
+610,DIRM4204,BODEGA BAZAR THE FLOWERS,Carmen de la Legua Reynoso,Lima,Lima,Alfredo Morales,Bodega
+611,DIRM3972,Ohana - San Miguel,San Miguel,Lima,Lima,Alfredo Morales,Otros
+612,DIRM2125,Botica EspaÃ±a,Magdalena del Mar,Lima,Lima,Massiel Saco,Farmacias
+613,DIR02344,Minimarket Urcosol - Bolivar,Pueblo Libre,Lima,Lima,Massiel Saco,Bodega
+614,DIRM3777,Megabotikas - BorgoÃ±o,Pueblo Libre,Lima,Lima,Massiel Saco,Farmacias
+615,DIR08946,Lan Center Gigabits,Ventanilla,Lima,Lima,Alfredo Morales,Locutorios
+616,DIR08921,Bazar Celia - Coopemar,Ventanilla,Lima,Lima,Alfredo Morales,Librería
+617,DIR08905,Multiservicios Luz Maria,Ventanilla,Lima,Lima,Alfredo Morales,Otros
+618,DIR08920,Bazar Celia - Mz C-8,Ventanilla,Lima,Lima,Alfredo Morales,Librería
+619,DIRM3760,Internet Elienai,Ventanilla,Lima,Lima,Alfredo Morales,Locutorios
+620,DIRM3070,Negociaciones ,Ventanilla,Lima,Lima,Alfredo Morales,Locutorios
+621,DIRM3680,Libreria J y J,Ventanilla,Lima,Lima,Alfredo Morales,Librería
+622,DIRM3568,Bodega Danis,Ventanilla,Lima,Lima,Alfredo Morales,Bodega
+623,DIRM2470,Cabinas de Internet Cyber House,Ventanilla,Lima,Lima,Alfredo Morales,Locutorios
+624,DIR08904,Comercial Liang y Fanny,Ventanilla,Lima,Lima,Alfredo Morales,Librería
+625,DIR08947,Metrito II,Ventanilla,Lima,Lima,Alfredo Morales,Bodega
+626,DIR08944,Bodega La nueva CusqueÃ±a,Ventanilla,Lima,Lima,Alfredo Morales,Bodega
+628,DIR08939,Alex. Net,Ventanilla,Lima,Lima,Alfredo Morales,Locutorios
+630,DIR11520,BoticaÂ´s Generic Pharma - Barranco,Barranco,Lima,Lima,Bruno Apolaya,Farmacias
+631,DIRM0189,Novedades Masao II,Barranco,Lima,Lima,Bruno Apolaya,Otros
+632,DIRM0710,Money Gram -  Larco II,Miraflores,Lima,Lima,Bruno Apolaya,Otros
+633,DIRM3730,Multi - Tienda Carmen,Miraflores,Lima,Lima,Bruno Apolaya,Bodega
+634,DIR10717,Telecom & Data Business I,Miraflores,Lima,Lima,Bruno Apolaya,Otros
+635,DIRM0610,Money Gram - Tarata I,Miraflores,Lima,Lima,Bruno Apolaya,Otros
+636,DIRM0847,Money Gram - Tarata III,Miraflores,Lima,Lima,Bruno Apolaya,Otros
+637,DIRM3812,Papelera Miraflores,Miraflores,Lima,Lima,Bruno Apolaya,Librería
+638,DIRM3464,Casa de Cambios La Aurora II,Miraflores,Lima,Lima,Bruno Apolaya,Otros
+639,DIR10808,Bodega Arakaki I,Miraflores,Lima,Lima,Bruno Apolaya,Bodega
+640,DIRM3729,Mr. Chat.com,Miraflores,Lima,Lima,Bruno Apolaya,Locutorios
+641,DIR26201,Bodega Miguelito - Miraflores I,Miraflores,Lima,Lima,Bruno Apolaya,Bodega
+642,DIR25103,Bazar Luckis,Miraflores,Lima,Lima,Bruno Apolaya,Librería
+643,DIR04366,RC Comunicaciones I,Pachacamac,Lima,Lima,Dante Saira,Librería
+645,DIRM0800,Libreria Cabrera I,Pachacamac,Lima,Lima,Dante Saira,Librería
+646,DIRM2787,Internet Nicole,Pachacamac,Lima,Lima,Dante Saira,Locutorios
+647,DIR04369,Servicio Tecnico El Chino,Pachacamac,Lima,Lima,Dante Saira,Tiendas Comerciales
+648,DIR04368,Bazar Paola - Pachacamac,Pachacamac,Lima,Lima,Dante Saira,Librería
+649,DIRM3317,Libreria Tres Marias II,Pachacamac,Lima,Lima,Dante Saira,Tiendas Comerciales
+650,DIRM2392,Minimarket Mi Market,Pachacamac,Lima,Lima,Dante Saira,Bodega
+651,DIRM3588,Boticas Nelfarma II,Pachacamac,Lima,Lima,Dante Saira,Farmacias
+652,DIR15909,Zziber Cabinas ,Rimac,Lima,Lima,Oscar Córdova,Locutorios
+653,DIR15934,Bodega Fidel,Rimac,Lima,Lima,Oscar Córdova,Bodega
+654,DIRM2776,Comercial JRHG,Rimac,Lima,Lima,Oscar Córdova,Bodega
+655,DIR15905,Farmacia Antares,Rimac,Lima,Lima,Oscar Córdova,Farmacias
+656,DIR15915,Bodega Alicia -  Rimac I,Rimac,Lima,Lima,Oscar Córdova,Bodega
+657,DIR15922,Minimarket Raul  I,Rimac,Lima,Lima,Oscar Córdova,Bodega
+658,DIRM4233,CABINAS DE INTERNET KING OF KINGS,Rimac,Lima,Lima,Oscar Córdova,Locutorios
+659,DIRM3625,Tu Space Salon,Rimac,Lima,Lima,Oscar Córdova,Otros
+660,DIRM4239,SERVI@NTARES,Rimac,Lima,Lima,Oscar Córdova,Librería
+661,DIRM3746,Libreria Noemi,Rimac,Lima,Lima,Oscar Córdova,Librería
+662,DIRM3481,Digital Imagen,San Borja,Lima,Lima,Bruno Apolaya,Otros
+663,DIR06728,Market El Manzano,San Borja,Lima,Lima,Bruno Apolaya,Bodega
+664,DIR10083,Farmacia Universal - San Borja,San Borja,Lima,Lima,Bruno Apolaya,Farmacias
+665,DIR24402,Bodega Milagros - San Borja ,San Borja,Lima,Lima,Bruno Apolaya,Bodega
+666,DIR06724,Inkanatura,San Borja,Lima,Lima,Bruno Apolaya,Farmacias
+667,DIR24403,Mytoagui,San Borja,Lima,Lima,Bruno Apolaya,Locutorios
+668,DIR29109,Botica Cristhian - Petit Thouars II,San Isidro,Lima,Lima,Bruno Apolaya,Farmacias
+669,DIRM3726,Multiservicios Shaday,San Luis,Lima,Lima,Graciela Castillo,Otros
+670,DIR17209,Muita Belleza Spa,San Luis,Lima,Lima,Graciela Castillo,Tiendas Comerciales
+671,DIR04919,Bodega Milagritos - San Luis,San Luis,Lima,Lima,Graciela Castillo,Bodega
+672,DIR04924,Bodega Anita,San Luis,Lima,Lima,Graciela Castillo,Bodega
+673,DIR14120,Comercial Soria,San Luis,Lima,Lima,Graciela Castillo,Bodega
+674,DIR04927,Minimarket Percy II,San Luis,Lima,Lima,Graciela Castillo,Bodega
+675,DIRM2584,Botica San Camilo,San Luis,Lima,Lima,Graciela Castillo,Farmacias
+676,DIR14119,Libreria Bazar Metali-K ,San Luis,Lima,Lima,Graciela Castillo,Librería
+677,DIRM4011,Spirit@ne - SFS,San Luis,Lima,Lima,Graciela Castillo,Locutorios
+678,DIR16401,Lavanderia Lalus,Surquillo,Lima,Lima,Bruno Apolaya,Otros
+679,DIRM3313,Bodega Lorenita II,Surquillo,Lima,Lima,Bruno Apolaya,Bodega
+680,DIR24617,Licoreria El Reducto,Surquillo,Lima,Lima,Bruno Apolaya,Bodega
+681,DIRM4005,Full RedFull Red - Surquillo,Surquillo,Lima,Lima,Bruno Apolaya,Locutorios
+682,DIRM4023,Locutorio Teleperu - Surquillo II,Surquillo,Lima,Lima,Bruno Apolaya,Locutorios
+683,DIR11115,Bazar Marjorie & David ,Surquillo,Lima,Lima,Bruno Apolaya,Bodega
+684,DIR11101,Boticas Minerva - Angamos 774 ,Surquillo,Lima,Lima,Bruno Apolaya,Farmacias
+685,DIRM0641,Boticas Mi Salud - Urb. Pachacamac I,Villa El Salvador,Lima,Lima,Peter Egacila,Farmacias
+686,DIRM3753,Multiservicios Yenny,Villa El Salvador,Lima,Lima,Peter Egacila,Otros
+687,DIR56509,Boticas del Pueblo,Villa El Salvador,Lima,Lima,Peter Egacila,Farmacias
+688,DIR09074,Oxifal,Villa El Salvador,Lima,Lima,Peter Egacila,Tiendas Comerciales
+691,DIRM0166,Libreria Bazar Samy I,Villa El Salvador,Lima,Lima,Peter Egacila,Librería
+692,DIRM0491,Bodega Las Rosas II,Villa El Salvador,Lima,Lima,Peter Egacila,Bodega
+693,DIRM0147,Botica Wetsnay,Villa El Salvador,Lima,Lima,Peter Egacila,Farmacias
+694,DIRM3320,Bazar J&J II,Villa El Salvador,Lima,Lima,Peter Egacila,Librería
+695,DIR09086,Bodega Misters - Modelo,Villa El Salvador,Lima,Lima,Peter Egacila,Bodega
+696,DIR09015,Muebles Ricky Ricon - 1er Piso,Villa El Salvador,Lima,Lima,Peter Egacila,Tiendas Comerciales
+697,DIRM3316,Bodega Yris II,Villa El Salvador,Lima,Lima,Peter Egacila,Bodega
+698,DIRM2952,Bazar Eylin,Villa El Salvador,Lima,Lima,Peter Egacila,Locutorios
+699,DIR27401,Veterinaria Zevallos I,Villa El Salvador,Lima,Lima,Peter Egacila,Farmacias
+700,DIRM3787,Pax Dei - VES,Villa El Salvador,Lima,Lima,Peter Egacila,Bodega
+701,DIR09051,Bodega Adrika,Villa El Salvador,Lima,Lima,Peter Egacila,Bodega
+702,DIR09010,Bodega Esperanza,Villa El Salvador,Lima,Lima,Peter Egacila,Bodega
+703,DIR09046,Bodega Giomar,Villa El Salvador,Lima,Lima,Peter Egacila,Bodega
+704,DIR09056,Bodega Octavia,Villa El Salvador,Lima,Lima,Peter Egacila,Bodega
+705,DIR09039,Botica Cusco,Villa El Salvador,Lima,Lima,Peter Egacila,Farmacias
+707,DIRM2227,Libreria Bazar Leo,Villa El Salvador,Lima,Lima,Peter Egacila,Librería
+708,DIR09049,Libreria Grafi Sur,Villa El Salvador,Lima,Lima,Peter Egacila,Librería
+709,DIR09042,Libreria Oasis,Villa El Salvador,Lima,Lima,Peter Egacila,Librería
+710,DIR09061,Internet J&G,Villa El Salvador,Lima,Lima,Peter Egacila,Locutorios
+712,DIR15749,Locutorio Saz II,Villa El Salvador,Lima,Lima,Peter Egacila,Locutorios
+714,DIR17042,Minimarket Magui,Villa Maria del Triunfo,Lima,Lima,Peter Egacila,Bodega
+715,DIR33006,Muebles Ricky Ricon - VMT,Villa Maria del Triunfo,Lima,Lima,Peter Egacila,Tiendas Comerciales
+716,DIR16208,Botica Farmasol,Villa Maria del Triunfo,Lima,Lima,Peter Egacila,Farmacias
+717,DIR05227,Ancro - VMT Pachacutec I,Villa Maria del Triunfo,Lima,Lima,Peter Egacila,Otros
+718,DIR14351,Telecomunicaciones Gutsan,Villa Maria del Triunfo,Lima,Lima,Peter Egacila,Locutorios
+719,DIRM3364,Multiservicios R&R,Villa Maria del Triunfo,Lima,Lima,Peter Egacila,Tiendas Comerciales
+720,DIR12108,Internet Gonzalo,Villa Maria del Triunfo,Lima,Lima,Peter Egacila,Locutorios
+721,DIRM0458,Multiservicios Delta I,Villa Maria del Triunfo,Lima,Lima,Peter Egacila,Otros
+722,DIR17041,Bodega Agustina Vargas,Villa Maria del Triunfo,Lima,Lima,Peter Egacila,Bodega
+723,DIR37903,Lavanderia J & V,Villa Maria del Triunfo,Lima,Lima,Peter Egacila,Otros
+724,DIRM2510,Botica Cusco 2,Villa Maria del Triunfo,Lima,Lima,Peter Egacila,Farmacias
+725,DIRM2821,Bazar Perfumeria Estrellita,Chorrillos,Lima,Lima,Dante Saira,Bodega
+726,DIRM3749,Comercial Dante,Chorrillos,Lima,Lima,Dante Saira,Bodega
+727,DIR14318,Botica Novafarma - Chorrillos I,Chorrillos,Lima,Lima,Dante Saira,Farmacias
+728,DIRM3981,Farmacia Nafarma,Chorrillos,Lima,Lima,Dante Saira,Farmacias
+729,DIRM3322,Libreria Bazar Victoria II,Chorrillos,Lima,Lima,Dante Saira,Librería
+730,DIR04315,Comercial Montes,La Molina,Lima,Lima,Bruno Apolaya,Bodega
+731,DIRM4015,Minimarket Padilla,La Molina,Lima,Lima,Bruno Apolaya,Bodega
+732,DIR04341,Botica Jampi Peru,La Molina,Lima,Lima,Bruno Apolaya,Farmacias
+733,DIR53002,Ancro - Musa I,La Molina,Lima,Lima,Bruno Apolaya,Otros
+734,DIR24319,Bepcom Data,La Molina,Lima,Lima,Bruno Apolaya,Librería
+735,DIR04328,Calle 4 internet,La Molina,Lima,Lima,Bruno Apolaya,Locutorios
+736,DIR24318,Bodega Elisach,La Molina,Lima,Lima,Bruno Apolaya,Tiendas Comerciales
+737,DIR24317,Pacific Net,La Molina,Lima,Lima,Bruno Apolaya,Tiendas Comerciales
+738,DIR16034,Bodega Blanquita,Lurin,Lima,Lima,Dante Saira,Bodega
+739,DIRM2790,Comercial Helen,Lurin,Lima,Lima,Dante Saira,Bodega
+740,DIR16048,Minimarket Helen II,Lurin,Lima,Lima,Dante Saira,Bodega
+742,DIR16013,Casa de Cambio Dollar City,Lurin,Lima,Lima,Dante Saira,Otros
+743,DIR16051,Libreria Melgar,Lurin,Lima,Lima,Dante Saira,Librería
+745,DIR16069,Centro Optico Virgen del Carmen 1,Lurin,Lima,Lima,Dante Saira,Tiendas Comerciales
+746,DIR16061,Locutorio Catalina,Lurin,Lima,Lima,Dante Saira,Tiendas Comerciales
+747,DIRM3526,Bodega DoÃ±a Feli,Santa Anita,Lima,Lima,Gabriele De la borda,Bodega
+748,DIRM2475,Bodega Jhonjar I,Santa Anita,Lima,Lima,Gabriele De la borda,Bodega
+749,DIR05267,Bodega Shuto,Santa Anita,Lima,Lima,Gabriele De la borda,Bodega
+750,DIR34409,Comercial Rubela,Santa Anita,Lima,Lima,Gabriele De la borda,Bodega
+751,DIR04620,Avicola Paola,Santiago de Surco,Lima,Lima,Bruno Apolaya,Bodega
+752,DIR25435,Bodega Don Mario I,Santiago de Surco,Lima,Lima,Bruno Apolaya,Bodega
+753,DIRM2746,Cerca a tu Casa 2,Santiago de Surco,Lima,Lima,Bruno Apolaya,Bodega
+755,DIR06718,Minimarket Azul I,Santiago de Surco,Lima,Lima,Bruno Apolaya,Bodega
+756,DIR25409,Farmacia El Palmar,Santiago de Surco,Lima,Lima,Bruno Apolaya,Farmacias
+757,DIR28607,Comercial Gifts & Gifts ,Santiago de Surco,Lima,Lima,Bruno Apolaya,Librería
+793,DIR40625,Locutorio Internet Oasis II,Paracas,Lima,Lima,José Carlos Velásquez,Locutorios
+794,DIR40804,Multiservicios Martitha,Santiago,Lima,Lima,José Carlos Velásquez,Bodega
+795,DIR40433,Klarens Miguel,LA TINGUI,Lima,Lima,José Carlos Velásquez,Librería
+796,DIR40050,Comercial Yewy,LA TINGUI,Lima,Lima,José Carlos Velásquez,Bodega
+797,DIRM2719,Hilary Moda Urbana,Pisco,Lima,Lima,José Carlos Velásquez,Tiendas Comerciales
+798,DIR44063,Comercial Jimena ,Ica,Lima,Lima,José Carlos Velásquez,Tiendas Comerciales
+800,DIRM2375,Mundo Salud 2,Ica,Lima,Lima,José Carlos Velásquez,Farmacias
+802,DIRM2473,Botica La Favorita,Chincha Alta,Lima,Lima,José Carlos Velásquez,Farmacias
+803,DIR40654,Locutorio Guadalupe,SALAS,Lima,Lima,José Carlos Velásquez,Locutorios
+804,DIRM3258,Mis 5 Tesoros,TUPAC AMARU INCA,Lima,Lima,José Carlos Velásquez,Bodega
+805,DIRM2501,Libreria Bazar Los Carlitos,PARCONA,Lima,Lima,José Carlos Velásquez,Librería
+807,DIRM3815,Pro Service Bemed II,Chincha Alta,Lima,Lima,José Carlos Velásquez,Librería
+808,DIRM2385,Botica Nicole Farma,INDEPENDENCIA,Lima,Lima,José Carlos Velásquez,Farmacias
+810,DIRM4251,SERVICIOS B&R,Ica,Lima,Lima,José Carlos Velásquez,Tiendas Comerciales
+811,DIR40424,Minimarket D' Lorenzo,Pisco,Lima,Lima,José Carlos Velásquez,Bodega
+812,DIR40089,Bodega Juanita,Ica,Lima,Lima,José Carlos Velásquez,Bodega
+849,DIRM3817,Bodega Difrebroci II,Chincha Alta,Chincha,ICA,José Carlos Velásquez,Bodega
+850,DIR40201,Farmacia Santa Rita I,Chincha Alta,Chincha,ICA,José Carlos Velásquez,Farmacias
+851,DIR40205,G&C I,Chincha Alta,Chincha,ICA,José Carlos Velásquez,Otros
+852,DIR40207,Botica Farma Claudia I,Chincha Alta,Chincha,ICA,José Carlos Velásquez,Farmacias
+853,DIRM3171,Bodega Marianet,Chincha Alta,Chincha,ICA,José Carlos Velásquez,Bodega
+854,DIRM2981,Farma Claudia-Valentina,Chincha Alta,Chincha,ICA,José Carlos Velásquez,Farmacias
+855,DIRM2244,Multiservicios Marina,Chincha Alta,Chincha,ICA,José Carlos Velásquez,Otros
+856,DIR40223,Shanti Natura,Chincha Alta,Chincha,ICA,José Carlos Velásquez,Tiendas Comerciales
+857,DIRM0666,Multiservicios Soledad - Chincha Baja ,Chincha Baja,Chincha,ICA,José Carlos Velásquez,Locutorios
+858,DIR40219,Botica Mi Beatita Melchorita II,GROCIO PRADO,Chincha,ICA,José Carlos Velásquez,Farmacias
+859,DIR40216,Botica Nestarez  - Chincha,Pueblo Nuevo,Chincha,ICA,José Carlos Velásquez,Farmacias
+860,DIR40218,Ferreteria Graciela,SUNAMPE,Chincha,ICA,José Carlos Velásquez,Otros
+861,DIR40083,Locutorio Jacky,TAMBO DE MORA,Chincha,ICA,José Carlos Velásquez,Locutorios
+863,DIRM3860,Bodega Eugenio,Ica,Ica,ICA,José Carlos Velásquez,Bodega
+864,DIRM3508,Servicios B&A,Ica,Ica,ICA,José Carlos Velásquez,Locutorios
+865,DIRM3830,Tu Market,Ica,Ica,ICA,José Carlos Velásquez,Bodega
+866,DIRM0706,Internet Galant@Net I,Ica,Ica,ICA,José Carlos Velásquez,Locutorios
+867,DIRM4044,Mis 3 Amores,Ica,Ica,ICA,José Carlos Velásquez,Tiendas Comerciales
+868,DIR40040,Libreria Locutorio Copy Book I,Ica,Ica,ICA,José Carlos Velásquez,Librería
+869,DIRM3365,Multiservicios Andrea,Ica,Ica,ICA,José Carlos Velásquez,Bodega
+870,DIR40051,PhartheA I,Ica,Ica,ICA,José Carlos Velásquez,Farmacias
+871,DIRM3650,Tech Cell 53,Ica,Ica,ICA,José Carlos Velásquez,Tiendas Comerciales
+872,DIRM3805,Multiservicios Marines Mig,Ica,Ica,ICA,José Carlos Velásquez,Tiendas Comerciales
+873,DIR40662,"IBA Comercial El Rey	II",Ica,Ica,ICA,José Carlos Velásquez,Tiendas Comerciales
+874,DIR40065,Travel Line La Sirena,Ica,Ica,ICA,José Carlos Velásquez,Otros
+875,DIR40097,Bodega Bazar Dia Market,Ica,Ica,ICA,José Carlos Velásquez,Bodega
+876,DIRM3167,Bodega Las Acacias,Ica,Ica,ICA,José Carlos Velásquez,Bodega
+878,DIRM3077,Bodega Tatiana,Ica,Ica,ICA,José Carlos Velásquez,Bodega
+879,DIR40645,Bodega Aimena,Ica,Ica,ICA,José Carlos Velásquez,Bodega
+880,DIR40615,Botica Mundo Salud II,Ica,Ica,ICA,José Carlos Velásquez,Farmacias
+881,DIR40620,Botica San Carlos,Ica,Ica,ICA,José Carlos Velásquez,Farmacias
+882,DIR40649,FarmaGeva,Ica,Ica,ICA,José Carlos Velásquez,Farmacias
+883,DIR40036,Perfumeria Felipe I,Ica,Ica,ICA,José Carlos Velásquez,Farmacias
+884,DIRM3110,Spa Aracelly ,Ica,Ica,ICA,José Carlos Velásquez,Otros
+885,DIR40079,Ferreteria Malpica I,Ica,Ica,ICA,José Carlos Velásquez,Otros
+886,DIR40647,Fotostaticas Italo,Ica,Ica,ICA,José Carlos Velásquez,Librería
+887,DIR40802,Libreria y Musica Cristiana ,Ica,Ica,ICA,José Carlos Velásquez,Librería
+888,DIRM1316,Puriser I,Ica,Ica,ICA,José Carlos Velásquez,Librería
+890,DIRM2349,Internet J y L,Ica,Ica,ICA,José Carlos Velásquez,Locutorios
+891,DIR40082,Restaurante Bodega El Amigo,Ica,Ica,ICA,José Carlos Velásquez,Otros
+892,DIRM2384,Negociaciones San Antonio de Pavua,Ica,Ica,ICA,José Carlos Velásquez,Otros
+893,DIR40066,Botica Bazar Karen I,LA TINGUI,Ica,ICA,José Carlos Velásquez,Farmacias
+894,DIR40099,Bodega Karito,LA TINGUI,Ica,ICA,José Carlos Velásquez,Bodega
+895,DIR40434,Botica Esther,LA TINGUI,Ica,ICA,José Carlos Velásquez,Farmacias
+896,DIRM2374,Libreria ALF,LA TINGUI,Ica,ICA,José Carlos Velásquez,Librería
+901,DIRM3685,Ferreteria Venon,PARCONA,Ica,ICA,José Carlos Velásquez,Otros
+902,DIR40044,Libreria Kamila I,PARCONA,Ica,ICA,José Carlos Velásquez,Locutorios
+903,DIRM3507,Bodega Valentina - Parcona,PARCONA,Ica,ICA,José Carlos Velásquez,Bodega
+904,DIR40038,Botica Superfharma II,PARCONA,Ica,ICA,José Carlos Velásquez,Farmacias
+905,DIR40074,Comercial Yessica I,PARCONA,Ica,ICA,José Carlos Velásquez,Tiendas Comerciales
+906,DIR40063,Bodega San Miguel I,PARCONA,Ica,ICA,José Carlos Velásquez,Bodega
+907,DIRM3257,Bodega Virgen de Chapi,PARCONA,Ica,ICA,José Carlos Velásquez,Bodega
+908,DIRM2514,Libreria Bazar Kiara - Parcona,PARCONA,Ica,ICA,José Carlos Velásquez,Librería
+909,DIR40605,Locutorio Cell Celu,PARCONA,Ica,ICA,José Carlos Velásquez,Locutorios
+910,DIRM3550,Bodega Bazar D y A,PUEBLO NUEVO,Ica,ICA,José Carlos Velásquez,Bodega
+911,DIR40080,Botica Luz y Patty I,SALAS,Ica,ICA,José Carlos Velásquez,Farmacias
+914,DIRM4086,BODEGA GENESIS,Santiago,Ica,ICA,José Carlos Velásquez,Bodega
+915,DIRM3297,Bodega Guadalupe,Santiago,Ica,ICA,José Carlos Velásquez,Bodega
+916,DIR40229,Bodega Wilfredito,Santiago,Ica,ICA,José Carlos Velásquez,Bodega
+917,DIRM1542,Farma Junior,Santiago,Ica,ICA,José Carlos Velásquez,Farmacias
+918,DIRM2748,Ica Farma,Santiago,Ica,ICA,José Carlos Velásquez,Farmacias
+919,DIR40648,Vidafarma,Santiago,Ica,ICA,José Carlos Velásquez,Farmacias
+920,DIR40656,Comercio El Charapito,Santiago,Ica,ICA,José Carlos Velásquez,Otros
+921,DIR40801,Bodega Senor de Luren,TATE,Ica,ICA,José Carlos Velásquez,Bodega
+922,DIRM4054,Bodega Maria Cristel,HUMAY,Pisco,ICA,José Carlos Velásquez,Bodega
+923,DIR40430,Libreria Bazar Jhired,HUMAY,Pisco,ICA,José Carlos Velásquez,Librería
+924,DIR40422,Minimarket Diana,INDEPENDENCIA,Pisco,ICA,José Carlos Velásquez,Bodega
+925,DIR40414,Botica Divino Nino Jesus ,Paracas,Pisco,ICA,José Carlos Velásquez,Farmacias
+926,DIRM1504,Locutorios Santa Cruz III,Paracas,Pisco,ICA,José Carlos Velásquez,Locutorios
+927,DIRM0435,Minimarket Las Americas,Pisco,Pisco,ICA,José Carlos Velásquez,Bodega
+928,DIRM3437,Internet J&L,Pisco,Pisco,ICA,José Carlos Velásquez,Locutorios
+929,DIRM3967,Bodega Marcelo,Pisco,Pisco,ICA,José Carlos Velásquez,Bodega
+930,DIRM3466,Libreria Bazar Primavera,Pisco,Pisco,ICA,José Carlos Velásquez,Librería
+931,DIRM2789,Libreria Bazar F&S,Pisco,Pisco,ICA,José Carlos Velásquez,Librería
+932,DIRM3198,Tiki Tiki I,Pisco,Pisco,ICA,José Carlos Velásquez,Librería
+933,DIRM3047,Ciber Cafe K & J II,Pisco,Pisco,ICA,José Carlos Velásquez,Locutorios
+934,DIR40423,Locutorio Renacer,Pisco,Pisco,ICA,José Carlos Velásquez,Locutorios
+935,DIRM3944,Bodega Don Celso,SAN ANDRES,Pisco,ICA,José Carlos Velásquez,Bodega
+936,DIRM2985,Internet Clara,SAN ANDRES,Pisco,ICA,José Carlos Velásquez,Locutorios
+937,DIRM2588,Minimarket V&N I,TUPAC AMARU INCA,Pisco,ICA,José Carlos Velásquez,Bodega
+938,DIR40426,Libreria Bazar CopiteA I,TUPAC AMARU INCA,Pisco,ICA,José Carlos Velásquez,Librería
+939,DIR40085,Multiservicios D&V I,TUPAC AMARU INCA,Pisco,ICA,José Carlos Velásquez,Librería
+1009,DIRM3423,Bodega Bazar Sta. Catalina,EL PORVENIR,Trujillo,Trujillo,Araceli Padilla,Bodega
+1010,DIR61037,Bodega Nonita,EL PORVENIR,Trujillo,Trujillo,Araceli Padilla,Bodega
+1011,DIRM3182,Libreria G&M,EL PORVENIR,Trujillo,Trujillo,Araceli Padilla,Librería
+1012,DIRM3660,Farmacia Mas Salud,EL PORVENIR,Trujillo,Trujillo,Araceli Padilla,Farmacias
+1013,DIR61042,Bodega Habitat,EL PORVENIR,Trujillo,Trujillo,Araceli Padilla,Bodega
+1014,DIRM3478,Botica Bendiciones,FLORENCIA DE MORA,Trujillo,Trujillo,Araceli Padilla,Farmacias
+1015,DIRM3045,Jayen,FLORENCIA DE MORA,Trujillo,Trujillo,Araceli Padilla,Bodega
+1016,DIR61085,Ferreteria Logistica,FLORENCIA DE MORA,Trujillo,Trujillo,Araceli Padilla,Otros
+1017,DIR61111,Representaciones Caly,FLORENCIA DE MORA,Trujillo,Trujillo,Araceli Padilla,Otros
+1018,DIR61023,Bodega Mi Kioku,La Esperanza,Trujillo,Trujillo,Araceli Padilla,Bodega
+1019,DIRM3819,Yovis Salon Unisex,La Esperanza,Trujillo,Trujillo,Araceli Padilla,Otros
+1020,DIRM3958,Novafarma SAC,La Esperanza,Trujillo,Trujillo,Araceli Padilla,Farmacias
+1021,DIR61312,Compucel Center,La Esperanza,Trujillo,Trujillo,Araceli Padilla,Otros
+1022,DIRM3887,Bodega Bazar Modelo,La Esperanza,Trujillo,Trujillo,Araceli Padilla,Bodega
+1023,DIRM3889,Locutorio e Internet Wilitos,La Esperanza,Trujillo,Trujillo,Araceli Padilla,Locutorios
+1024,DIR60049,Botica Nueva Jerusalen,La Esperanza,Trujillo,Trujillo,Araceli Padilla,Farmacias
+1025,DIRM3150,Bodega Camila - La Esperanza,La Esperanza,Trujillo,Trujillo,Araceli Padilla,Bodega
+1026,DIR61069,Servicios Varios,La Esperanza,Trujillo,Trujillo,Araceli Padilla,Tiendas Comerciales
+1027,DIR60031,Bodega Bazar Ruby y Kathia,La Esperanza,Trujillo,Trujillo,Araceli Padilla,Bodega
+1028,DIR61057,Bodega El Guardia,La Esperanza,Trujillo,Trujillo,Araceli Padilla,Bodega
+1029,DIR61080,Bodega Zely,La Esperanza,Trujillo,Trujillo,Araceli Padilla,Bodega
+1030,DIR61112,Comercial Alpamayo,La Esperanza,Trujillo,Trujillo,Araceli Padilla,Bodega
+1031,DIR61301,Botica Lauri - Paez I,La Esperanza,Trujillo,Trujillo,Araceli Padilla,Farmacias
+1032,DIR61309,Botica Manuel Arevalo,La Esperanza,Trujillo,Trujillo,Araceli Padilla,Farmacias
+1033,DIRM2864,Botica Natural Farma ,La Esperanza,Trujillo,Trujillo,Araceli Padilla,Farmacias
+1035,DIR61088,Farmacia Natural Farma,La Esperanza,Trujillo,Trujillo,Araceli Padilla,Farmacias
+1036,DIR61062,Representaciones Mary - Trujillo,La Esperanza,Trujillo,Trujillo,Araceli Padilla,Locutorios
+1037,DIR61505,Botica Real Felipe - Trujillo II,Trujillo,Trujillo,Trujillo,Araceli Padilla,Farmacias
+1038,DIRM2627,Dream Team,Trujillo,Trujillo,Trujillo,Araceli Padilla,Bodega
+1039,DIR61125,La Tiendita de M,Trujillo,Trujillo,Trujillo,Araceli Padilla,Bodega
+1040,DIR61031,San Pedro Descartables I,Trujillo,Trujillo,Trujillo,Araceli Padilla,Tiendas Comerciales
+1041,DIR60007,Minimarket San Pedro,Trujillo,Trujillo,Trujillo,Araceli Padilla,Bodega
+1042,DIR60062,Libreria Fama I,Trujillo,Trujillo,Trujillo,Araceli Padilla,Librería
+1043,DIRM4162,BODEGA BAZAR TU MERCADO,Trujillo,Trujillo,Trujillo,ARACELI PADILLA,Bodega
+1044,DIR60053,Comercial Marite,Trujillo,Trujillo,Trujillo,Araceli Padilla,Bodega
+1045,DIRM3238,Mundo de Regalitos,Trujillo,Trujillo,Trujillo,Araceli Padilla,Tiendas Comerciales
+1046,DIR60008,Baby Care,Trujillo,Trujillo,Trujillo,Araceli Padilla,Tiendas Comerciales
+1047,DIR60029,Bodega Multiofertas Gabriela I,Trujillo,Trujillo,Trujillo,Araceli Padilla,Bodega
+1048,DIR61207,Minimarket Miyochi,Trujillo,Trujillo,Trujillo,Araceli Padilla,Bodega
+1049,DIR61124,Cesarego II,Trujillo,Trujillo,Trujillo,Araceli Padilla,Locutorios
+1050,DIR60084,Fito Pan - Bolivar,Trujillo,Trujillo,Trujillo,Araceli Padilla,Otros
+1051,DIR60092,Libreria Bazar Arco Iris,Trujillo,Trujillo,Trujillo,Araceli Padilla,Librería
+1052,DIRM0882,Farmacia Luz del Pilar I,Trujillo,Trujillo,Trujillo,Araceli Padilla,Farmacias
+1053,DIRM3217,Perfumeria Jessica,Trujillo,Trujillo,Trujillo,Araceli Padilla,Tiendas Comerciales
+1054,DIR61026,Comercial Arrofisa,Trujillo,Trujillo,Trujillo,Araceli Padilla,Librería
+1055,DIR61401,America Representaciones I,Trujillo,Trujillo,Trujillo,Araceli Padilla,Otros
+1056,DIR61134,Grupo S&S Car,Trujillo,Trujillo,Trujillo,Araceli Padilla,Tiendas Comerciales
+1057,DIRM3149,La Tiendasa,Trujillo,Trujillo,Trujillo,Araceli Padilla,Bodega
+1058,DIRM3995,Taxi Real,Trujillo,Trujillo,Trujillo,Araceli Padilla,Otros
+1059,DIRM3896,Centro Comercial Gamarra,Trujillo,Trujillo,Trujillo,Araceli Padilla,Tiendas Comerciales
+1060,DIR61051,Rizt Axx,Trujillo,Trujillo,Trujillo,Araceli Padilla,Tiendas Comerciales
+1061,DIRM3233,Copy Impresiones Vical,Trujillo,Trujillo,Trujillo,Araceli Padilla,Librería
+1062,DIR61210,Servicios Generales Joaquin,Trujillo,Trujillo,Trujillo,Araceli Padilla,Tiendas Comerciales
+1063,DIRM3899,Infotel Representaciones,Trujillo,Trujillo,Trujillo,Araceli Padilla,Locutorios
+1064,DIRM3493,Botica J&D,Trujillo,Trujillo,Trujillo,Araceli Padilla,Farmacias
+1065,DIR61061,Bodega Victor I,Trujillo,Trujillo,Trujillo,Araceli Padilla,Bodega
+1066,DIRM2874,Isysem SAC,Trujillo,Trujillo,Trujillo,Araceli Padilla,Locutorios
+1067,DIR61205,Procesamiento de Datos,Trujillo,Trujillo,Trujillo,Araceli Padilla,Locutorios
+1068,DIRM3615,Multimarket Felipe,Huanchaco,Trujillo,Trujillo,Araceli Padilla,Bodega
+1069,DIRM3851,Ferreteria Leo,Huanchaco,Trujillo,Trujillo,Araceli Padilla,Otros
+1070,DIRM3943,Bodega Pub Heber,Huanchaco,Trujillo,Trujillo,Araceli Padilla,Bodega
+1071,DIR60021,Huanchaco Multiservicios,Huanchaco,Trujillo,Trujillo,Araceli Padilla,Otros
+1072,DIR61097,Bodega Cristhian & Fabricio,Huanchaco,Trujillo,Trujillo,Araceli Padilla,Bodega
+1073,DIR61025,Comercial la Favorita,LAREDO,Trujillo,Trujillo,Araceli Padilla,Bodega
+1074,DIRM3446,Minimarket La Merced - Laredo,LAREDO,Trujillo,Trujillo,Araceli Padilla,Bodega
+1075,DIRM3105,Mini Super Mas Cerca Mas ,LAREDO,Trujillo,Trujillo,Araceli Padilla,Bodega
+1076,DIR61501,Minimarket La Merced,LAREDO,Trujillo,Trujillo,Araceli Padilla,Bodega
+1077,DIRM2346,Farmacia A' D' Venir,LAREDO,Trujillo,Trujillo,Araceli Padilla,Farmacias
+1078,DIRM2869,Bodega La Favorita,MOCHE,Trujillo,Trujillo,Araceli Padilla,Bodega
+1079,DIR61135,Minimarket La Placita II,MOCHE,Trujillo,Trujillo,Araceli Padilla,Bodega
+1080,DIRM2753,Minimarket Geminis,MOCHE,Trujillo,Trujillo,Araceli Padilla,Bodega
+1081,DIR60076,Botica Di Farma,Victor Larco Herrera,Trujillo,Trujillo,Araceli Padilla,Farmacias
+1082,DIR61022,Bodega Bazar Belen - Trujillo,Victor Larco Herrera,Trujillo,Trujillo,Araceli Padilla,Bodega
+1083,DIR62901,Carbon & Miel,Victor Larco Herrera,Trujillo,Trujillo,Araceli Padilla,Otros
+1084,DIRM2973,Fotos Digitales Juan Diego,Victor Larco Herrera,Trujillo,Trujillo,Araceli Padilla,Otros
+1085,DIRM2326,Bodega Andre,Victor Larco Herrera,Trujillo,Trujillo,Araceli Padilla,Bodega
+1086,DIR61098,Bazar Montenegro,Victor Larco Herrera,Trujillo,Trujillo,Araceli Padilla,Librería
+1087,DIR60032,Bodega El Bosque,Trujillo,Trujillo,Trujillo,Araceli Padilla,Bodega
+1088,DIR61029,Aconiser ,Trujillo,Trujillo,Trujillo,Araceli Padilla,Otros
+1089,DIRM3207,Bodega Mari,Trujillo,Trujillo,Trujillo,Araceli Padilla,Bodega
+1090,DIRM3361,Bodega Bazar Locutorio,Trujillo,Trujillo,Trujillo,Araceli Padilla,Bodega
+1091,DIR61063,Automotriz Royal,Trujillo,Trujillo,Trujillo,Araceli Padilla,Tiendas Comerciales
+1092,DIRM3488,Locutorio Karito,Trujillo,Trujillo,Trujillo,Araceli Padilla,Locutorios
+1093,DIRM3332,Botica Mas Salud - El Molino,Trujillo,Trujillo,Trujillo,Araceli Padilla,Farmacias
+1094,DIRM3957,Fotocopias y Tipeos Ximena,Trujillo,Trujillo,Trujillo,Araceli Padilla,Librería
+1095,DIRM4090,UNICOS ENCANTOS,Trujillo,Trujillo,Trujillo,ARACELI PADILLA,Otros
+1096,DIRM0623,Money Gram - Aventura Mall Plaza I,Trujillo,Trujillo,Trujillo,Araceli Padilla,Otros
+1097,DIR60030,Licoreria Johnnie Walker,Trujillo,Trujillo,Trujillo,Araceli Padilla,Bodega
+1098,DIR61049,Farmacia Solar,Trujillo,Trujillo,Trujillo,Araceli Padilla,Farmacias
+1099,DIR40091,Motorepuestos Libertad,Trujillo,Trujillo,Trujillo,Araceli Padilla,Tiendas Comerciales
+1100,DIRM2920,Farmacia El Sol,Trujillo,Trujillo,Trujillo,Araceli Padilla,Farmacias
+1101,DIRM3420,Farmacia Confiable,Trujillo,Trujillo,Trujillo,Araceli Padilla,Farmacias
+1102,DIRM3803,Eventos Belen,Trujillo,Trujillo,Trujillo,Araceli Padilla,Tiendas Comerciales
+1103,DIR61070,Bodega Bazar Tu Vende,Trujillo,Trujillo,Trujillo,Araceli Padilla,Bodega
+1104,DIR60040,Comercial La Predilecta,Trujillo,Trujillo,Trujillo,Araceli Padilla,Bodega
+1105,DIRM3504,Internet Fabiano,Trujillo,Trujillo,Trujillo,Araceli Padilla,Locutorios
+1106,DIR61076,Bodega Camila,Trujillo,Trujillo,Trujillo,Araceli Padilla,Bodega
+1107,DIR61064,Bodega Gustitos - Trujillo,Trujillo,Trujillo,Trujillo,Araceli Padilla,Bodega
+1108,DIR61087,Bodega La Vi,Trujillo,Trujillo,Trujillo,Araceli Padilla,Bodega
+1109,DIR61075,Bodega Steici,Trujillo,Trujillo,Trujillo,Araceli Padilla,Bodega
+1110,DIR61122,Comercial Alysur,Trujillo,Trujillo,Trujillo,Araceli Padilla,Bodega
+1111,DIR61104,Distribuidora Geminis,Trujillo,Trujillo,Trujillo,Araceli Padilla,Bodega
+1112,DIRM3143,Jugueria Disfruta ,Trujillo,Trujillo,Trujillo,Araceli Padilla,Bodega
+1113,DIR61014,Botica Rodsa Farma,Trujillo,Trujillo,Trujillo,Araceli Padilla,Farmacias
+1114,DIRM2513,Farmacia Virgen de las Mercedes,Trujillo,Trujillo,Trujillo,Araceli Padilla,Farmacias
+1115,DIRM3113,Farmacia Mi Projimo ,Trujillo,Trujillo,Trujillo,Araceli Padilla,Librería
+1116,DIR61079,Libreria Bazar Copy Book,Trujillo,Trujillo,Trujillo,Araceli Padilla,Librería
+1117,DIR61113,Web Point,Trujillo,Trujillo,Trujillo,Araceli Padilla,Locutorios
+1118,DIR61054,Editora El Ovalo,Trujillo,Trujillo,Trujillo,Araceli Padilla,Tiendas Comerciales
+1119,DIR61047,Mega Chavez,Trujillo,Trujillo,Trujillo,Araceli Padilla,Tiendas Comerciales
+1120,DIR34312,Comercial FAC,Arequipa,Arequipa,Arequipa,Juan Carlos Portocarrero,Otros
+1121,DIR30092,Centro de Cobranzas Brikarlui II,Arequipa,Arequipa,Arequipa,Juan Carlos Portocarrero,Otros
+1122,DIR33624,Agropecuaria Santa Maria,Arequipa,Arequipa,Arequipa,Juan Carlos Portocarrero,Otros
+1123,DIRM2200,San Jeronimo,Arequipa,Arequipa,Arequipa,John Pickman,Bodega
+1124,DIR31917,Comercial Carmen,Arequipa,Arequipa,Arequipa,Juan Carlos Portocarrero,Tiendas Comerciales
+1125,DIRM3299,Fotocopiadora Marcopolo,Arequipa,Arequipa,Arequipa,Juan Carlos Portocarrero,Librería
+1126,DIRM1403,Ferreteria Gilozav I,Arequipa,Arequipa,Arequipa,Juan Carlos Portocarrero,Otros
+1127,DIR31732,Comercial Chami I,Arequipa,Arequipa,Arequipa,Juan Carlos Portocarrero,Bodega
+1128,DIR31933,Telecomunicaciones M y S,Arequipa,Arequipa,Arequipa,Juan Carlos Portocarrero,Locutorios
+1129,DIR31706,Farmacia JB III,Arequipa,Arequipa,Arequipa,Juan Carlos Portocarrero,Farmacias
+1130,DIR32520,Botica Lider - Arequipa II,Arequipa,Arequipa,Arequipa,John Pickman,Farmacias
+1131,DIR30087,CO & CO  - San Juan de Dios I,Arequipa,Arequipa,Arequipa,Juan Carlos Portocarrero,Otros
+1132,DIR31561,Internet Splash Net,Arequipa,Arequipa,Arequipa,Juan Carlos Portocarrero,Locutorios
+1133,DIRM3125,Botica Santidad,Arequipa,Arequipa,Arequipa,Juan Carlos Portocarrero,Farmacias
+1134,DIR32535,Minimarket La Plazita,Arequipa,Arequipa,Arequipa,John Pickman,Bodega
+1135,DIRM1510,Tienda de Abarrotes Elena,Arequipa,Arequipa,Arequipa,John Pickman,Bodega
+1136,DIR32521,Internet Shark - Amazonas I,Arequipa,Arequipa,Arequipa,John Pickman,Locutorios
+1137,DIRM3837,M & F,Arequipa,Arequipa,Arequipa,Juan Carlos Portocarrero,Tiendas Comerciales
+1138,DIR30091,CO & CO  - Panoramico II,Arequipa,Arequipa,Arequipa,Juan Carlos Portocarrero,Otros
+1139,DIR31916,Alexmar Music II,Arequipa,Arequipa,Arequipa,Juan Carlos Portocarrero,Tiendas Comerciales
+1140,DIR31824,Inversiones La Distinta,Arequipa,Arequipa,Arequipa,Juan Carlos Portocarrero,Otros
+1141,DIR32566,Conexcel Sur,Arequipa,Arequipa,Arequipa,Juan Carlos Portocarrero,Tiendas Comerciales
+1142,DIR31562,Fotografia Pinto,Arequipa,Arequipa,Arequipa,Juan Carlos Portocarrero,Otros
+1143,DIRM0983,Alessandra Tours Arequipa II,Arequipa,Arequipa,Arequipa,John Pickman,Otros
+1144,DIRM4035,Centro San Agustin II,Arequipa,Arequipa,Arequipa,Juan Carlos Portocarrero,Tiendas Comerciales
+1145,DIRM3275,Full Speedy,Arequipa,Arequipa,Arequipa,Juan Carlos Portocarrero,Otros
+1146,DIR33682,La Posada II,Arequipa,Arequipa,Arequipa,Juan Carlos Portocarrero,Otros
+1147,DIR31575,CO & CO  - Peral IV,Arequipa,Arequipa,Arequipa,Juan Carlos Portocarrero,Otros
+1148,DIRM0892,Libreria El Mejor I,Arequipa,Arequipa,Arequipa,John Pickman,Librería
+1149,DIR33649,Shoping,Arequipa,Arequipa,Arequipa,John Pickman,Tiendas Comerciales
+1150,DIR33683,Bazar Libreria Leon XIII,Cayma,Arequipa,Arequipa,John Pickman,Librería
+1151,DIR31533,Centro E & F III,Cayma,Arequipa,Arequipa,John Pickman,Otros
+1152,DIRM2539,Comercial Antojitos,Cayma,Arequipa,Arequipa,John Pickman,Bodega
+1153,DIRM0848,Libreria Bazar Jair II,Cayma,Arequipa,Arequipa,John Pickman,Librería
+1154,DIR31519,Farmacia Divina Misericordia,Cayma,Arequipa,Arequipa,John Pickman,Farmacias
+1155,DIR31529,Libreria 20,Cayma,Arequipa,Arequipa,John Pickman,Librería
+1156,DIRM1100,Tienda del Campo,Cayma,Arequipa,Arequipa,John Pickman,Bodega
+1157,DIRM2688,Abarrotes Carmen Alto,Cayma,Arequipa,Arequipa,John Pickman,Bodega
+1158,DIRM2174,Farmedic AQP - Sucursal,Cayma,Arequipa,Arequipa,John Pickman,Farmacias
+1159,DIR31544,Minimarket Nelly I,Cayma,Arequipa,Arequipa,John Pickman,Bodega
+1160,DIR31978,Elia Spa,Cayma,Arequipa,Arequipa,John Pickman,Otros
+1161,DIRM3006,Kratos,Cayma,Arequipa,Arequipa,John Pickman,Locutorios
+1162,DIRM1560,Multicosas S & S,Cayma,Arequipa,Arequipa,John Pickman,Librería
+1163,DIRM0634,Bodega Paola - Arequipa I,Cayma,Arequipa,Arequipa,John Pickman,Bodega
+1164,DIR32529,Locutorio Copacabana,Cerro Colorado,Arequipa,Arequipa,John Pickman,Locutorios
+1165,DIR31559,Botica Joachin ? Cerro Colorado,Cerro Colorado,Arequipa,Arequipa,John Pickman,Farmacias
+1166,DIRM2382,Libreria Internet Josue,Cerro Colorado,Arequipa,Arequipa,John Pickman,Librería
+1167,DIR31835,Perfumeria Priscyla,Cerro Colorado,Arequipa,Arequipa,John Pickman,Tiendas Comerciales
+1168,DIR31761,Panaderia Esther,Cerro Colorado,Arequipa,Arequipa,John Pickman,Otros
+1169,DIRM3917,Minimarket Mi Norma,Cerro Colorado,Arequipa,Arequipa,John Pickman,Bodega
+1170,DIR31525,Ferreteria Fordan,Cerro Colorado,Arequipa,Arequipa,John Pickman,Otros
+1171,DIR31523,Farmacia Maria Asuncion I,Cerro Colorado,Arequipa,Arequipa,John Pickman,Farmacias
+1172,DIRM2342,Cibernet Carlos,Cerro Colorado,Arequipa,Arequipa,John Pickman,Otros
+1173,DIRM0964,Bodega El Pinocho I,SACHACA,Arequipa,Arequipa,John Pickman,Bodega
+1174,DIR31740,Repuestos Huber I,SACHACA,Arequipa,Arequipa,John Pickman,Tiendas Comerciales
+1175,DIRM3279,Comercial El Huerto,SACHACA,Arequipa,Arequipa,John Pickman,Bodega
+1176,DIRM2762,Matthews,Alto Selva Alegre,Arequipa,Arequipa,John Pickman,Bodega
+1177,DIRM1308,Locutorio Sagitario I,Alto Selva Alegre,Arequipa,Arequipa,John Pickman,Locutorios
+1178,DIR31799,Botica Julio Andre,Alto Selva Alegre,Arequipa,Arequipa,John Pickman,Farmacias
+1179,DIR32599,La Bodeguita de Samuel,Alto Selva Alegre,Arequipa,Arequipa,John Pickman,Bodega
+1180,DIRM3706,Cabinas de Internet Click,Alto Selva Alegre,Arequipa,Arequipa,John Pickman,Locutorios
+1181,DIR33607,Libreria Bazar Zoilita,Alto Selva Alegre,Arequipa,Arequipa,John Pickman,Librería
+1182,DIRM3475,Abarrotes Vero,Alto Selva Alegre,Arequipa,Arequipa,John Pickman,Bodega
+1183,DIRM3342,Interplay,Alto Selva Alegre,Arequipa,Arequipa,John Pickman,Otros
+1184,DIRM1261,Farmasur I,Jose Luis Bustamante y Rivero,Arequipa,Arequipa,Juan Carlos Portocarrero,Farmacias
+1185,DIRM3868,Abarrotes Marina,Jose Luis Bustamante y Rivero,Arequipa,Arequipa,Juan Carlos Portocarrero,Bodega
+1186,DIR32510,Farmamedic,Jose Luis Bustamante y Rivero,Arequipa,Arequipa,Juan Carlos Portocarrero,Farmacias
+1187,DIRM2211,Botica Liz - Garcilazo,Jose Luis Bustamante y Rivero,Arequipa,Arequipa,Juan Carlos Portocarrero,Farmacias
+1188,DIRM3708,Credillantas Adorva,Jose Luis Bustamante y Rivero,Arequipa,Arequipa,Juan Carlos Portocarrero,Tiendas Comerciales
+1189,DIR31830,Comercial CDCH,Jose Luis Bustamante y Rivero,Arequipa,Arequipa,Juan Carlos Portocarrero,Bodega
+1190,DIRM3710,La Exitosa,Jose Luis Bustamante y Rivero,Arequipa,Arequipa,Juan Carlos Portocarrero,Bodega
+1191,DIR30060,CO & CO  - La Isla III,Jose Luis Bustamante y Rivero,Arequipa,Arequipa,Juan Carlos Portocarrero,Otros
+1192,DIRM3997,Sport Luna - Andres Avelino,Jose Luis Bustamante y Rivero,Arequipa,Arequipa,Juan Carlos Portocarrero,Tiendas Comerciales
+1193,DIR31986,Locutorio Comunicaciones II,Jose Luis Bustamante y Rivero,Arequipa,Arequipa,Juan Carlos Portocarrero,Locutorios
+1194,DIR31947,Farmacia Mary - Ro,Jose Luis Bustamante y Rivero,Arequipa,Arequipa,Juan Carlos Portocarrero,Farmacias
+1195,DIRM3124,Bazar Mayda,Jose Luis Bustamante y Rivero,Arequipa,Arequipa,Juan Carlos Portocarrero,Librería
+1196,DIRM3933,Playa Virgencita de Chapi,MARIANO MELGAR,Arequipa,Arequipa,John Pickman,Tiendas Comerciales
+1197,DIR31770,Minimarket Camilita I,MARIANO MELGAR,Arequipa,Arequipa,John Pickman,Bodega
+1198,DIRM3255,Abarrotes Silvia,MARIANO MELGAR,Arequipa,Arequipa,John Pickman,Bodega
+1199,DIR31724,Farmacia Eliann II,MARIANO MELGAR,Arequipa,Arequipa,John Pickman,Farmacias
+1200,DIR31843,Minimarket Santa Ursula,MARIANO MELGAR,Arequipa,Arequipa,John Pickman,Bodega
+1201,DIR34313,Minimarket Avril,Miraflores,Arequipa,Arequipa,John Pickman,Bodega
+1202,DIR33670,Botica Central I,Miraflores,Arequipa,Arequipa,John Pickman,Farmacias
+1203,DIRM3865,Cabina de Internet Fastnet,Miraflores,Arequipa,Arequipa,John Pickman,Locutorios
+1204,DIRM4027,Tienda de Abarrotes Limon,Miraflores,Arequipa,Arequipa,John Pickman,Bodega
+1205,DIR31900,Abarrotes Santa Rosa - Arequipa,Miraflores,Arequipa,Arequipa,John Pickman,Bodega
+1206,DIR33637,Bazar Andrea,Miraflores,Arequipa,Arequipa,John Pickman,Librería
+1207,DIR31974,Libreria Yolita,Miraflores,Arequipa,Arequipa,John Pickman,Librería
+1208,DIRM3618,Deposito Mauri,Paucarpata,Arequipa,Arequipa,John Pickman,Bodega
+1209,DIRM3854,Nacho Net,Paucarpata,Arequipa,Arequipa,John Pickman,Locutorios
+1210,DIR31568,Botica Helen,Paucarpata,Arequipa,Arequipa,John Pickman,Farmacias
+1211,DIR31709,Bazar Rose,Paucarpata,Arequipa,Arequipa,John Pickman,Librería
+1212,DIRM4068,Bazar Libreria Los Tesoritos,Paucarpata,Arequipa,Arequipa,John Pickman,Bodega
+1213,DIRM3648,Botica Virgen de Copacabana,Paucarpata,Arequipa,Arequipa,John Pickman,Farmacias
+1214,DIRM1288,Botica Multifarm Sarely,Paucarpata,Arequipa,Arequipa,John Pickman,Farmacias
+1215,DIR30079,Farmacia Cristo Salvador 2,Paucarpata,Arequipa,Arequipa,John Pickman,Farmacias
+1216,DIRM3847,Botica Mafer 2,LA JOYA,Arequipa,Arequipa,Juan Carlos Portocarrero,Farmacias
+1217,DIRM3602,Minimarket Betzy,CHARACATO,Arequipa,Arequipa,John Pickman,Bodega
+1218,DIR31998,Qu@net,CHARACATO,Arequipa,Arequipa,John Pickman,Locutorios
+1219,DIRM3838,Minimarket Yessenia,Jacobo Hunter,Arequipa,Arequipa,Juan Carlos Portocarrero,Bodega
+1220,DIR30056,Farmacia Hunter II,Jacobo Hunter,Arequipa,Arequipa,Juan Carlos Portocarrero,Farmacias
+1221,DIR32536,Abarrotes Santa Isabel II,Jacobo Hunter,Arequipa,Arequipa,Juan Carlos Portocarrero,Bodega
+1222,DIRM4056,Tienda de Abarrotes Dony,SOCABAYA,Arequipa,Arequipa,Juan Carlos Portocarrero,Bodega
+1223,DIRM2877,Deposito Fernanda,SOCABAYA,Arequipa,Arequipa,Juan Carlos Portocarrero,Bodega
+1224,DIR31838,Minimarket Alonzo,SOCABAYA,Arequipa,Arequipa,Juan Carlos Portocarrero,Bodega
+1225,DIR30081,Distribuciones Rivera I,TIABAYA,Arequipa,Arequipa,Juan Carlos Portocarrero,Bodega
+1226,DIR31819,Botica Virgen del Carmen - Arequipa,TIABAYA,Arequipa,Arequipa,Juan Carlos Portocarrero,Farmacias
+1227,DIRM2691,Bazar Pi,TIABAYA,Arequipa,Arequipa,Juan Carlos Portocarrero,Librería
+1228,DIRM1238,"Comercial Estrella	",Yanahuara,Arequipa,Arequipa,John Pickman,Bodega
+1229,DIRM3290,Libreria D&C,Yanahuara,Arequipa,Arequipa,John Pickman,Librería
+1231,DIR40226,Botica Farma Claudia II,Chincha Alta,Chincha,ICA,José Carlos Velásquez,Farmacias
+1232,DIR40206,Farmacia Santa Rita II,Chincha Alta,Chincha,ICA,José Carlos Velásquez,Farmacias
+1233,DIRM0488,G&C II,Chincha Alta,Chincha,ICA,José Carlos Velásquez,tiendas comerciales
+1234,DIR40227,Botica Mi Beatita Melchorita III,GROCIO PRADO,Chincha,ICA,José Carlos Velásquez,Farmacias
+1235,DIR40208,Multiservicios Soledad,TAMBO DE MORA,Chincha,ICA,José Carlos Velásquez,Locutorios
+1236,DIRM3081,Bodega Iveth,HUMAY,Pisco,ICA,José Carlos Velásquez,Bodega
+1238,DIR40435,Tiki Tiki III,Pisco,Pisco,ICA,José Carlos Velásquez,Librería
+1239,DIRM2641,Ciber CafÃ© K & J,Pisco,Pisco,ICA,José Carlos Velásquez,Locutorios
+1240,DIR40439,Internet J&L II,Pisco,Pisco,ICA,José Carlos Velásquez,Otros
+1241,DIR40436,Internet Clara II,SAN ANDRES,Pisco,ICA,José Carlos Velásquez,Otros
+1242,DIR40432,Minimarket V&N II,TUPAC AMARU INCA,Pisco,ICA,José Carlos Velásquez,Bodega
+1243,DIRM2018,LibrerÃ­a Bazar CopiteA II,TUPAC AMARU INCA,Pisco,ICA,José Carlos Velásquez,Librería

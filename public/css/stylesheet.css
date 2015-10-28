@@ -1,0 +1,1045 @@
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/opensans/OpenSans-Regular-webfont.eot');
+  src: url('../fonts/opensans/OpenSans-Regular-webfont.eot?iefix') format('eot'), url('../fonts/opensans/OpenSans-Regular-webfont.woff') format('woff'), url('../fonts/opensans/OpenSans-Regular-webfont.ttf') format('truetype'), url('../fonts/opensans/OpenSans-Regular-webfont.svg#webfont') format('svg');
+}
+a:hover {
+  text-decoration: none;
+}
+.pb {
+  padding-bottom: 10px;
+}
+.pt {
+  padding-top: 10px;
+}
+.pl {
+  padding-left: 10px;
+}
+.pr {
+  padding-right: 10px;
+}
+.container-full-width {
+  width: 100%;
+}
+.logo {
+  max-width: 40%;
+  display: block;
+  margin: auto;
+}
+.cuadro-login {
+  width: 90%;
+}
+.cuadro-login .controles {
+  padding: 10px 10px 10px 10px;
+}
+.logo-header {
+  width: 100%;
+  border-left: 1px solid #ffffff;
+}
+.logo-header img {
+  max-width: 40%;
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+}
+.zona-menu {
+  width: 100%;
+}
+.zona-menu nav {
+  width: 100%;
+  font-weight: 500;
+  text-align: center;
+}
+.zona-menu nav ul {
+  margin: 25px 8px;
+  padding: 0;
+}
+.zona-menu nav ul li {
+  display: inline-block;
+}
+.zona-menu nav ul li a {
+  display: block;
+  padding: 4px 8px  4px 8px;
+  text-decoration: none;
+}
+.zona-menu nav ul li a:hover {
+  background-color: #c4c4c4;
+  color: gray;
+}
+.zona-menu nav ul li a.active {
+  background-color: #c4c4c4;
+}
+.zona-menu nav ul li a span {
+  margin: 0  5px;
+  display: block;
+  text-align: center;
+  font-size: 1.2em;
+}
+.zona-menu nav ul li a span.menu-text {
+  display: none;
+}
+.zona-menu .zona-login {
+  float: none;
+  font-size: .8em;
+  padding: 5px 0;
+  overflow: hidden;
+  background-color: #c4c4c4;
+}
+.zona-menu .zona-login .zona-user,
+.zona-menu .zona-login .salir {
+  text-align: center;
+  float: left;
+}
+.zona-menu .zona-login .zona-user a,
+.zona-menu .zona-login .salir a {
+  display: block;
+  padding: 4px 8px 4px 8px;
+  text-decoration: none;
+}
+.zona-menu .zona-login .zona-user a:hover,
+.zona-menu .zona-login .salir a:hover {
+  color: #c4c4c4;
+}
+.zona-menu .zona-login .zona-user a span,
+.zona-menu .zona-login .salir a span {
+  margin: 0 5px;
+}
+header {
+  background-color: #eeeeee;
+  overflow: hidden;
+}
+.cuadro-login {
+  background-color: #D7D8DC;
+  margin: auto;
+  padding: 20px;
+  overflow: hidden;
+}
+.cuadro-login .form-group {
+  margin-bottom: 30px;
+  position: relative;
+}
+.cuadro-login .form-group span {
+  position: absolute;
+  top: 9px;
+  left: 6px;
+  font-size: 1.2em;
+}
+.cuadro-login .form-control {
+  padding-left: 36px;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar-default {
+  background-color: transparent;
+  border: 0px;
+}
+.navbar-default .navbar-nav > li > a {
+  border-bottom: 1px solid #eeeeee;
+}
+section {
+  width: 100%;
+  overflow: hidden;
+}
+section .zona-menu-left {
+  background-color: #c4c4c4;
+}
+.cuerpo-content {
+  padding: 18px;
+  font-size: 0.9em;
+}
+.tooltip {
+  font-size: 0.7em;
+}
+.form-horizontal .control-label {
+  text-align: left;
+}
+@font-face {
+  font-family: 'systemauditor';
+  src: url('../fonts/iconmoon/systemauditor.eot?4ocm4s');
+  src: url('../fonts/iconmoon/systemauditor.eot?#iefix4ocm4s') format('embedded-opentype'), url('../fonts/iconmoon/systemauditor.woff?4ocm4s') format('woff'), url('../fonts/iconmoon/systemauditor.ttf?4ocm4s') format('truetype'), url('../fonts/iconmoon/systemauditor.svg?4ocm4s#systemauditor') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'systemauditor';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-localiza_check:before {
+  content: "\e60d";
+}
+.icon-espacios .path1:before {
+  content: "\e613";
+  color: #3c3c3b;
+}
+.icon-espacios .path2:before {
+  content: "\e614";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path3:before {
+  content: "\e615";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path4:before {
+  content: "\e616";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path5:before {
+  content: "\e617";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path6:before {
+  content: "\e618";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-indicador:before {
+  content: "\e60e";
+}
+.icon-espacios .path1:before {
+  content: "\e613";
+  color: #3c3c3b;
+}
+.icon-espacios .path2:before {
+  content: "\e614";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path3:before {
+  content: "\e615";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path4:before {
+  content: "\e616";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path5:before {
+  content: "\e617";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path6:before {
+  content: "\e618";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-asignar_auditor:before {
+  content: "\e60f";
+}
+.icon-espacios .path1:before {
+  content: "\e613";
+  color: #3c3c3b;
+}
+.icon-espacios .path2:before {
+  content: "\e614";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path3:before {
+  content: "\e615";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path4:before {
+  content: "\e616";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path5:before {
+  content: "\e617";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path6:before {
+  content: "\e618";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-nuevo_pv:before {
+  content: "\e610";
+}
+.icon-espacios .path1:before {
+  content: "\e613";
+  color: #3c3c3b;
+}
+.icon-espacios .path2:before {
+  content: "\e614";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path3:before {
+  content: "\e615";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path4:before {
+  content: "\e616";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path5:before {
+  content: "\e617";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path6:before {
+  content: "\e618";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-materiales:before {
+  content: "\e611";
+}
+.icon-espacios .path1:before {
+  content: "\e613";
+  color: #3c3c3b;
+}
+.icon-espacios .path2:before {
+  content: "\e614";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path3:before {
+  content: "\e615";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path4:before {
+  content: "\e616";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path5:before {
+  content: "\e617";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path6:before {
+  content: "\e618";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-presencia:before {
+  content: "\e612";
+}
+.icon-espacios .path1:before {
+  content: "\e613";
+  color: #3c3c3b;
+}
+.icon-espacios .path2:before {
+  content: "\e614";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path3:before {
+  content: "\e615";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path4:before {
+  content: "\e616";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path5:before {
+  content: "\e617";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path6:before {
+  content: "\e618";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path1:before {
+  content: "\e613";
+  color: #3c3c3b;
+}
+.icon-espacios .path2:before {
+  content: "\e614";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path3:before {
+  content: "\e615";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path4:before {
+  content: "\e616";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path5:before {
+  content: "\e617";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path6:before {
+  content: "\e618";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-auditoria:before {
+  content: "\e600";
+}
+.icon-espacios .path1:before {
+  content: "\e613";
+  color: #3c3c3b;
+}
+.icon-espacios .path2:before {
+  content: "\e614";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path3:before {
+  content: "\e615";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path4:before {
+  content: "\e616";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path5:before {
+  content: "\e617";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path6:before {
+  content: "\e618";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-client:before {
+  content: "\e601";
+}
+.icon-espacios .path1:before {
+  content: "\e613";
+  color: #3c3c3b;
+}
+.icon-espacios .path2:before {
+  content: "\e614";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path3:before {
+  content: "\e615";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path4:before {
+  content: "\e616";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path5:before {
+  content: "\e617";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path6:before {
+  content: "\e618";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-editarusuario:before {
+  content: "\e602";
+}
+.icon-espacios .path1:before {
+  content: "\e613";
+  color: #3c3c3b;
+}
+.icon-espacios .path2:before {
+  content: "\e614";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path3:before {
+  content: "\e615";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path4:before {
+  content: "\e616";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path5:before {
+  content: "\e617";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path6:before {
+  content: "\e618";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-eliminarusuario:before {
+  content: "\e603";
+}
+.icon-espacios .path1:before {
+  content: "\e613";
+  color: #3c3c3b;
+}
+.icon-espacios .path2:before {
+  content: "\e614";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path3:before {
+  content: "\e615";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path4:before {
+  content: "\e616";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path5:before {
+  content: "\e617";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path6:before {
+  content: "\e618";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-listausuario:before {
+  content: "\e604";
+}
+.icon-espacios .path1:before {
+  content: "\e613";
+  color: #3c3c3b;
+}
+.icon-espacios .path2:before {
+  content: "\e614";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path3:before {
+  content: "\e615";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path4:before {
+  content: "\e616";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path5:before {
+  content: "\e617";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path6:before {
+  content: "\e618";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-llave:before {
+  content: "\e605";
+}
+.icon-espacios .path1:before {
+  content: "\e613";
+  color: #3c3c3b;
+}
+.icon-espacios .path2:before {
+  content: "\e614";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path3:before {
+  content: "\e615";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path4:before {
+  content: "\e616";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path5:before {
+  content: "\e617";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path6:before {
+  content: "\e618";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-nuevousuario:before {
+  content: "\e606";
+}
+.icon-espacios .path1:before {
+  content: "\e613";
+  color: #3c3c3b;
+}
+.icon-espacios .path2:before {
+  content: "\e614";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path3:before {
+  content: "\e615";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path4:before {
+  content: "\e616";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path5:before {
+  content: "\e617";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path6:before {
+  content: "\e618";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-puntoventa:before {
+  content: "\e607";
+}
+.icon-espacios .path1:before {
+  content: "\e613";
+  color: #3c3c3b;
+}
+.icon-espacios .path2:before {
+  content: "\e614";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path3:before {
+  content: "\e615";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path4:before {
+  content: "\e616";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path5:before {
+  content: "\e617";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path6:before {
+  content: "\e618";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-reporte:before {
+  content: "\e608";
+}
+.icon-espacios .path1:before {
+  content: "\e613";
+  color: #3c3c3b;
+}
+.icon-espacios .path2:before {
+  content: "\e614";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path3:before {
+  content: "\e615";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path4:before {
+  content: "\e616";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path5:before {
+  content: "\e617";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path6:before {
+  content: "\e618";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-salir:before {
+  content: "\e609";
+}
+.icon-espacios .path1:before {
+  content: "\e613";
+  color: #3c3c3b;
+}
+.icon-espacios .path2:before {
+  content: "\e614";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path3:before {
+  content: "\e615";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path4:before {
+  content: "\e616";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path5:before {
+  content: "\e617";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path6:before {
+  content: "\e618";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-search:before {
+  content: "\e60a";
+}
+.icon-espacios .path1:before {
+  content: "\e613";
+  color: #3c3c3b;
+}
+.icon-espacios .path2:before {
+  content: "\e614";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path3:before {
+  content: "\e615";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path4:before {
+  content: "\e616";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path5:before {
+  content: "\e617";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path6:before {
+  content: "\e618";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-security:before {
+  content: "\e60b";
+}
+.icon-espacios .path1:before {
+  content: "\e613";
+  color: #3c3c3b;
+}
+.icon-espacios .path2:before {
+  content: "\e614";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path3:before {
+  content: "\e615";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path4:before {
+  content: "\e616";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path5:before {
+  content: "\e617";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path6:before {
+  content: "\e618";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-user:before {
+  content: "\e60c";
+}
+.icon-espacios .path1:before {
+  content: "\e613";
+  color: #3c3c3b;
+}
+.icon-espacios .path2:before {
+  content: "\e614";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path3:before {
+  content: "\e615";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path4:before {
+  content: "\e616";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path5:before {
+  content: "\e617";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-espacios .path6:before {
+  content: "\e618";
+  margin-left: -1.07324219em;
+  color: #ffffff;
+}
+.icon-table-size {
+  font-size: 20px;
+}
+.icon-color-red {
+  color: #ff0000;
+}
+.icon-color-green {
+  color: #0dff3e;
+}
+.icon-color-yellow {
+  color: #fff60c;
+}
+@media (min-width: 480px) {
+  .logo {
+    max-width: 60%;
+  }
+  .zona-menu nav ul {
+    margin: 25px 8px;
+  }
+  .zona-menu nav ul li {
+    display: inline-block;
+  }
+  .zona-menu nav ul li a span {
+    font-size: 0.8em;
+    display: inline-block;
+  }
+  .zona-menu nav ul li a span.menu-text {
+    display: block;
+  }
+}
+@media (min-width: 768px) {
+  .logo {
+    max-width: 100%;
+  }
+  .cuadro-login {
+    width: 80%;
+  }
+  .cuadro-login .controles {
+    padding: 20px 80px 20px 80px;
+  }
+  .logo-header {
+    width: 100%;
+  }
+  .zona-menu nav ul li a span {
+    font-size: 1em;
+  }
+  .zona-menu .zona-login {
+    font-size: 0.8em;
+  }
+  .navbar-nav {
+    float: none ;
+  }
+  .navbar-nav > li {
+    float: none ;
+  }
+  .navbar-collapse {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  section {
+    width: 100%;
+    overflow: hidden;
+  }
+  section .zona-menu-left {
+    float: left;
+    width: 30%;
+    min-height: 400px;
+  }
+  section .cuerpo {
+    float: left;
+    width: 70%;
+  }
+}
+h4.report-title {
+  border-radius: 6px;
+  background-color: #aaaaaa;
+  color: #FFFFFF;
+  display: inline-block;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 1.3em;
+}
+.report-marco {
+  border: 2px solid #eeeeee;
+  border-radius: 6px;
+}
+.report-marco .contenedor-report {
+  padding: 10px;
+}
+.report-marco h4 {
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+.report-marco h4.text-cuadro {
+  font-size: 16px;
+  border-top: 2px solid #eee;
+  padding: 20px 0 5px 0;
+  border-bottom: none;
+  text-align: center;
+}
+.report-marco h2.text-cuadro {
+  font-size: 56px;
+  padding: 0px 0 5px 0;
+  margin: 0px;
+  border-bottom: none;
+  text-align: center;
+  font-weight: bold;
+}
+.report-marco span {
+  font-size: 3em;
+  font-weight: bold;
+}
+.grafico-circle {
+  width: 100%;
+}
+.btn-si {
+  color: #fff1f1;
+  background-color: #88AF35;
+  border-color: #ccc;
+  border-radius: 4px;
+}
+.btn-no {
+  color: #fff1f1;
+  background-color: #800000;
+  border-color: #ccc;
+  border-radius: 4px;
+}
+.btn-valor {
+  color: #050505;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+}
+@media (min-width: 992px) {
+  .cuadro-login {
+    width: 70%;
+  }
+  .cuadro-login .controles {
+    padding: 20px 60px 20px 60px;
+  }
+}
+@media (min-width: 1200px) {
+  .cuadro-login .controles {
+    padding: 20px 80px 20px 80px;
+  }
+  .logo-header {
+    width: 20%;
+    float: left;
+    border-left: 1px solid #ffffff;
+  }
+  .logo-header img {
+    max-width: 40%;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+  }
+  .zona-menu {
+    width: 80%;
+    float: left;
+  }
+  .zona-menu nav {
+    width: 85%;
+    float: left;
+    font-weight: 500;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+  }
+  .zona-menu nav ul {
+    margin: 25px 8px;
+  }
+  .zona-menu nav ul li {
+    display: inline-block;
+  }
+  .zona-menu nav ul li a {
+    display: block;
+    padding: 4px 8px  4px 8px;
+    text-decoration: none;
+  }
+  .zona-menu nav ul li a:hover {
+    background-color: #c4c4c4;
+  }
+  .zona-menu nav ul li a span {
+    margin: 0  5px;
+    font-size: 1em;
+    display: inline-block;
+  }
+  .zona-menu nav ul li a span.menu-text {
+    display: inline;
+  }
+  .zona-menu .zona-login {
+    width: 15%;
+    float: left;
+    font-size: .8em;
+    padding-top: 10px;
+    overflow: hidden;
+    background-color: #eeeeee;
+  }
+  .zona-menu .zona-login .zona-user,
+  .zona-menu .zona-login .salir {
+    text-align: center;
+    float: none;
+  }
+  .zona-menu .zona-login .zona-user a,
+  .zona-menu .zona-login .salir a {
+    display: block;
+    padding: 4px 8px 4px 8px;
+    text-decoration: none;
+  }
+  .zona-menu .zona-login .zona-user a:hover,
+  .zona-menu .zona-login .salir a:hover {
+    color: #c4c4c4;
+  }
+  .zona-menu .zona-login .zona-user a span,
+  .zona-menu .zona-login .salir a span {
+    margin: 0 5px;
+  }
+  section {
+    width: 100%;
+    overflow: hidden;
+  }
+  section .zona-menu-left {
+    float: left;
+    width: 20%;
+  }
+  section .cuerpo {
+    float: left;
+    width: 80%;
+  }
+}

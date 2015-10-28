@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stylesheet.css"/>
+    <link rel="stylesheet" href="css/mapa-styles.css"/>
+</head>
+<body>
+<div class="contenedor">
+    <div id="control" class="panel-derecho"></div>
+    <div id="tools" style="visibility: visible;">
+        <h1>PANEL DE CONTROL</h1>
+        <div>
+            <select class="form-control input-sm" id="Escuela">
+                <option>--AUDITOR--</option>
+                <option>Jan castro</option>
+                <option>Pedro</option>
+                <option>Luis Castro</option>
+            </select>
+
+        </div>
+        <div><p>Nº de PDVS: <span id="pdv"></span></p></div>
+        <div id="tiendas"></div>
+        <div>
+            <button type="submit" class="btn btn-default">Guardar RUTA</button>
+        </div>
+    </div>
+    <!-- MAPA CANVAS -->
+    <div id="map_canvas">
+        <!-- css3 preLoading-->
+        <div class="mapPerloading"> <span>Cargando</span>
+            <span class="l-1"></span>
+            <span class="l-2"></span>
+            <span  class="l-3"></span>
+            <span class="l-4"></span>
+            <span class="l-5"></span>
+            <span class="l-6"></span>
+        </div>
+    </div>
+    <!-- END MAPA CANVAS -->
+    <a href=""></a>
+</div>
+
+
+
+
+
+<script type="text/javascript" src="lib/jquery.js"></script>
+<!-- google maps -->
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<script type="text/javascript" src="lib/mapa/infobox.js"></script>
+<script type="text/javascript" src='lib/mapa/script-mapa.js'></script>
+
+<script>
+
+
+    // $("div").click(function () {
+    //
+    //      $("p").slideToggle("slow");
+    //
+    //
+    //    });
+
+    $(document).ready(function() {
+        // var $elem = $("#contenido");
+        //var docwidth =  $(document).width();
+        //var inileft = docwidth - $elem.outerWidth();
+        //$elem.css("left", inileft);  //Position element tho the right
+        $("#control").click(function () {  //This slides
+            //alert("hola");
+            // $elem.animate({
+            //   left: (parseInt($elem.css("left"), 10) >= docwidth ?  inileft : docwidth)
+
+            // });
+            if($("#tools").css("visibility")=="visible"){
+                $("#tools").css("visibility","hidden");
+            }else {
+
+                $("#tools").css("visibility","visible");
+            }
+
+
+
+            /*	if($(this).css('left') == '185px') {
+             $(this).css('left', '0px');
+             $(this).next().hide();
+             }
+             else {
+             $(this).css('left','185px');
+             $(this).next().show();
+             }*/
+        });
+    });
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stylesheet.css"/>
+    <link rel="stylesheet" href="css/mapa-styles.css"/>
+</head>
+<body>
+<div class="contenedor">
+
+    <div class="wrapper">
+        <h4>Seleccione el auditor</h4>
+        <div class="controles">
+            <select class="form-control" id="auditor" onchange="ejecutaEvento(this)">
+
+            </select>
+        </div>
+        <div class="controles">
+            <select class="form-control" id="rutas" onchange="abreMapa(this)">
+
+            </select>
+
+        </div>
+
+
+
+    </div>
+
+</div>
+
+
+
+
+
+<script type="text/javascript" src="lib/jquery.js"></script>
+
+<script>
+
+
+    // $("div").click(function () {
+    //
+    //      $("p").slideToggle("slow");
+    //
+    //
+    //    });
+
+    //$(document).ready(function() {
+        var user ;
+        $.post('http://ttaudit.com/getAuditores', function(json){
+            //if (item.latitud != 0 && item.longitud != 0){
+            poblandoComboAuditor(json);
+        });
+
+        function poblandoComboAuditor(data) {
+
+            $("#auditor").append("<option value=0>--Seleccione auditor--</option>");
+            $.each(data, function (i, item) {
+               // console.log(item);
+                $("#auditor").append("<option value=\""+ item.id +"\">"+ item.Auditor +"</option>");
+            });
+        }
+
+
+
+
+
+   // });
+
+    function ejecutaEvento(valor){
+        //$('#auditor').on('change', 'select', function (e) {
+        // var val = $(e.target).val();
+       //  var text = $(e.target).find("option:selected").text(); //only time the find is required
+        // var name = $(e.target).attr('name');
+        console.log(valor.value);
+
+        //$('#rutas option[value!=0]').remove();
+        $('#rutas option').remove();
+        user = valor.options[valor.selectedIndex].text;
+        //});
+        $.post('http://ttaudit.com/getRutasxUser',{ user_id : valor.value }, function(json){
+            //if (item.latitud != 0 && item.longitud != 0){
+            poblandoComboRutas(json);
+        });
+
+        function poblandoComboRutas(data) {
+
+            var total_puntos = 0;
+            $("#rutas").append("<option value=0>--Seleccione unas ruta--</option>");
+            $.each(data, function (i, item) {
+                console.log(item);
+                $("#rutas").append("<option value=\""+ item.id +"\">"+ item.fullname +"</option>");
+            });
+
+        }
+
+    }
+
+    function abreMapa(valor){
+        //$('#auditor').on('change', 'select', function (e) {
+        // var val = $(e.target).val();
+        // var text = $(e.target).find("option:selected").text(); //only time the find is required
+        // var name = $(e.target).attr('name');
+        console.log(valor.value);
+        //valor.
+        if(valor.value != 0){
+            //window.location.href = "http://www.ttaudit.com/geolocalizaciones/geolocalizacionUser.php?road_id=" + valor.value;
+            var fullname = valor.options[valor.selectedIndex].text;
+            var url= "http://www.ttaudit.com/geolocalizaciones/geolocalizacionUser.php?road_id=" + valor.value + "&ruta=" + fullname + "&user=" + user ;
+            var win = window.open(url, '_blank');
+            win.focus();
+        }
+
+
+
+    }
+
+</script>
+</body>
+</html>

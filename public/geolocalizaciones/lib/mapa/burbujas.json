@@ -1,0 +1,154 @@
+[   {
+        "id": "1",
+        "fullname": "Cosmeticos Daniella",
+        "address": "Cl. Mar de las Antillas Mz.E Lt.2 Asoc. El Provenir",
+        "urbanization": "Ate Vitarte",
+        "district": "Ate",
+        "latitud": "-12.0291875",
+        "longitud": "-76.9249941"
+    },
+    {
+        "id": "2",
+        "fullname": "Librería Bazar El Molino",
+        "address": "Av. Grau 350",
+        "urbanization": "Barranco",
+        "district": "Barranco",
+        "latitud": "-12.1475853",
+        "longitud": "-77.0214519"
+    },
+    {
+        "id": "3",
+        "fullname": "Casa de cambio Aquino",
+        "address": "Cl. Fulgencio Valdez N° 689 Urb. Chacra Colorada",
+        "urbanization": "Breña",
+        "district": "Breña",
+        "latitud": "-12.0551942",
+        "longitud": "-77.0520376"
+    },
+    {
+        "id": "4",
+        "fullname": "Morbank",
+        "address": "Av. Argentina 3258 Interior 161 Pab. 1 - C.C. Minka ",
+        "urbanization": "Callao",
+        "district": "Callao",
+        "latitud": "-12.096921393",
+        "longitud": "17.316878"
+    },
+    {
+        "id": "5",
+        "fullname": "Servicios Generales Carlitos 2 - I",
+        "address": "Av. Universitaria 509 - Urb. Tungasuca 1 Etapa",
+        "urbanization": "Carabayllo",
+        "district": "Carabayllo",
+        "latitud": "-12.096921393",
+        "longitud": "-7.495092"
+    },
+    {
+        "id": "6",
+        "fullname": "Librería My Lord",
+        "address": "Av. Victor A. Belaúnde Oeste 275",
+        "urbanization": "Comas",
+        "district": "Comas",
+        "latitud": "-12.096921393",
+        "longitud": "87.142124"
+    },
+    {
+        "id": "7",
+        "fullname": "Multiservicios Miami ",
+        "address": "Av. Victor A. Belaunde Oeste 163 Urb. Huaquillay - Etapa II",
+        "urbanization": "Comas",
+        "district": "Comas",
+        "latitud": "0",
+        "longitud": "0"
+    },
+    {
+        "id": "8",
+        "fullname": "Bodega Sandoval - El Agustino",
+        "address": "Jr. Hoyle Palacios 107",
+        "urbanization": "El Agustino",
+        "district": "El Agustino",
+        "latitud": "-12.049449",
+        "longitud": "-77.0012417"
+    },
+    {
+        "id": "9",
+        "fullname": "Ohana - C.C. Mega Plaza",
+        "address": "Av. Alfredo Mendiola 3698 Local 154",
+        "urbanization": "Independencia",
+        "district": "Independencia",
+        "latitud": "-12.096921393",
+        "longitud": "-167.078426"
+    },
+    {
+        "id": "10",
+        "fullname": "Kokeshi",
+        "address": "Jr. Huamanchuco 1403",
+        "urbanization": "Jesus María",
+        "district": "Jesus María",
+        "latitud": "-12.0759201",
+        "longitud": "-77.0486999"
+    },
+    {
+        "id": "11",
+        "fullname": "Librería Bazar Carmín ",
+        "address": "Av. La Molina 1047 Tda.104 Urb. El Sol",
+        "urbanization": "La Molina",
+        "district": "La Molina",
+        "latitud": "-12.096921393",
+        "longitud": "139.502092"
+    },
+    {
+        "id": "12",
+        "fullname": "Librería Bazar Metali-K",
+        "address": "Av. Nicolas Arriola 828 Tda.6",
+        "urbanization": "La Victoria",
+        "district": "La Victoria",
+        "latitud": "-12.096921393",
+        "longitud": "-50.925408"
+    },
+    {
+        "id": "13",
+        "fullname": "411 - Andahuaylas",
+        "address": "Jr. Andahuaylas 1039 tienda 101 - C.C. La Gran Mesa",
+        "urbanization": "La Victoria",
+        "district": "La Victoria",
+        "latitud": "-12.0542923",
+        "longitud": "-77.0267794"
+    },
+    {
+        "id": "14",
+        "fullname": "Farma San Bartolomé - Izaguirre 906",
+        "address": "Av. Carlos Izaguirre 906",
+        "urbanization": "Los Olivos",
+        "district": "Los Olivos",
+        "latitud": "-12.096921393",
+        "longitud": "-142.244403"
+    },
+    {
+        "id": "15",
+        "fullname": "Casa de Cambio Dollar City",
+        "address": "Antigua Panamericana Sur Puesto 67 A - Mercado de Lurín",
+        "urbanization": "Lurín",
+        "district": "Lurín",
+        "latitud": "-12.2531899",
+        "longitud": "-76.9000808"
+    },
+    {
+        "id": "16",
+        "fullname": "Comercial Solsa ",
+        "address": "Jr. Leoncio Prado 854 Int. 2",
+        "urbanization": "Magdalena del Mar",
+        "district": "Magdalena del Mar",
+        "latitud": "-12.090119",
+        "longitud": "-77.0724459"
+    },
+    {
+        "id": "17",
+        "fullname": "Casa de Cambios La Aurora",
+        "address": "Cl. Arias Schreiber 169 - La  Aurora",
+        "urbanization": "Miraflores",
+        "district": "Miraflores",
+        "latitud": "-12.1221947",
+        "longitud": "-77.0117673"
+    }
+]
