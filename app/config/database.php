@@ -55,9 +55,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'auditors',
+			'database'  => 'ttaudit_auditors',
 			'username'  => 'root',
-			'password'  => 'franbrsj',
+			'password'  => 'irmagaguevara',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

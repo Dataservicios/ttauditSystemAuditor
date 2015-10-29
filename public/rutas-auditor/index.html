@@ -17,7 +17,11 @@
             </select>
         </div>
         <div class="controles">
-            <select class="form-control" id="rutas" onchange="abreMapa(this)">
+            <select class="form-control" id="rutas" onchange="loadDepartamento(this)">
+            </select>
+        </div>
+        <div class="controles">
+            <select class="form-control" id="ubigeo" onchange="abreMapa(this)">
             </select>
         </div>
     </div>
@@ -28,17 +32,17 @@
 
 <script>
 
-
     // $("div").click(function () {
     //
     //      $("p").slideToggle("slow");
     //
     //
     //    });
-
     //$(document).ready(function() {
         var user ;
         var user_id;
+        var company_id;
+        var deparatamento ;
         $.post('http://ttaudit.com/getAuditores', function(json){
             //if (item.latitud != 0 && item.longitud != 0){
             poblandoComboAuditor(json);
@@ -52,13 +56,7 @@
                 $("#auditor").append("<option value=\""+ item.id +"\">"+ item.Auditor +"</option>");
             });
         }
-
-
-
-
-
    // });
-
     function ejecutaEvento(valor){
         //$('#auditor').on('change', 'select', function (e) {
         // var val = $(e.target).val();
@@ -66,7 +64,6 @@
         // var name = $(e.target).attr('name');
         //console.log(valor.value);
        // console.log(valor.options[valor.selectedIndex].text);
-
         //$('#rutas option[value!=0]').remove();
         $('#rutas option').remove();
         user = valor.options[valor.selectedIndex].text;
@@ -76,7 +73,6 @@
             //if (item.latitud != 0 && item.longitud != 0){
             poblandoComboRutas(json);
         });
-
         function poblandoComboRutas(data) {
 
             var total_puntos = 0;
@@ -85,28 +81,52 @@
                 //console.log(item);
                 $("#rutas").append("<option value=\""+ item.id +"\">"+ item.fullname +"</option>");
             });
-
         }
-
     }
 
-    function abreMapa(valor){
+    function loadDepartamento(valor){
         //$('#auditor').on('change', 'select', function (e) {
         // var val = $(e.target).val();
         // var text = $(e.target).find("option:selected").text(); //only time the find is required
         // var name = $(e.target).attr('name');
        // console.log(valor.value);
         //valor.
+        company_id = valor.value;
+        console.log(company_id);
+        $.get('http://ttaudit.com/getCompanies',{ user_id : valor.value }, function(json){
+            //if (item.latitud != 0 && item.longitud != 0){
+            poblandoDepartamentos(json);
+        });
+
+        function poblandoDepartamentos(data) {
+
+            var total_puntos = 0;
+            $("#ubigeo").append("<option value=0>--Seleccione Departamento--</option>");
+            $.each(data, function (i, item) {
+                //console.log(item);
+                $("#ubigeo").append("<option value=\""+ item.id +"\">"+ item.fullname +"</option>");
+            });
+        }
+
+//        if(valor.value != 0){
+//            //window.location.href = "http://www.ttaudit.com/geolocalizaciones/geolocalizacionUser.php?road_id=" + valor.value;
+//            var fullname = valor.options[valor.selectedIndex].text;
+//            var url= "http://ttaudit.com/rutas-auditor/asignar-rutas.php?company_id=" + valor.value  + "&user=" + user + "&user_id=" + user_id ;
+//            var win = window.open(url, '_blank');
+//            win.focus();
+//        }
+
+    }
+
+    function abreMapa(valor){
+
         if(valor.value != 0){
             //window.location.href = "http://www.ttaudit.com/geolocalizaciones/geolocalizacionUser.php?road_id=" + valor.value;
             var fullname = valor.options[valor.selectedIndex].text;
-            var url= "http://ttaudit.com/rutas-auditor/asignar-rutas.php?company_id=" + valor.value  + "&user=" + user + "&user_id=" + user_id ;
+            var url= "http://ttaudit.com/rutas-auditor/asignar-rutas.php?company_id=" + company_id  + "&user=" + user + "&user_id=" + user_id  ;
             var win = window.open(url, '_blank');
             win.focus();
         }
-
-
-
     }
 
 </script>

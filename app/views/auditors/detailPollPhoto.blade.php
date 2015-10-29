@@ -22,13 +22,20 @@
                 <div class="col-sm-8">
                     <div class="list-group" ng-repeat="store in stores">
                         <p class="list-group-item-heading">
-                            <a href="#" id="@{{ store.id }}"  class="list-group-item" >@{{ store.codclient }} | @{{ store.fullname }}</a>
+                            {{--<a href="#" id="@{{ store.id }}"  class="list-group-item" >@{{ store.codclient }} | @{{ store.fullname }}</a>--}}
+                            <a href="#" id="@{{ store.id }}"  class="list-group-item " >@{{ store.codclient }} | @{{ store.fullname }}</a>
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
+    {{--<form>--}}
+        {{--¿Cómo te llamas? <input type="text" ng-model="nombre">--}}
+    {{--</form>--}}
+
     <div class="cuerpo">
         <div class="cuerpo-content">
             <div class="row">
@@ -39,7 +46,6 @@
                         {{ Form::hidden('tipo', 1) }}
                         {{ Form::hidden('company_id', $company_id) }}
                         {{--<div class="form-group">
-
                             {{ Form::label('store_id', 'Seleccionar Agente',['class' => 'col-sm-3 control-label']) }}
                             <div class="col-sm-7">
                                 {{ Form::select('store_id', $stores, $selected, ['class' => 'form-control']) }}

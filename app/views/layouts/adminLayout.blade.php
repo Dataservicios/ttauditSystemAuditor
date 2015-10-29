@@ -64,7 +64,7 @@
 
 
         <footer>
-
+            <a href="#" class="prueba">prueba</a>
         </footer>
     </div>
     {{ HTML::script('lib/jquery.min.js'); }}
@@ -89,5 +89,15 @@
 
     </script>
     @yield('scripts_angular')
+
+    <script>
+
+        $('.prueba').on( "click", function( event ) {
+            event.preventDefault();
+            console.log('hola');
+        });
+
+    </script>
+
 </body>
 </html>

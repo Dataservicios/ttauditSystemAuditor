@@ -158,14 +158,11 @@
 
    // var marker;
     $(document).ready(function($) {
-
-
         function init () {
             setupMapa(jQuery('#map_canvas')[0]);
         }
         function setupMapa(div){
             // Carga los datos de las burbujas de un JSON externo
-
             //http://ttaudit.com/getPointStores
             //lib/mapa/burbujas.json
             $.post('http://ttaudit.com/getPointStoresForCompany',{ company_id : <?php echo $_GET['company_id'] ?> }, function(json){
@@ -254,8 +251,6 @@
                 });
                 //console.log(item);
                 _infoBox.open(_map, marker);
-
-
             }
 
             // Devuelve el HTML de la cartela de informacion de la burbuja
