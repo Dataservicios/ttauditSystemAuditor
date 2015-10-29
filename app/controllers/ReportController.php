@@ -72,7 +72,7 @@ class ReportController extends BaseController{
             $CantidadStoresAudits = 0;
         }
         if ($company[0]->id==8){
-            $cantidadStoresForCompany = $cantidadStoresForCompany - 2;
+            $cantidadStoresForCompany = $cantidadStoresForCompany;
         }
 
         $arrayGrafico[] = array('tipo' => 'Auditadas', 'cantidad' => $CantidadStoresAudits, 'color' => '#009B3A');
