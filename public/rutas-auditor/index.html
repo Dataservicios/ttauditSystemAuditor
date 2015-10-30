@@ -93,7 +93,7 @@
         //valor.
         company_id = valor.value;
         console.log(company_id);
-        $.get('http://ttaudit.com/getCompanies',{ user_id : valor.value }, function(json){
+        $.get('http://ttaudit.com/getDepartmentCompanies',{ company_id : valor.value }, function(json){
             //if (item.latitud != 0 && item.longitud != 0){
             poblandoDepartamentos(json);
         });
@@ -104,7 +104,7 @@
             $("#ubigeo").append("<option value=0>--Seleccione Departamento--</option>");
             $.each(data, function (i, item) {
                 //console.log(item);
-                $("#ubigeo").append("<option value=\""+ item.id +"\">"+ item.fullname +"</option>");
+                $("#ubigeo").append("<option value=\""+ item.ubigeo +"\">"+ item.ubigeo +"</option>");
             });
         }
 
@@ -123,7 +123,7 @@
         if(valor.value != 0){
             //window.location.href = "http://www.ttaudit.com/geolocalizaciones/geolocalizacionUser.php?road_id=" + valor.value;
             var fullname = valor.options[valor.selectedIndex].text;
-            var url= "http://ttaudit.com/rutas-auditor/asignar-rutas.php?company_id=" + company_id  + "&user=" + user + "&user_id=" + user_id  ;
+            var url= "http://ttaudit.com/rutas-auditor/asignar-rutas.php?company_id=" + company_id  + "&user=" + user + "&user_id=" + user_id  + "&departament=" + valor.value ;
             var win = window.open(url, '_blank');
             win.focus();
         }

@@ -709,6 +709,29 @@ WHERE
     return \Response::json( DB::select($sql1));
 }]);
 
+Route::post('getPointStoresForCompanyDepartament', ['as' =>'getPointStoresForCompany', function(){
+    $company_id= Input::only('company_id');
+    $departament= Input::only('departament');
+    $sql1="SELECT
+  stores.id,stores.fullname,stores.address, stores.urbanization as referencia,stores.district,
+  stores.region as provincia,
+  stores.ubigeo as departamento,
+  stores.codclient,
+  stores.latitude as latitud,
+  stores.longitude as longitud
+FROM
+  company_stores
+  INNER JOIN stores ON (company_stores.store_id = stores.id)
+WHERE
+  company_stores.company_id = '".$company_id['company_id']."' AND
+  stores.ruteado = 0 AND
+  stores.ubigeo ='".$departament['departament']."'
+  ";
+    header('Access-Control-Allow-Origin: *');
+
+    return \Response::json( DB::select($sql1));
+}]);
+
 Route::post('getAuditores', ['as' =>'getAuditores', function(){
 
     $sql1="SELECT users.id,users.fullname AS Auditor FROM users WHERE users.type ='auditor'";
@@ -780,6 +803,18 @@ Route::post('getRubros', ['as' =>'getRubros', function(){
 Route::get('getCompanies', ['as' =>'getCompanies', function(){
 
     $sql1 = "SELECT id,fullname FROM companies c";
+    header('Access-Control-Allow-Origin: *');
+
+    return \Response::json( DB::select($sql1));
+}]);
+
+Route::get('getDepartmentCompanies', ['as' =>'getCompanies', function(){
+    $company_id = Input::only('company_id');
+    $sql1 = "SELECT  ubigeo FROM  `stores`
+            INNER JOIN `company_stores` ON (`stores`.`id` = `company_stores`.`store_id`)
+            WHERE
+              `company_stores`.`company_id` ='" .  $company_id['company_id'] . "'
+            group by ubigeo ;";
     header('Access-Control-Allow-Origin: *');
 
     return \Response::json( DB::select($sql1));

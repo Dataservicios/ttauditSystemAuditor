@@ -25,110 +25,115 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.290909">
-              <caret line="40" column="143" selection-start-line="40" selection-start-column="128" selection-end-line="40" selection-end-column="143" />
+            <state vertical-scroll-proportion="-1.5272727">
+              <caret line="711" column="48" selection-start-line="711" selection-start-column="13" selection-end-line="711" selection-end-column="48" />
               <folding>
-                <marker date="1446008020963" expanded="true" signature="7474:7706" placeholder="SELECT roads..roads..." />
-                <marker date="1446008020963" expanded="true" signature="7966:8174" placeholder="SELECT COUNT..roads..." />
-                <marker date="1446008020963" expanded="true" signature="8246:8396" placeholder="SELECT s.id,..road_details..." />
-                <marker date="1446008020963" expanded="true" signature="8708:8818" placeholder="SELECT s.ful..stores..." />
-                <marker date="1446008020963" expanded="true" signature="9056:9197" placeholder="SELECT s.ful..road_details..." />
-                <marker date="1446008020963" expanded="true" signature="9483:9558" placeholder="SELECT compa..company_stores..." />
-                <marker date="1446008020963" expanded="true" signature="9648:9809" placeholder="SELECT a.id,..company_audits..." />
-                <marker date="1446008020963" expanded="true" signature="10226:10413" placeholder="SELECT audit..audit_road_stores..." />
-                <marker date="1446008020963" expanded="true" signature="11064:11140" placeholder="SELECT s.id,..polls..." />
-                <marker date="1446008020963" expanded="true" signature="11829:11928" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="12007:12117" placeholder="UPDATE audit..." />
-                <marker date="1446008020963" expanded="true" signature="12515:12574" placeholder="UPDATE store..." />
-                <marker date="1446008020963" expanded="true" signature="12907:13083" placeholder="SELECT id FR..company_audits..." />
-                <marker date="1446008020963" expanded="true" signature="13173:13272" placeholder="SELECT id, q..polls..." />
-                <marker date="1446008020963" expanded="true" signature="14759:14888" placeholder="SELECT count..poll_details..." />
-                <marker date="1446008020963" expanded="true" signature="15193:15311" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="15693:15824" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="16232:16357" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="16553:16629" placeholder="SELECT id,op..poll_options..." />
-                <marker date="1446008020963" expanded="true" signature="16808:16921" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="17071:17185" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="17492:17611" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="17798:17874" placeholder="SELECT id,op..poll_options..." />
-                <marker date="1446008020963" expanded="true" signature="18053:18166" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="18316:18430" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="18736:18850" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="19226:19345" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="19532:19608" placeholder="SELECT id,op..poll_options..." />
-                <marker date="1446008020963" expanded="true" signature="19787:19899" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="20049:20163" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="20469:20590" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="20962:21023" placeholder="SELECT id,op..poll_options..." />
-                <marker date="1446008020963" expanded="true" signature="21250:21362" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="21536:21650" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="22035:22145" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="22513:22630" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="23011:23150" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="23574:23676" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="23828:23904" placeholder="SELECT id,op..poll_options..." />
-                <marker date="1446008020963" expanded="true" signature="24083:24196" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="24346:24460" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="24766:24906" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="25275:25340" placeholder="SELECT id,op..poll_options..." />
-                <marker date="1446008020963" expanded="true" signature="25551:25664" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="25830:25944" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="26299:26425" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="26629:26697" placeholder="SELECT creat..poll_details..." />
-                <marker date="1446008020963" expanded="true" signature="26913:26978" placeholder="SELECT id,op..poll_options..." />
-                <marker date="1446008020963" expanded="true" signature="27116:27230" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="27482:27651" placeholder="SELECT b.ema..stores..." />
-                <marker date="1446008020963" expanded="true" signature="28047:28178" placeholder="SELECT archi..medias..." />
-                <marker date="1446008020963" expanded="true" signature="29843:29963" placeholder="SELECT b.ema..stores..." />
-                <marker date="1446008020963" expanded="true" signature="31599:31733" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="32092:32195" placeholder="SELECT id,op..poll_options..." />
-                <marker date="1446008020963" expanded="true" signature="32401:32513" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="32679:32793" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="33038:33165" placeholder="UPDATE audit..." />
-                <marker date="1446008020963" expanded="true" signature="33736:33838" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="34251:34360" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="34775:34881" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="35807:35894" placeholder="UPDATE road_..." />
-                <marker date="1446008020963" expanded="true" signature="35959:36139" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="36820:36903" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="37126:37224" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="37296:37394" placeholder="SELECT audit..company_audits..." />
-                <marker date="1446008020963" expanded="true" signature="37556:37675" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="37813:37873" placeholder="UPDATE store..." />
-                <marker date="1446008020963" expanded="true" signature="38106:38161" placeholder="SELECT store..road_details..." />
-                <marker date="1446008020963" expanded="true" signature="38300:38428" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="38659:38694" placeholder="SELECT id FR..stores..." />
-                <marker date="1446008020963" expanded="true" signature="38790:38885" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="39049:39255" placeholder="SELECT id,fu..stores..." />
-                <marker date="1446008020963" expanded="true" signature="39503:39924" placeholder="SELECT store..company_stores..." />
-                <marker date="1446008020963" expanded="true" signature="40104:40184" placeholder="SELECT users..users..." />
-                <marker date="1446008020963" expanded="true" signature="40403:40543" placeholder="SELECT roads..roads..." />
-                <marker date="1446008020963" expanded="true" signature="40764:41156" placeholder="SELECT store..stores..." />
-                <marker date="1446008020963" expanded="true" signature="41384:41509" placeholder="SELECT distr..stores..." />
-                <marker date="1446008020963" expanded="true" signature="41890:42068" placeholder="SELECT ejecu..stores..." />
-                <marker date="1446008020963" expanded="true" signature="42493:42685" placeholder="SELECT id,ru..stores..." />
-                <marker date="1446008020963" expanded="true" signature="42869:42967" placeholder="SELECT ejecu..stores..." />
-                <marker date="1446008020963" expanded="true" signature="43142:43224" placeholder="SELECT rubro..stores..." />
-                <marker date="1446008020963" expanded="true" signature="43405:43440" placeholder="SELECT id,fu..companies..." />
-                <marker date="1446008020963" expanded="true" signature="43703:43998" placeholder="SELECT produ..products..." />
-                <marker date="1446008020963" expanded="true" signature="44028:44386" placeholder="SELECT produ..products..." />
-                <marker date="1446008020963" expanded="true" signature="44644:44926" placeholder="SELECT publi..publicities..." />
-                <marker date="1446008020963" expanded="true" signature="44956:45304" placeholder="SELECT publi..publicities..." />
-                <marker date="1446008020963" expanded="true" signature="45901:45981" placeholder="SELECT id FR..presences..." />
-                <marker date="1446008020963" expanded="true" signature="46182:46322" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="46422:46538" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="46671:46795" placeholder="UPDATE audit..." />
-                <marker date="1446008020963" expanded="true" signature="47776:47914" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="48101:48217" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="48548:48659" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="48750:48874" placeholder="UPDATE audit..." />
-                <marker date="1446008020963" expanded="true" signature="49414:49541" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="49640:49756" placeholder="INSERT INTO ..." />
-                <marker date="1446008020963" expanded="true" signature="49889:50013" placeholder="UPDATE audit..." />
-                <marker date="1446008020963" expanded="true" signature="50734:50788" placeholder="SELECT id,op..poll_options..." />
-                <marker date="1446008020963" expanded="true" signature="50843:51001" placeholder="SELECT b.ema..stores..." />
-                <marker date="1446008020963" expanded="true" signature="51253:51373" placeholder="SELECT archi..medias..." />
-                <marker date="1446008020963" expanded="true" signature="52362:52482" placeholder="SELECT b.ema..stores..." />
+                <marker date="1446160621413" expanded="true" signature="7474:7706" placeholder="SELECT roads..roads..." />
+                <marker date="1446160621413" expanded="true" signature="7966:8174" placeholder="SELECT COUNT..roads..." />
+                <marker date="1446160621413" expanded="true" signature="8246:8396" placeholder="SELECT s.id,..road_details..." />
+                <marker date="1446160621413" expanded="true" signature="8708:8818" placeholder="SELECT s.ful..stores..." />
+                <marker date="1446160621413" expanded="true" signature="9056:9197" placeholder="SELECT s.ful..road_details..." />
+                <marker date="1446160621413" expanded="true" signature="9483:9558" placeholder="SELECT compa..company_stores..." />
+                <marker date="1446160621413" expanded="true" signature="9648:9809" placeholder="SELECT a.id,..company_audits..." />
+                <marker date="1446160621413" expanded="true" signature="10226:10413" placeholder="SELECT audit..audit_road_stores..." />
+                <marker date="1446160621413" expanded="true" signature="11064:11140" placeholder="SELECT s.id,..polls..." />
+                <marker date="1446160621413" expanded="true" signature="11829:11928" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="12007:12117" placeholder="UPDATE audit..." />
+                <marker date="1446160621413" expanded="true" signature="12515:12574" placeholder="UPDATE store..." />
+                <marker date="1446160621413" expanded="true" signature="12907:13083" placeholder="SELECT id FR..company_audits..." />
+                <marker date="1446160621413" expanded="true" signature="13173:13272" placeholder="SELECT id, q..polls..." />
+                <marker date="1446160621413" expanded="true" signature="14759:14888" placeholder="SELECT count..poll_details..." />
+                <marker date="1446160621413" expanded="true" signature="15193:15311" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="15693:15824" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="16232:16357" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="16553:16629" placeholder="SELECT id,op..poll_options..." />
+                <marker date="1446160621413" expanded="true" signature="16808:16921" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="17071:17185" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="17492:17611" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="17798:17874" placeholder="SELECT id,op..poll_options..." />
+                <marker date="1446160621413" expanded="true" signature="18053:18166" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="18316:18430" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="18736:18850" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="19226:19345" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="19532:19608" placeholder="SELECT id,op..poll_options..." />
+                <marker date="1446160621413" expanded="true" signature="19787:19899" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="20049:20163" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="20469:20590" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="20962:21023" placeholder="SELECT id,op..poll_options..." />
+                <marker date="1446160621413" expanded="true" signature="21250:21362" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="21536:21650" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="22035:22145" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="22513:22630" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="23011:23150" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="23574:23676" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="23828:23904" placeholder="SELECT id,op..poll_options..." />
+                <marker date="1446160621413" expanded="true" signature="24083:24196" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="24346:24460" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="24766:24906" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="25275:25340" placeholder="SELECT id,op..poll_options..." />
+                <marker date="1446160621413" expanded="true" signature="25551:25664" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="25830:25944" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="26299:26425" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="26629:26697" placeholder="SELECT creat..poll_details..." />
+                <marker date="1446160621413" expanded="true" signature="26913:26978" placeholder="SELECT id,op..poll_options..." />
+                <marker date="1446160621413" expanded="true" signature="27116:27230" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="27482:27651" placeholder="SELECT b.ema..stores..." />
+                <marker date="1446160621413" expanded="true" signature="28047:28178" placeholder="SELECT archi..medias..." />
+                <marker date="1446160621413" expanded="true" signature="29843:29963" placeholder="SELECT b.ema..stores..." />
+                <marker date="1446160621413" expanded="true" signature="31599:31733" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="32092:32195" placeholder="SELECT id,op..poll_options..." />
+                <marker date="1446160621413" expanded="true" signature="32401:32513" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="32679:32793" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="33038:33165" placeholder="UPDATE audit..." />
+                <marker date="1446160621413" expanded="true" signature="33736:33838" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="34251:34360" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="34775:34881" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="35807:35894" placeholder="UPDATE road_..." />
+                <marker date="1446160621413" expanded="true" signature="35959:36139" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="36820:36903" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="37126:37224" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="37296:37394" placeholder="SELECT audit..company_audits..." />
+                <marker date="1446160621413" expanded="true" signature="37556:37675" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="37813:37873" placeholder="UPDATE store..." />
+                <marker date="1446160621413" expanded="true" signature="38106:38161" placeholder="SELECT store..road_details..." />
+                <marker date="1446160621413" expanded="true" signature="38300:38428" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="38659:38694" placeholder="SELECT id FR..stores..." />
+                <marker date="1446160621413" expanded="true" signature="38790:38885" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="39049:39255" placeholder="SELECT id,fu..stores..." />
+                <marker date="1446160621413" expanded="true" signature="39503:39924" placeholder="SELECT store..company_stores..." />
+                <marker date="1446160621413" expanded="true" signature="40228:40649" placeholder="SELECT store..company_stores..." />
+                <marker date="1446160621413" expanded="true" signature="40228:40704" placeholder="SELECT store..company_stores..." />
+                <marker date="1446160621413" expanded="true" signature="40887:40967" placeholder="SELECT users..users..." />
+                <marker date="1446160621413" expanded="true" signature="41186:41326" placeholder="SELECT roads..roads..." />
+                <marker date="1446160621413" expanded="true" signature="41547:41939" placeholder="SELECT store..stores..." />
+                <marker date="1446160621413" expanded="true" signature="42167:42292" placeholder="SELECT distr..stores..." />
+                <marker date="1446160621413" expanded="true" signature="42673:42851" placeholder="SELECT ejecu..stores..." />
+                <marker date="1446160621413" expanded="true" signature="43276:43468" placeholder="SELECT id,ru..stores..." />
+                <marker date="1446160621413" expanded="true" signature="43652:43750" placeholder="SELECT ejecu..stores..." />
+                <marker date="1446160621413" expanded="true" signature="43925:44007" placeholder="SELECT rubro..stores..." />
+                <marker date="1446160621413" expanded="true" signature="44188:44223" placeholder="SELECT id,fu..companies..." />
+                <marker date="1446160621413" expanded="true" signature="44458:44641" placeholder="SELECT ubige..." />
+                <marker date="1446160621413" expanded="true" signature="44458:44704" placeholder="SELECT ubige..." />
+                <marker date="1446160621413" expanded="true" signature="44458:44706" placeholder="SELECT id,fu..companies..." />
+                <marker date="1446160621413" expanded="true" signature="44969:45264" placeholder="SELECT produ..products..." />
+                <marker date="1446160621413" expanded="true" signature="45294:45652" placeholder="SELECT produ..products..." />
+                <marker date="1446160621413" expanded="true" signature="45910:46192" placeholder="SELECT publi..publicities..." />
+                <marker date="1446160621413" expanded="true" signature="46222:46570" placeholder="SELECT publi..publicities..." />
+                <marker date="1446160621413" expanded="true" signature="47167:47247" placeholder="SELECT id FR..presences..." />
+                <marker date="1446160621413" expanded="true" signature="47448:47588" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="47688:47804" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="47937:48061" placeholder="UPDATE audit..." />
+                <marker date="1446160621413" expanded="true" signature="49042:49180" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="49367:49483" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="49814:49925" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="50016:50140" placeholder="UPDATE audit..." />
+                <marker date="1446160621413" expanded="true" signature="50680:50807" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="50906:51022" placeholder="INSERT INTO ..." />
+                <marker date="1446160621413" expanded="true" signature="51155:51279" placeholder="UPDATE audit..." />
+                <marker date="1446160621413" expanded="true" signature="52000:52054" placeholder="SELECT id,op..poll_options..." />
+                <marker date="1446160621413" expanded="true" signature="52109:52267" placeholder="SELECT b.ema..stores..." />
+                <marker date="1446160621413" expanded="true" signature="52519:52639" placeholder="SELECT archi..medias..." />
+                <marker date="1446160621413" expanded="true" signature="53628:53748" placeholder="SELECT b.ema..stores..." />
               </folding>
             </state>
           </provider>
@@ -147,31 +152,31 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/rutas-auditor/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.423077">
-              <caret line="95" column="46" selection-start-line="95" selection-start-column="34" selection-end-line="95" selection-end-column="46" />
+            <state vertical-scroll-proportion="-10.884615">
+              <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detailPollPhoto.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/auditors/detailPollPhoto.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8321678">
-              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="asignar-rutas.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="asignar-rutas.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/rutas-auditor/asignar-rutas.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154">
-              <caret line="252" column="44" selection-start-line="252" selection-start-column="44" selection-end-line="252" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.3923611">
+              <caret line="177" column="18" selection-start-line="177" selection-start-column="18" selection-end-line="177" selection-end-column="18" />
               <folding>
-                <marker date="1446150682181" expanded="true" signature="9053:9070" placeholder="..." />
+                <marker date="1446164539678" expanded="true" signature="9116:9133" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detailPollPhoto.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/auditors/detailPollPhoto.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.076923">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -179,7 +184,7 @@
       <file leaf-file-name="adminLayout.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/adminLayout.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-12.846154">
               <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
               <folding />
             </state>
@@ -198,9 +203,10 @@
       <list>
         <option value="$PROJECT_DIR$/app/config/database.php" />
         <option value="$PROJECT_DIR$/app/views/layouts/adminLayout.blade.php" />
-        <option value="$PROJECT_DIR$/public/rutas-auditor/asignar-rutas.php" />
-        <option value="$PROJECT_DIR$/public/rutas-auditor/index.html" />
         <option value="$PROJECT_DIR$/app/views/auditors/detailPollPhoto.blade.php" />
+        <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/public/rutas-auditor/index.html" />
+        <option value="$PROJECT_DIR$/public/rutas-auditor/asignar-rutas.php" />
       </list>
     </option>
   </component>
@@ -218,9 +224,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1378" />
-    <option name="height" value="735" />
+    <option name="x" value="1358" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -466,10 +473,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
-    <editor active="true" />
+    <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23568282" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1671875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -794,7 +801,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="51" />
           <folding>
-            <element signature="e#7#52#0#PHP" expanded="true" />
+            <element signature="e#7#52#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -833,137 +840,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/adminLayout.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-12.846154">
           <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/rutas-auditor/asignar-rutas.php">
+    <entry file="file://$PROJECT_DIR$/app/views/auditors/detailPollPhoto.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154">
-          <caret line="252" column="44" selection-start-line="252" selection-start-column="44" selection-end-line="252" selection-end-column="44" />
-          <folding>
-            <marker date="1446150682181" expanded="true" signature="9053:9070" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/rutas-auditor/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.423077">
-          <caret line="95" column="46" selection-start-line="95" selection-start-column="34" selection-end-line="95" selection-end-column="46" />
+        <state vertical-scroll-proportion="-13.076923">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.290909">
-          <caret line="40" column="143" selection-start-line="40" selection-start-column="128" selection-end-line="40" selection-end-column="143" />
-          <folding>
-            <marker date="1446008020963" expanded="true" signature="7474:7706" placeholder="SELECT roads..roads..." />
-            <marker date="1446008020963" expanded="true" signature="7966:8174" placeholder="SELECT COUNT..roads..." />
-            <marker date="1446008020963" expanded="true" signature="8246:8396" placeholder="SELECT s.id,..road_details..." />
-            <marker date="1446008020963" expanded="true" signature="8708:8818" placeholder="SELECT s.ful..stores..." />
-            <marker date="1446008020963" expanded="true" signature="9056:9197" placeholder="SELECT s.ful..road_details..." />
-            <marker date="1446008020963" expanded="true" signature="9483:9558" placeholder="SELECT compa..company_stores..." />
-            <marker date="1446008020963" expanded="true" signature="9648:9809" placeholder="SELECT a.id,..company_audits..." />
-            <marker date="1446008020963" expanded="true" signature="10226:10413" placeholder="SELECT audit..audit_road_stores..." />
-            <marker date="1446008020963" expanded="true" signature="11064:11140" placeholder="SELECT s.id,..polls..." />
-            <marker date="1446008020963" expanded="true" signature="11829:11928" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="12007:12117" placeholder="UPDATE audit..." />
-            <marker date="1446008020963" expanded="true" signature="12515:12574" placeholder="UPDATE store..." />
-            <marker date="1446008020963" expanded="true" signature="12907:13083" placeholder="SELECT id FR..company_audits..." />
-            <marker date="1446008020963" expanded="true" signature="13173:13272" placeholder="SELECT id, q..polls..." />
-            <marker date="1446008020963" expanded="true" signature="14759:14888" placeholder="SELECT count..poll_details..." />
-            <marker date="1446008020963" expanded="true" signature="15193:15311" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="15693:15824" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="16232:16357" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="16553:16629" placeholder="SELECT id,op..poll_options..." />
-            <marker date="1446008020963" expanded="true" signature="16808:16921" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="17071:17185" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="17492:17611" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="17798:17874" placeholder="SELECT id,op..poll_options..." />
-            <marker date="1446008020963" expanded="true" signature="18053:18166" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="18316:18430" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="18736:18850" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="19226:19345" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="19532:19608" placeholder="SELECT id,op..poll_options..." />
-            <marker date="1446008020963" expanded="true" signature="19787:19899" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="20049:20163" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="20469:20590" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="20962:21023" placeholder="SELECT id,op..poll_options..." />
-            <marker date="1446008020963" expanded="true" signature="21250:21362" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="21536:21650" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="22035:22145" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="22513:22630" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="23011:23150" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="23574:23676" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="23828:23904" placeholder="SELECT id,op..poll_options..." />
-            <marker date="1446008020963" expanded="true" signature="24083:24196" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="24346:24460" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="24766:24906" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="25275:25340" placeholder="SELECT id,op..poll_options..." />
-            <marker date="1446008020963" expanded="true" signature="25551:25664" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="25830:25944" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="26299:26425" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="26629:26697" placeholder="SELECT creat..poll_details..." />
-            <marker date="1446008020963" expanded="true" signature="26913:26978" placeholder="SELECT id,op..poll_options..." />
-            <marker date="1446008020963" expanded="true" signature="27116:27230" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="27482:27651" placeholder="SELECT b.ema..stores..." />
-            <marker date="1446008020963" expanded="true" signature="28047:28178" placeholder="SELECT archi..medias..." />
-            <marker date="1446008020963" expanded="true" signature="29843:29963" placeholder="SELECT b.ema..stores..." />
-            <marker date="1446008020963" expanded="true" signature="31599:31733" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="32092:32195" placeholder="SELECT id,op..poll_options..." />
-            <marker date="1446008020963" expanded="true" signature="32401:32513" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="32679:32793" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="33038:33165" placeholder="UPDATE audit..." />
-            <marker date="1446008020963" expanded="true" signature="33736:33838" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="34251:34360" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="34775:34881" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="35807:35894" placeholder="UPDATE road_..." />
-            <marker date="1446008020963" expanded="true" signature="35959:36139" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="36820:36903" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="37126:37224" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="37296:37394" placeholder="SELECT audit..company_audits..." />
-            <marker date="1446008020963" expanded="true" signature="37556:37675" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="37813:37873" placeholder="UPDATE store..." />
-            <marker date="1446008020963" expanded="true" signature="38106:38161" placeholder="SELECT store..road_details..." />
-            <marker date="1446008020963" expanded="true" signature="38300:38428" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="38659:38694" placeholder="SELECT id FR..stores..." />
-            <marker date="1446008020963" expanded="true" signature="38790:38885" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="39049:39255" placeholder="SELECT id,fu..stores..." />
-            <marker date="1446008020963" expanded="true" signature="39503:39924" placeholder="SELECT store..company_stores..." />
-            <marker date="1446008020963" expanded="true" signature="40104:40184" placeholder="SELECT users..users..." />
-            <marker date="1446008020963" expanded="true" signature="40403:40543" placeholder="SELECT roads..roads..." />
-            <marker date="1446008020963" expanded="true" signature="40764:41156" placeholder="SELECT store..stores..." />
-            <marker date="1446008020963" expanded="true" signature="41384:41509" placeholder="SELECT distr..stores..." />
-            <marker date="1446008020963" expanded="true" signature="41890:42068" placeholder="SELECT ejecu..stores..." />
-            <marker date="1446008020963" expanded="true" signature="42493:42685" placeholder="SELECT id,ru..stores..." />
-            <marker date="1446008020963" expanded="true" signature="42869:42967" placeholder="SELECT ejecu..stores..." />
-            <marker date="1446008020963" expanded="true" signature="43142:43224" placeholder="SELECT rubro..stores..." />
-            <marker date="1446008020963" expanded="true" signature="43405:43440" placeholder="SELECT id,fu..companies..." />
-            <marker date="1446008020963" expanded="true" signature="43703:43998" placeholder="SELECT produ..products..." />
-            <marker date="1446008020963" expanded="true" signature="44028:44386" placeholder="SELECT produ..products..." />
-            <marker date="1446008020963" expanded="true" signature="44644:44926" placeholder="SELECT publi..publicities..." />
-            <marker date="1446008020963" expanded="true" signature="44956:45304" placeholder="SELECT publi..publicities..." />
-            <marker date="1446008020963" expanded="true" signature="45901:45981" placeholder="SELECT id FR..presences..." />
-            <marker date="1446008020963" expanded="true" signature="46182:46322" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="46422:46538" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="46671:46795" placeholder="UPDATE audit..." />
-            <marker date="1446008020963" expanded="true" signature="47776:47914" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="48101:48217" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="48548:48659" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="48750:48874" placeholder="UPDATE audit..." />
-            <marker date="1446008020963" expanded="true" signature="49414:49541" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="49640:49756" placeholder="INSERT INTO ..." />
-            <marker date="1446008020963" expanded="true" signature="49889:50013" placeholder="UPDATE audit..." />
-            <marker date="1446008020963" expanded="true" signature="50734:50788" placeholder="SELECT id,op..poll_options..." />
-            <marker date="1446008020963" expanded="true" signature="50843:51001" placeholder="SELECT b.ema..stores..." />
-            <marker date="1446008020963" expanded="true" signature="51253:51373" placeholder="SELECT archi..medias..." />
-            <marker date="1446008020963" expanded="true" signature="52362:52482" placeholder="SELECT b.ema..stores..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -975,11 +862,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/auditors/detailPollPhoto.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8321678">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        <state vertical-scroll-proportion="-1.5272727">
+          <caret line="711" column="48" selection-start-line="711" selection-start-column="13" selection-end-line="711" selection-end-column="48" />
+          <folding>
+            <marker date="1446160621413" expanded="true" signature="7474:7706" placeholder="SELECT roads..roads..." />
+            <marker date="1446160621413" expanded="true" signature="7966:8174" placeholder="SELECT COUNT..roads..." />
+            <marker date="1446160621413" expanded="true" signature="8246:8396" placeholder="SELECT s.id,..road_details..." />
+            <marker date="1446160621413" expanded="true" signature="8708:8818" placeholder="SELECT s.ful..stores..." />
+            <marker date="1446160621413" expanded="true" signature="9056:9197" placeholder="SELECT s.ful..road_details..." />
+            <marker date="1446160621413" expanded="true" signature="9483:9558" placeholder="SELECT compa..company_stores..." />
+            <marker date="1446160621413" expanded="true" signature="9648:9809" placeholder="SELECT a.id,..company_audits..." />
+            <marker date="1446160621413" expanded="true" signature="10226:10413" placeholder="SELECT audit..audit_road_stores..." />
+            <marker date="1446160621413" expanded="true" signature="11064:11140" placeholder="SELECT s.id,..polls..." />
+            <marker date="1446160621413" expanded="true" signature="11829:11928" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="12007:12117" placeholder="UPDATE audit..." />
+            <marker date="1446160621413" expanded="true" signature="12515:12574" placeholder="UPDATE store..." />
+            <marker date="1446160621413" expanded="true" signature="12907:13083" placeholder="SELECT id FR..company_audits..." />
+            <marker date="1446160621413" expanded="true" signature="13173:13272" placeholder="SELECT id, q..polls..." />
+            <marker date="1446160621413" expanded="true" signature="14759:14888" placeholder="SELECT count..poll_details..." />
+            <marker date="1446160621413" expanded="true" signature="15193:15311" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="15693:15824" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="16232:16357" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="16553:16629" placeholder="SELECT id,op..poll_options..." />
+            <marker date="1446160621413" expanded="true" signature="16808:16921" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="17071:17185" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="17492:17611" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="17798:17874" placeholder="SELECT id,op..poll_options..." />
+            <marker date="1446160621413" expanded="true" signature="18053:18166" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="18316:18430" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="18736:18850" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="19226:19345" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="19532:19608" placeholder="SELECT id,op..poll_options..." />
+            <marker date="1446160621413" expanded="true" signature="19787:19899" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="20049:20163" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="20469:20590" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="20962:21023" placeholder="SELECT id,op..poll_options..." />
+            <marker date="1446160621413" expanded="true" signature="21250:21362" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="21536:21650" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="22035:22145" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="22513:22630" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="23011:23150" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="23574:23676" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="23828:23904" placeholder="SELECT id,op..poll_options..." />
+            <marker date="1446160621413" expanded="true" signature="24083:24196" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="24346:24460" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="24766:24906" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="25275:25340" placeholder="SELECT id,op..poll_options..." />
+            <marker date="1446160621413" expanded="true" signature="25551:25664" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="25830:25944" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="26299:26425" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="26629:26697" placeholder="SELECT creat..poll_details..." />
+            <marker date="1446160621413" expanded="true" signature="26913:26978" placeholder="SELECT id,op..poll_options..." />
+            <marker date="1446160621413" expanded="true" signature="27116:27230" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="27482:27651" placeholder="SELECT b.ema..stores..." />
+            <marker date="1446160621413" expanded="true" signature="28047:28178" placeholder="SELECT archi..medias..." />
+            <marker date="1446160621413" expanded="true" signature="29843:29963" placeholder="SELECT b.ema..stores..." />
+            <marker date="1446160621413" expanded="true" signature="31599:31733" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="32092:32195" placeholder="SELECT id,op..poll_options..." />
+            <marker date="1446160621413" expanded="true" signature="32401:32513" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="32679:32793" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="33038:33165" placeholder="UPDATE audit..." />
+            <marker date="1446160621413" expanded="true" signature="33736:33838" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="34251:34360" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="34775:34881" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="35807:35894" placeholder="UPDATE road_..." />
+            <marker date="1446160621413" expanded="true" signature="35959:36139" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="36820:36903" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="37126:37224" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="37296:37394" placeholder="SELECT audit..company_audits..." />
+            <marker date="1446160621413" expanded="true" signature="37556:37675" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="37813:37873" placeholder="UPDATE store..." />
+            <marker date="1446160621413" expanded="true" signature="38106:38161" placeholder="SELECT store..road_details..." />
+            <marker date="1446160621413" expanded="true" signature="38300:38428" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="38659:38694" placeholder="SELECT id FR..stores..." />
+            <marker date="1446160621413" expanded="true" signature="38790:38885" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="39049:39255" placeholder="SELECT id,fu..stores..." />
+            <marker date="1446160621413" expanded="true" signature="39503:39924" placeholder="SELECT store..company_stores..." />
+            <marker date="1446160621413" expanded="true" signature="40228:40649" placeholder="SELECT store..company_stores..." />
+            <marker date="1446160621413" expanded="true" signature="40228:40704" placeholder="SELECT store..company_stores..." />
+            <marker date="1446160621413" expanded="true" signature="40887:40967" placeholder="SELECT users..users..." />
+            <marker date="1446160621413" expanded="true" signature="41186:41326" placeholder="SELECT roads..roads..." />
+            <marker date="1446160621413" expanded="true" signature="41547:41939" placeholder="SELECT store..stores..." />
+            <marker date="1446160621413" expanded="true" signature="42167:42292" placeholder="SELECT distr..stores..." />
+            <marker date="1446160621413" expanded="true" signature="42673:42851" placeholder="SELECT ejecu..stores..." />
+            <marker date="1446160621413" expanded="true" signature="43276:43468" placeholder="SELECT id,ru..stores..." />
+            <marker date="1446160621413" expanded="true" signature="43652:43750" placeholder="SELECT ejecu..stores..." />
+            <marker date="1446160621413" expanded="true" signature="43925:44007" placeholder="SELECT rubro..stores..." />
+            <marker date="1446160621413" expanded="true" signature="44188:44223" placeholder="SELECT id,fu..companies..." />
+            <marker date="1446160621413" expanded="true" signature="44458:44641" placeholder="SELECT ubige..." />
+            <marker date="1446160621413" expanded="true" signature="44458:44704" placeholder="SELECT ubige..." />
+            <marker date="1446160621413" expanded="true" signature="44458:44706" placeholder="SELECT id,fu..companies..." />
+            <marker date="1446160621413" expanded="true" signature="44969:45264" placeholder="SELECT produ..products..." />
+            <marker date="1446160621413" expanded="true" signature="45294:45652" placeholder="SELECT produ..products..." />
+            <marker date="1446160621413" expanded="true" signature="45910:46192" placeholder="SELECT publi..publicities..." />
+            <marker date="1446160621413" expanded="true" signature="46222:46570" placeholder="SELECT publi..publicities..." />
+            <marker date="1446160621413" expanded="true" signature="47167:47247" placeholder="SELECT id FR..presences..." />
+            <marker date="1446160621413" expanded="true" signature="47448:47588" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="47688:47804" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="47937:48061" placeholder="UPDATE audit..." />
+            <marker date="1446160621413" expanded="true" signature="49042:49180" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="49367:49483" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="49814:49925" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="50016:50140" placeholder="UPDATE audit..." />
+            <marker date="1446160621413" expanded="true" signature="50680:50807" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="50906:51022" placeholder="INSERT INTO ..." />
+            <marker date="1446160621413" expanded="true" signature="51155:51279" placeholder="UPDATE audit..." />
+            <marker date="1446160621413" expanded="true" signature="52000:52054" placeholder="SELECT id,op..poll_options..." />
+            <marker date="1446160621413" expanded="true" signature="52109:52267" placeholder="SELECT b.ema..stores..." />
+            <marker date="1446160621413" expanded="true" signature="52519:52639" placeholder="SELECT archi..medias..." />
+            <marker date="1446160621413" expanded="true" signature="53628:53748" placeholder="SELECT b.ema..stores..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/rutas-auditor/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.884615">
+          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/rutas-auditor/asignar-rutas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3923611">
+          <caret line="177" column="18" selection-start-line="177" selection-start-column="18" selection-end-line="177" selection-end-column="18" />
+          <folding>
+            <marker date="1446164539678" expanded="true" signature="9116:9133" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
