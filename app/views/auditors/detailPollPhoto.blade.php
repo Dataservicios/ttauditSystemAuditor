@@ -23,9 +23,17 @@
                     <div class="list-group" ng-repeat="store in stores">
                         <p class="list-group-item-heading">
                             {{--<a href="#" id="@{{ store.id }}"  class="list-group-item" >@{{ store.codclient }} | @{{ store.fullname }}</a>--}}
-                            <a href="#" id="@{{ store.id }}"  class="list-group-item " >@{{ store.codclient }} | @{{ store.fullname }}</a>
+                            {{--<a href="#" id="@{{ store.id }}"  class="list-group-item " >@{{ store.codclient }} | @{{ store.fullname }}</a>--}}
+                            <a href="#" id="@{{ store.id }}" ng-click="clickSimple(store.codclient)" ng-model="searchData"    class="list-group-item " >@{{ store.codclient }} | @{{ store.fullname }}</a>
                         </p>
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <input style="display: none" type="text" value="@{{searchResult}}"  id="txtDir" disabled>
+
+                    <p id="search"></p>
                 </div>
             </div>
         </div>

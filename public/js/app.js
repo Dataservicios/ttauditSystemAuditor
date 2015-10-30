@@ -2,7 +2,7 @@
 
 var MyStores = angular.module('MyStores', []);
 
-MyStores.controller('SearchCtrl', function ($scope, $http){
+MyStores.controller('SearchCtrl' , function ($scope, $http, $element){
 
     $scope.search = function(){
         $http.get('http://ttaudit.com/SearchResults', {
@@ -11,6 +11,20 @@ MyStores.controller('SearchCtrl', function ($scope, $http){
             $scope.stores = data;
         })
     }
-    /*alert("Pruebas de busqueda");*/
+
+    $scope.clickSimple = function(DirrPassedFromNgClick){
+        //alert ('holaaa');
+        $scope.searchResult = DirrPassedFromNgClick;
+        //console.log($element.find('.list-group-item').text());
+
+        //console.log(DirrPassedFromNgClick);
+
+        $('#search').text(DirrPassedFromNgClick);
+        $('#txtDir').css({"display":"block","color":"red"});
+
+    }
+
 
 } );
+
+
