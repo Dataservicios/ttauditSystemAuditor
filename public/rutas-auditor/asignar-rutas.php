@@ -167,7 +167,6 @@
             //lib/mapa/burbujas.json
             $.post('http://ttaudit.com/getPointStoresForCompanyDepartament',{ company_id : <?php echo $_GET['company_id'] ?>,departament : "<?php echo $_GET['departament'] ?>" }, function(json){
                 //if (item.latitud != 0 && item.longitud != 0){
-
                 _map= new google.maps.Map( div, {
                         scrollwheel: true,
                         zoom: 14,

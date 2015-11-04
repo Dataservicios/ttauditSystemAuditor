@@ -8,6 +8,7 @@
     @include('auditors/partials/menuLeft')
     <div class="cuerpo" ng-app="MyStores">
         <div class="cuerpo-content" ng-controller="SearchCtrl">
+            {{ Form::open(['route' => 'auditorInsertPhotos', 'files' => true, 'method' => 'POST', 'role' => 'form', 'class' => 'form-horizontal', 'id' => 'pollPhoto' , 'validate']) }}
             <div class="row">
                 <div class="col-sm-12">
                     <h4>Pregunta: {{$question->question}}</h4>
@@ -15,67 +16,56 @@
             </div>
             <div class="row">
                 <div class="col-sm-4">
-                    <form action="">
-                        <input type="text" class="form-control" placeholder="Seleccione el Agente" ng-model="searchInput" ng-change="search()">
-                    </form>
+                    <input type="text" class="form-control" placeholder="Digite DIR Agente" ng-model="searchInput" ng-change="search()">
+
                 </div>
                 <div class="col-sm-8">
                     <div class="list-group" ng-repeat="store in stores">
                         <p class="list-group-item-heading">
                             {{--<a href="#" id="@{{ store.id }}"  class="list-group-item" >@{{ store.codclient }} | @{{ store.fullname }}</a>--}}
                             {{--<a href="#" id="@{{ store.id }}"  class="list-group-item " >@{{ store.codclient }} | @{{ store.fullname }}</a>--}}
-                            <a href="#" id="@{{ store.id }}" ng-click="clickSimple(store.codclient)" ng-model="searchData"    class="list-group-item " >@{{ store.codclient }} | @{{ store.fullname }}</a>
+                            <a href="#" id="@{{ store.id }}" ng-click="clickSimple(store.codclient); clickId(store.id)" ng-model="searchData"    class="list-group-item " >@{{ store.codclient }} | @{{ store.fullname }}</a>
                         </p>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12">
-                    <input style="display: none" type="text" value="@{{searchResult}}"  id="txtDir" disabled>
-
-                    <p id="search"></p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    {{--<form>--}}
-        {{--¿Cómo te llamas? <input type="text" ng-model="nombre">--}}
-    {{--</form>--}}
-
-    <div class="cuerpo">
-        <div class="cuerpo-content">
-            <div class="row">
-                <div class="row">
-                    <div class="col-md-12">
-                        {{ Form::open(['route' => 'auditorInsertPhotos', 'files' => true, 'method' => 'POST', 'role' => 'form', 'class' => 'form-horizontal', 'id' => 'pollPhoto' , 'validate']) }}
-                        {{ Form::hidden('poll_id', $poll_id) }}
-                        {{ Form::hidden('tipo', 1) }}
-                        {{ Form::hidden('company_id', $company_id) }}
-                        {{--<div class="form-group">
-                            {{ Form::label('store_id', 'Seleccionar Agente',['class' => 'col-sm-3 control-label']) }}
-                            <div class="col-sm-7">
-                                {{ Form::select('store_id', $stores, $selected, ['class' => 'form-control']) }}
-                                {{ $errors->first('store_id', '<div class="alert alert-danger" role="alert">:message</div>') }}
-                            </div>
-                        </div>--}}
-                        <div class="form-group">
-                            {{ Form::label('archivo', 'Foto',['class' => 'col-sm-3 control-label']) }}
-                            <div class="col-sm-7">
-                                {{ Form::file('archivo') }}
-                                {{ $errors->first('archivo', '<div class="alert alert-danger" role="alert">:message</div>') }}
-                            </div>
+                <div class="col-md-8 pr">
+                    {{--<p>@{{ searchId }}</p>--}}
+                    {{ Form::hidden('poll_id', $poll_id) }}
+                    {{ Form::hidden('tipo', 1) }}
+                    {{ Form::hidden('company_id', $company_id) }}
+                    {{ Form::hidden('store_id', '',['id' => 'store_id']) }}
+                    <div class="form-group">
+                        {{ Form::label('codclient', 'Agente',['class' => 'col-sm-4 control-label']) }}
+                        <div class="col-sm-8">
+                            {{ Form::text('codclient', ' ', ['class' => 'form-control','style' => 'display:none']) }}
+                            {{ $errors->first('codclient', '<div class="alert alert-danger" role="alert">:message</div>') }}
                         </div>
-                        <div class="form-group">
-                            <div class=" col-sm-7">
-                                <button type="submit" class="btn btn-default btn-sm">GUARDAR</button>
-                            </div>
-                        </div>
-                        {{ Form::close() }}
                     </div>
+                    {{--<div class="form-group">
+                        {{ Form::label('store_id', 'Seleccionar Agente',['class' => 'col-sm-3 control-label']) }}
+                        <div class="col-sm-7">
+                            {{ Form::select('store_id', $stores, $selected, ['class' => 'form-control']) }}
+                            {{ $errors->first('store_id', '<div class="alert alert-danger" role="alert">:message</div>') }}
+                        </div>
+                    </div>--}}
+                    <div class="form-group">
+                        {{ Form::label('archivo', 'Foto',['class' => 'col-sm-3 control-label']) }}
+                        <div class="col-sm-7">
+                            {{ Form::file('archivo') }}
+                            {{ $errors->first('archivo', '<div class="alert alert-danger" role="alert">:message</div>') }}
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class=" col-sm-7">
+                            <button type="submit" class="btn btn-default btn-sm">GUARDAR</button>
+                        </div>
+                    </div>
+
                 </div>
             </div>
+            {{ Form::close() }}
         </div>
     </div>
 </section>

@@ -8,6 +8,11 @@ class Road extends \Eloquent {
         return $this->hasMany('Auditor\Entities\RoadDetail');
     }
 
+    public function company()
+    {
+        return $this->belongsto('Auditor\Entities\Company');
+    }
+
     public function user()
     {
         return $this->belongsto('Auditor\Entities\User');

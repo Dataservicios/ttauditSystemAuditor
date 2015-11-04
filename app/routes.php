@@ -76,6 +76,7 @@ Route::group(['before'=>'auth'], function(){
     Route::get('admin/spaceDetail/{id}', ['as' => 'spaceDetail', 'uses' => 'SpaceDetailController@resultSpaceAuditor']);
     Route::get('admin/insertPoll', ['as' => 'insertPoll', 'uses' => 'PollController@insertPoll']);
     Route::post('admin/insertPoll', ['as' => 'insertPoll', 'uses' => 'PollController@registerPoll']);
+    Route::get('admin/roads', ['as' => 'listRoads', 'uses' => 'RoadController@listRoads']);
 });
 
     Route::get('getCategoryForCompany', ['as' => 'getCategoryForCompany', 'uses' => 'CompanyController@getCategoryForCompany']);
@@ -105,10 +106,11 @@ Route::post('loginUser', ['as' =>'loginUser', function(){
 Route::post('JsonRoadsTotal', ['as' =>'JsonRoadsTotal', function(){
 
     $id = Input::only('id');
+    $company_id = Input::only('company_id');
     //var_dump($id) ;
     //dd($id) ;
 
-    $sql ="SELECT roads.fullname, roads.id, COUNT(road_details.id) AS pdvs, sum(road_details.audit) as auditados FROM roads INNER JOIN road_details ON (roads.id = road_details.road_id) where roads.user_id='" . $id['id']  . "' GROUP BY roads.id";
+    $sql ="SELECT roads.fullname, roads.id, COUNT(road_details.id) AS pdvs, sum(road_details.audit) as auditados FROM roads INNER JOIN road_details ON (roads.id = road_details.road_id) where roads.user_id='" . $id['id']  . "' and roads.company_id='" . $company_id['company_id'] . "' and roads.audit=0 GROUP BY roads.id";
     $consulta=DB::select($sql);
 
     return \Response::json([ 'success'=> 1, "roads" => $consulta]);
@@ -368,7 +370,7 @@ Route::post('JsonInsertAuditPolls', ['as' =>'JsonInsertAuditPolls', function(){
         }
 
         if (($sino['sino']<>1) and ($options['options']==1) and ($limits['limits']==1) and ($media['media']<>1) and ($coment['coment']<>1) and ($coment_options['coment_options']<>1)){
-            DB::insert("INSERT INTO poll_details (poll_id, store_id, options, limits,limite, created_at,updated_at) VALUES(?,?,?,?,?,now(),now())" , array($poll_id['poll_id'],$store_id['store_id'],$options['options'],$limits['limits'],$limite['limite']));
+            DB::insert("INSERT INTO poll_details (poll_id, store_id, options, limits,limite, created_at,updated_at) VALUES(?,?,?,?,?,now(),now())" , array($poll_id['poll_id'],$store_id['store_id'],$options['options'],$limits['limits'],trim($limite['limite'])));
             $idPollDetail = DB::getPdo()->lastInsertId();
             $valores = explode('|',$opcion['opcion']);
             if (count($valores)<>0){
@@ -391,7 +393,7 @@ Route::post('JsonInsertAuditPolls', ['as' =>'JsonInsertAuditPolls', function(){
         }
 
         if (($sino['sino']<>1) and ($options['options']<>1) and ($limits['limits']==1) and ($media['media']<>1) and ($coment['coment']<>1) and ($coment_options['coment_options']<>1)){
-            DB::insert("INSERT INTO poll_details (poll_id, store_id, limits,limite, created_at,updated_at) VALUES(?,?,?,?,now(),now())" , array($poll_id['poll_id'],$store_id['store_id'],$limits['limits'],$limite['limite']));
+            DB::insert("INSERT INTO poll_details (poll_id, store_id, limits,limite, created_at,updated_at) VALUES(?,?,?,?,now(),now())" , array($poll_id['poll_id'],$store_id['store_id'],$limits['limits'],trim($limite['limite'])));
             $idPollDetail = DB::getPdo()->lastInsertId();
         }
 
@@ -613,9 +615,16 @@ Route::post('insertaTiempo', ['as' =>'insertaTiempo', function(){
     $storeid = Input::only('id');
     $idruta = Input::only('idruta');
 
+
     DB::update("UPDATE  road_details set audit= 1, updated_at=now() where store_id = ? and  road_id = ? " , array($storeid ['id'], $idruta['idruta']));
     DB::insert("INSERT INTO control_time (closes,user_id, store_id,lat_close,long_close, lat_open,long_open,time_open,time_close, created_at,updated_at) VALUES('store',?,?,?,?,?,?,?,?,now(),now())" , array($tduser['tduser'],$storeid['id'], $latitud_close['latitud_close'], $longitud_close['longitud_close'],$latitud_open['latitud_open'],$longitud_open['longitud_open'],$tiempo_inicio['tiempo_inicio'],$tiempo_fin['tiempo_fin']));
     $idPollDetail = DB::getPdo()->lastInsertId();
+
+    $sql = "SELECT * FROM road_details r where road_id='" . $idruta['idruta'] . "' and audit=0";
+    $consulta1 = DB::select($sql);
+    if (count($consulta1) == 0){
+        DB::update("UPDATE  roads set audit= 1, updated_at=now() where id = ? " , array($idruta['idruta']));//update de la ruta
+    }
     if ($idPollDetail >0){
         return \Response::json([ 'success'=> 1]);
     }else{
@@ -631,7 +640,7 @@ Route::post('saveRoute', ['as' =>'saveRoute', function(){
     $id_store = Input::only('id_store');
     $nombreRuta = Input::only('nombreRuta');
 
-    DB::insert("INSERT INTO roads (fullname,user_id, created_at,updated_at) VALUES(?,?,now(),now())" , array($nombreRuta['nombreRuta'],$user_id['user_id']));
+    DB::insert("INSERT INTO roads (fullname,user_id,company_id, created_at,updated_at) VALUES(?,?,?,now(),now())" , array($nombreRuta['nombreRuta'],$user_id['user_id'],$company_id['company_id']));
     $idPollDetail = DB::getPdo()->lastInsertId();
     if ($idPollDetail >0){
         for($i = 0; $i < count($id_store['id_store']); ++$i) {
@@ -878,7 +887,23 @@ Route::post('saveAuditPresencia', ['as' =>'saveAuditPresencia', function(){
 
 Route::get('SearchResults', function (){
     $dir = Input::get('dir');
-    $stores = Auditor\Entities\Store::where('codclient', 'LIKE', '%' . $dir. '%')->take(5)->get();
+    /*$stores = Auditor\Entities\Store::where('codclient', 'LIKE', '%' . $dir. '%')->take(5)->get();*/
+    $sqlcoord="SELECT
+  stores.id,
+  stores.fullname,
+  stores.district,
+  stores.region as provincia,
+  stores.ubigeo as departamento,
+  stores.codclient,
+  companies.fullname AS company
+FROM
+  company_stores
+  INNER JOIN stores ON (company_stores.store_id = stores.id)
+  INNER JOIN companies ON (company_stores.company_id = companies.id)
+WHERE
+  stores.codclient like '%". $dir. "%'
+LIMIT 5";
+    $stores = DB::select($sqlcoord);
     header('Access-Control-Allow-Origin: *');
     return \Response::json($stores);
 });

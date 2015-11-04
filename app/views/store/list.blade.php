@@ -27,7 +27,7 @@
                 <div class="col-sm-12">
                     <div class="list-group" ng-repeat="store in stores">
                         <p class="list-group-item-heading">
-                            <a href="http://ttaudit.com/admin/storeEdit/@{{ store.id }}" class="list-group-item" >@{{ store.codclient }} | @{{ store.fullname }}</a>
+                            <a href="http://ttaudit.com/admin/storeEdit/@{{ store.id }}" class="list-group-item" >@{{ store.codclient }} | @{{ store.fullname }} | @{{ store.company }}</a>
                         </p>
                     </div>
                 </div>

@@ -18,9 +18,18 @@ MyStores.controller('SearchCtrl' , function ($scope, $http, $element){
         //console.log($element.find('.list-group-item').text());
 
         //console.log(DirrPassedFromNgClick);
+        $('#codclient').val(DirrPassedFromNgClick);
 
-        $('#search').text(DirrPassedFromNgClick);
-        $('#txtDir').css({"display":"block","color":"red"});
+
+        $('#codclient').css({"display":"block","color":"red"});
+
+    }
+
+    $scope.clickId = function(DirrPassedFromNgClick){
+        //alert ('holaaa');
+        $scope.searchId = DirrPassedFromNgClick;
+
+        $('#store_id').val(DirrPassedFromNgClick);
 
     }
 

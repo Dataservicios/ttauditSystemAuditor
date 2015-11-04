@@ -64,7 +64,7 @@
 
 
         <footer>
-            <a href="#" class="prueba">prueba</a>
+
         </footer>
     </div>
     {{ HTML::script('lib/jquery.min.js'); }}
