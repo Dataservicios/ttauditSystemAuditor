@@ -91,6 +91,7 @@
         // var name = $(e.target).attr('name');
        // console.log(valor.value);
         //valor.
+        $('#ubigeo option').remove();
         company_id = valor.value;
         console.log(company_id);
         $.get('http://ttaudit.com/getDepartmentCompanies',{ company_id : valor.value }, function(json){

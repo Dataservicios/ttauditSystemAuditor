@@ -202,11 +202,9 @@
         //----------------------- ---
         // Rellena el mapa de burbujitas con los datos del json
         function populateMap(data){
-
             var total_puntos = 0;
             $.each(data, function(i, item){
                // console.log(item);
-
                 total_puntos ++;
                 var icono;
                 // if(item.status=="true") {
@@ -233,7 +231,6 @@
                 // }
                 // Escucho los eventos de raton sobre las burbujas
                 _markers[i] = marker;
-
             });
 
             console.log(total_puntos);
