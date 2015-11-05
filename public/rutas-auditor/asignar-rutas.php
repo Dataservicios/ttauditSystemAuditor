@@ -5,10 +5,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/stylesheet.css"/>
     <link rel="stylesheet" href="css/mapa-styles.css"/>
-
-
     <style>
-
         /* Z-index of #mask must lower than #boxes .window */
         #mask {
             position:absolute;
@@ -67,15 +64,14 @@
     <div id="tools" style="visibility: visible;">
         <h1>PANEL DE CONTROL</h1>
         <div>
-            <select class="form-control input-sm" id="Escuela">
-                <option>--AUDITOR--</option>
-                <option>Jan castro</option>
-                <option>Pedro</option>
-                <option>Luis Castro</option>
-            </select>
-
+            <p style="border: 0; margin: 4px ; border-bottom: 1px dotted #ffffff">Usuario: <span id="usuarioName"></span></p>
         </div>
-        <div><p>Nº de PDVS: <span id="pdv"></span></p></div>
+        <div>
+            <p style="border: 0; margin: 4px ; border-bottom: 1px dotted #ffffff">Nº de PDVS: <span id="pdv"></span></p>
+        </div>
+        <div>
+            <p style="border: 0; margin: 4px ; border-bottom: 1px dotted #ffffff">Selecionados: <span id="pdvSelected"></span></p>
+        </div>
         <div id="tiendas"></div>
         <div>
             <button id="guardar" type="submit" class="btn btn-default">Guardar RUTA</button>
@@ -120,6 +116,7 @@
     //
     //    });
 
+    $('#usuarioName').html('<?php echo $_GET['user'] ?>');
     $(document).ready(function() {
         // var $elem = $("#contenido");
         //var docwidth =  $(document).width();
@@ -165,16 +162,40 @@
             // Carga los datos de las burbujas de un JSON externo
             //http://ttaudit.com/getPointStores
             //lib/mapa/burbujas.json
-            $.post('http://ttaudit.com/getPointStoresForCompanyDepartament',{ company_id : <?php echo $_GET['company_id'] ?>,departament : "<?php echo $_GET['departament'] ?>" }, function(json){
+           $.post('http://ttaudit.com/getPointStoresForCompanyDepartament',{ company_id : <?php echo $_GET['company_id'] ?>,departament : "<?php echo $_GET['departament'] ?>" }, function(json){
+            //$.post('http://localhost:8080/getPointStoresForCompanyDepartament',{ company_id : <?php echo $_GET['company_id'] ?>,departament : "<?php echo $_GET['departament'] ?>" }, function(json){
                 //if (item.latitud != 0 && item.longitud != 0){
-                _map= new google.maps.Map( div, {
-                        scrollwheel: true,
-                        zoom: 14,
-                        center: new google.maps.LatLng(json[0].latitud, json[0].longitud),
-                        disableDefaultUI: false,
-                        mapTypeId: google.maps.MapTypeId.ROADMAP
-                    }
-                );
+                console.log(json.length);
+               if(json.length==0){
+                   _map= new google.maps.Map( div, {
+                           scrollwheel: true,
+                           zoom: 14,
+                           center: new google.maps.LatLng('-12.046612','-77.042096'),
+                           disableDefaultUI: false,
+                           mapTypeId: google.maps.MapTypeId.ROADMAP
+                       }
+                   );
+                   $('#guardar').css({'display':'none'});
+
+               } else {
+                   _map= new google.maps.Map( div, {
+                           scrollwheel: true,
+                           zoom: 14,
+                           center: new google.maps.LatLng(json[0].latitud, json[0].longitud),
+                           disableDefaultUI: false,
+                           mapTypeId: google.maps.MapTypeId.ROADMAP
+                       }
+                   );
+
+               }
+//                _map= new google.maps.Map( div, {
+//                        scrollwheel: true,
+//                        zoom: 14,
+//                        center: new google.maps.LatLng(json[0].latitud, json[0].longitud),
+//                        disableDefaultUI: false,
+//                        mapTypeId: google.maps.MapTypeId.ROADMAP
+//                    }
+//                );
                 populateMap(json);
             });
         }
@@ -184,7 +205,7 @@
 
             var total_puntos = 0;
             $.each(data, function(i, item){
-                console.log(item);
+               // console.log(item);
 
                 total_puntos ++;
                 var icono;
@@ -280,13 +301,9 @@
 
             //Añadiendo PDV
             function addPDV(val){
-
                 return function(e) {
                     // your code that does something with param
                     e.preventDefault();
-                    //="img/delete.png";
-                    //$('#tiendas ').append("<p id='" + $('#codigo').text() + "'>"+ $('#IFtitleBox').text() +"</p>")
-                    // $('#tiendas ').append("<p>"+ $('#IFtitleBox').text() +"(<span>" + $('.codigo').text() + "</span>)</p>")
                     var contador = 0;
                     //console.log( "codigo: " +$('.codigo').text());
                     $(".cod").each(function( index ) {
@@ -305,6 +322,7 @@
                             contador=0;
                         }
                     });
+
                     if(contador > 0){
                         return;
                     } else {
@@ -312,26 +330,33 @@
                             + $('.codigo').text()
                             + "'>"+ $('#IFtitleBox').text()
                             +"(<span class='cod'>" + $('.codigo').text()
-                            + "</span>)" + "<a href='#' onClick=deletePDV("
-                            +  $('.codigo').text()
-                            +  "); ><img src='img/delete.png' alt=''/></a></p>");
+                           // + "</span>)" + "<a href='#'  id=code" + $('.codigo').text()  + " onClick=deletePDV(" +  $('.codigo').text() +  "); ><img src='img/delete.png' alt=''/></a></p>");
+                            + "</span>)" + "<a href='#'  id=code" + $('.codigo').text() + " data-id=" + $('.codigo').text() +"><img src='img/delete.png' alt=''/></a></p>");
                     }
-                    //console.log(_markers[1]);
 
-                    val.setIcon({
-                        path: google.maps.SymbolPath.CIRCLE,
-                        scale: 10,
-                        fillColor: "#00F",
-                        fillOpacity: 0.8,
-                        strokeWeight: 1
+                    val.setIcon("img/burbuja-map.png");
+                    links = $("#code" + $('.codigo').text());
+                    links.on("click",  function(e) {
+                        e.preventDefault();
+                        //console.log($(this).attr("data-id"));
+                        selected = $('#' + $(this).attr("data-id")).remove();
+                        val.setIcon("img/burbuja-map-active.png");
+
+                        elemetSelected=0;
+                        $(".cod").each(function( index ) {
+                            elemetSelected ++ ;
+                        });
+                        //console.log(elemetSelected);
+                        $('#pdvSelected').html(elemetSelected);
+
                     });
-//                    marker.setIcon({
-//                        path: google.maps.SymbolPath.CIRCLE,
-//                        scale: 10,
-//                        fillColor: "#00F",
-//                        fillOpacity: 0.8,
-//                        strokeWeight: 1
-//                    });
+
+                    elemetSelected=0;
+                    $(".cod").each(function( index ) {
+                        elemetSelected ++ ;
+                    });
+                    //console.log(elemetSelected);
+                    $('#pdvSelected').html(elemetSelected);
 
                 };
             }
@@ -388,9 +413,9 @@
 
     function deletePDV(id ){
         // console.log("rtrtyrty");
-        $( "#"+ id ).remove();
+        //$( "#"+ id ).remove();
 
-        console.log(marker);
+       // console.log(marker);
 
 //        marker.setIcon({
 //                path: google.maps.SymbolPath.CIRCLE,
