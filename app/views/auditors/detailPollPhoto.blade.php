@@ -24,7 +24,7 @@
                         <p class="list-group-item-heading">
                             {{--<a href="#" id="@{{ store.id }}"  class="list-group-item" >@{{ store.codclient }} | @{{ store.fullname }}</a>--}}
                             {{--<a href="#" id="@{{ store.id }}"  class="list-group-item " >@{{ store.codclient }} | @{{ store.fullname }}</a>--}}
-                            <a href="#" id="@{{ store.id }}" ng-click="clickSimple(store.codclient); clickId(store.id)" ng-model="searchData"    class="list-group-item " >@{{ store.codclient }} | @{{ store.fullname }}</a>
+                            <a href="#" id="@{{ store.id }}" ng-click="clickSimple(store.codclient); clickId(store.id)" ng-model="searchData"    class="list-group-item " >@{{ store.codclient }} | @{{ store.fullname }} | @{{ store.company }}</a>
                         </p>
                     </div>
                 </div>
