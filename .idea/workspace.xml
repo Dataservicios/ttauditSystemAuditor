@@ -2,135 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd059e92-c4d3-44f3-af6b-bf90b40e39c3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/iconmoon/systemauditor.eot" afterPath="$PROJECT_DIR$/public/fonts/iconmoon/systemauditor.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/iconmoon/systemauditor.ttf" afterPath="$PROJECT_DIR$/public/fonts/iconmoon/systemauditor.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/iconmoon/systemauditor.woff" afterPath="$PROJECT_DIR$/public/fonts/iconmoon/systemauditor.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/backend.iml" afterPath="$PROJECT_DIR$/.idea/backend.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Entities/Company.php" afterPath="$PROJECT_DIR$/app/Auditor/Entities/Company.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Entities/ControlTime.php" afterPath="$PROJECT_DIR$/app/Auditor/Entities/ControlTime.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Entities/Media.php" afterPath="$PROJECT_DIR$/app/Auditor/Entities/Media.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Entities/PollDetail.php" afterPath="$PROJECT_DIR$/app/Auditor/Entities/PollDetail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Entities/PollOption.php" afterPath="$PROJECT_DIR$/app/Auditor/Entities/PollOption.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Entities/PollOptionDetail.php" afterPath="$PROJECT_DIR$/app/Auditor/Entities/PollOptionDetail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Entities/Presence.php" afterPath="$PROJECT_DIR$/app/Auditor/Entities/Presence.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Entities/PresenceDetail.php" afterPath="$PROJECT_DIR$/app/Auditor/Entities/PresenceDetail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Entities/Product.php" afterPath="$PROJECT_DIR$/app/Auditor/Entities/Product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Entities/Publicity.php" afterPath="$PROJECT_DIR$/app/Auditor/Entities/Publicity.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Entities/PublicityDetail.php" afterPath="$PROJECT_DIR$/app/Auditor/Entities/PublicityDetail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Entities/Road.php" afterPath="$PROJECT_DIR$/app/Auditor/Entities/Road.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Entities/RoadDetail.php" afterPath="$PROJECT_DIR$/app/Auditor/Entities/RoadDetail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Entities/Store.php" afterPath="$PROJECT_DIR$/app/Auditor/Entities/Store.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Managers/MediaManager.php" afterPath="$PROJECT_DIR$/app/Auditor/Managers/MediaManager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Managers/StoreManager.php" afterPath="$PROJECT_DIR$/app/Auditor/Managers/StoreManager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/AuditRoadStoreRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/AuditRoadStoreRepo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/BaseRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/BaseRepo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/CategoryProductRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/CategoryProductRepo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/CompanyRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/CompanyRepo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/CompanyStoreRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/CompanyStoreRepo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/MediaRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/MediaRepo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/PollDetailRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/PollDetailRepo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/PollOptionDetailRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/PollOptionDetailRepo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/PollOptionRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/PollOptionRepo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/PollRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/PollRepo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/PresenceDetailRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/PresenceDetailRepo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/PresenceRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/PresenceRepo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/ProductRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/ProductRepo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/PublicitiesDetailRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/PublicitiesDetailRepo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/RoadDetailRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/RoadDetailRepo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/RoadRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/RoadRepo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/StoreRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/StoreRepo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/UserCompanyRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/UserCompanyRepo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/UserRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/UserRepo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/app.php" afterPath="$PROJECT_DIR$/app/config/app.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/database.php" afterPath="$PROJECT_DIR$/app/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/mail.php" afterPath="$PROJECT_DIR$/app/config/mail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/session.php" afterPath="$PROJECT_DIR$/app/config/session.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/AuthController.php" afterPath="$PROJECT_DIR$/app/controllers/AuthController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/BaseController.php" afterPath="$PROJECT_DIR$/app/controllers/BaseController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/HomeController.php" afterPath="$PROJECT_DIR$/app/controllers/HomeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/ReportColgateController.php" afterPath="$PROJECT_DIR$/app/controllers/ReportColgateController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/ReportController.php" afterPath="$PROJECT_DIR$/app/controllers/ReportController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/RoadController.php" afterPath="$PROJECT_DIR$/app/controllers/RoadController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/StoreController.php" afterPath="$PROJECT_DIR$/app/controllers/StoreController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/UserController.php" afterPath="$PROJECT_DIR$/app/controllers/UserController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/.gitignore" afterPath="$PROJECT_DIR$/app/database/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/es/utils.php" afterPath="$PROJECT_DIR$/app/lang/es/utils.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/cache/.gitignore" afterPath="$PROJECT_DIR$/app/storage/cache/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/debugbar/.gitignore" afterPath="$PROJECT_DIR$/app/storage/debugbar/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/logs/.gitignore" afterPath="$PROJECT_DIR$/app/storage/logs/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/meta/.gitignore" afterPath="$PROJECT_DIR$/app/storage/meta/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/sessions/.gitignore" afterPath="$PROJECT_DIR$/app/storage/sessions/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/views/.gitignore" afterPath="$PROJECT_DIR$/app/storage/views/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/emails/localCerrado.blade.php" afterPath="$PROJECT_DIR$/app/views/emails/localCerrado.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/adminLayout.blade.php" afterPath="$PROJECT_DIR$/app/views/layouts/adminLayout.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/login.blade.php" afterPath="$PROJECT_DIR$/app/views/login.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/report/inicio.blade.php" afterPath="$PROJECT_DIR$/app/views/report/inicio.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/report/inicioColgate.blade.php" afterPath="$PROJECT_DIR$/app/views/report/inicioColgate.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/report/interbank/audios.blade.php" afterPath="$PROJECT_DIR$/app/views/report/interbank/audios.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/report/interbank/audit.blade.php" afterPath="$PROJECT_DIR$/app/views/report/interbank/audit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/report/interbank/detailPollSiNo.blade.php" afterPath="$PROJECT_DIR$/app/views/report/interbank/detailPollSiNo.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/report/interbank/reportExcel.blade.php" afterPath="$PROJECT_DIR$/app/views/report/interbank/reportExcel.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/report/partials/menuLeft.blade.php" afterPath="$PROJECT_DIR$/app/views/report/partials/menuLeft.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/roads/list.blade.php" afterPath="$PROJECT_DIR$/app/views/roads/list.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/store/list.blade.php" afterPath="$PROJECT_DIR$/app/views/store/list.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/store/partials/menuLeft.blade.php" afterPath="$PROJECT_DIR$/app/views/store/partials/menuLeft.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/store/store.blade.php" afterPath="$PROJECT_DIR$/app/views/store/store.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/mapa-styles.css" afterPath="$PROJECT_DIR$/public/css/mapa-styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/stylesheet.min.css" afterPath="$PROJECT_DIR$/public/css/stylesheet.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/iconmoon/systemauditor.svg" afterPath="$PROJECT_DIR$/public/fonts/iconmoon/systemauditor.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-Bold-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-Bold-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-BoldItalic-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-BoldItalic-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-ExtraBold-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-ExtraBold-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-ExtraBoldItalic-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-ExtraBoldItalic-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-Italic-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-Italic-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-Light-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-Light-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-LightItalic-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-LightItalic-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-Regular-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-Regular-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-Semibold-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-Semibold-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-SemiboldItalic-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-SemiboldItalic-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/affix.js" afterPath="$PROJECT_DIR$/public/js/affix.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/alert.js" afterPath="$PROJECT_DIR$/public/js/alert.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/burbujas.json" afterPath="$PROJECT_DIR$/public/js/burbujas.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/button.js" afterPath="$PROJECT_DIR$/public/js/button.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/carousel.js" afterPath="$PROJECT_DIR$/public/js/carousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/collapse.js" afterPath="$PROJECT_DIR$/public/js/collapse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/dropdown.js" afterPath="$PROJECT_DIR$/public/js/dropdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/graficos/chart.js" afterPath="$PROJECT_DIR$/public/js/graficos/chart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/modal.js" afterPath="$PROJECT_DIR$/public/js/modal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/new-mapa.js" afterPath="$PROJECT_DIR$/public/js/new-mapa.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/popover.js" afterPath="$PROJECT_DIR$/public/js/popover.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/script-mapa.js" afterPath="$PROJECT_DIR$/public/js/script-mapa.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/script-mapa.min.js" afterPath="$PROJECT_DIR$/public/js/script-mapa.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/scrollspy.js" afterPath="$PROJECT_DIR$/public/js/scrollspy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tab.js" afterPath="$PROJECT_DIR$/public/js/tab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tests/unit/affix.js" afterPath="$PROJECT_DIR$/public/js/tests/unit/affix.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tests/unit/alert.js" afterPath="$PROJECT_DIR$/public/js/tests/unit/alert.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tests/unit/button.js" afterPath="$PROJECT_DIR$/public/js/tests/unit/button.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tests/unit/carousel.js" afterPath="$PROJECT_DIR$/public/js/tests/unit/carousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tests/unit/collapse.js" afterPath="$PROJECT_DIR$/public/js/tests/unit/collapse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tests/unit/dropdown.js" afterPath="$PROJECT_DIR$/public/js/tests/unit/dropdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tests/unit/modal.js" afterPath="$PROJECT_DIR$/public/js/tests/unit/modal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tests/unit/phantom.js" afterPath="$PROJECT_DIR$/public/js/tests/unit/phantom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tests/unit/popover.js" afterPath="$PROJECT_DIR$/public/js/tests/unit/popover.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tests/unit/scrollspy.js" afterPath="$PROJECT_DIR$/public/js/tests/unit/scrollspy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tests/unit/tab.js" afterPath="$PROJECT_DIR$/public/js/tests/unit/tab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tests/unit/tooltip.js" afterPath="$PROJECT_DIR$/public/js/tests/unit/tooltip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tests/vendor/jquery.min.js" afterPath="$PROJECT_DIR$/public/js/tests/vendor/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tests/vendor/qunit.js" afterPath="$PROJECT_DIR$/public/js/tests/vendor/qunit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tooltip.js" afterPath="$PROJECT_DIR$/public/js/tooltip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/transition.js" afterPath="$PROJECT_DIR$/public/js/transition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/rutas-auditor/asignar-rutas.php" afterPath="$PROJECT_DIR$/public/rutas-auditor/asignar-rutas.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/rutas-auditor/index.html" afterPath="$PROJECT_DIR$/public/rutas-auditor/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/rutas-auditor/lib/jquery.js" afterPath="$PROJECT_DIR$/public/rutas-auditor/lib/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/rutas-auditor/lib/mapa/burbujas.json" afterPath="$PROJECT_DIR$/public/rutas-auditor/lib/mapa/burbujas.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/rutas-auditor/lib/mapa/infobox.js" afterPath="$PROJECT_DIR$/public/rutas-auditor/lib/mapa/infobox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/rutas-auditor/lib/mapa/script-mapa.js" afterPath="$PROJECT_DIR$/public/rutas-auditor/lib/mapa/script-mapa.js" />
     </list>
     <ignored path="backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -154,7 +27,7 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85316">
+            <state relative-caret-position="527">
               <caret line="3887" column="29" lean-forward="false" selection-start-line="3887" selection-start-column="17" selection-end-line="3887" selection-end-column="29" />
               <folding>
                 <element signature="e#224046#224999#2#PHP" expanded="false" />
@@ -501,14 +374,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExcelController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/config/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="59" column="35" lean-forward="false" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExcelController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/ExcelController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="54" column="39" lean-forward="false" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="39" />
+            <state relative-caret-position="457">
+              <caret line="118" column="62" lean-forward="true" selection-start-line="115" selection-start-column="15" selection-end-line="118" selection-end-column="62" />
               <folding>
                 <marker date="1499104401903" expanded="true" signature="2647:3277" ph="SELECT `aler... alert_comments" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -548,13 +441,13 @@
         <option value="$PROJECT_DIR$/public/rutas-auditor/asignar-rutas.php" />
         <option value="$PROJECT_DIR$/public/rutas-auditor/index.html" />
         <option value="$PROJECT_DIR$/app/config/app.php" />
-        <option value="$PROJECT_DIR$/app/config/database.php" />
         <option value="$PROJECT_DIR$/public/js/graficos/chart.js" />
         <option value="$PROJECT_DIR$/public/js/graficos/Bayer-chart.js" />
         <option value="$PROJECT_DIR$/app/views/report/partials/menuPrincipalColgate.blade.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/controllers/ExcelController.php" />
+        <option value="$PROJECT_DIR$/app/config/database.php" />
       </list>
     </option>
   </component>
@@ -640,7 +533,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -743,12 +636,12 @@
       <workItem from="1490645405965" duration="610000" />
       <workItem from="1491329885840" duration="4610000" />
       <workItem from="1499047427063" duration="9577000" />
-      <workItem from="1499208429116" duration="841000" />
+      <workItem from="1499208429116" duration="2027000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19803000" />
+    <option name="totallyTimeSpent" value="20989000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2391" y="-9" width="2418" height="1318" extended-state="6" />
@@ -756,11 +649,11 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15827645" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27857143" sideWeight="0.5166382" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27857143" sideWeight="0.5183447" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938188" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2598123" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27857143" sideWeight="0.48336178" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27857143" sideWeight="0.4816553" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -824,13 +717,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_12_09_165326_create_company_stores_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_12_09_165817_create_category_products_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1119,6 +1005,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="34" column="32" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1126,19 +1013,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-999">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/database.php">
+    <entry file="file://$PROJECT_DIR$/app/controllers/ReportControllerBack.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="62" column="30" lean-forward="true" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+        <state relative-caret-position="-792">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/ExcelController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="118" column="62" lean-forward="true" selection-start-line="115" selection-start-column="15" selection-end-line="118" selection-end-column="62" />
+          <folding>
+            <marker date="1499104401903" expanded="true" signature="2647:3277" ph="SELECT `aler... alert_comments" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85316">
+        <state relative-caret-position="527">
           <caret line="3887" column="29" lean-forward="false" selection-start-line="3887" selection-start-column="17" selection-end-line="3887" selection-end-column="29" />
           <folding>
             <element signature="e#224046#224999#2#PHP" expanded="false" />
@@ -1484,21 +1391,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ReportControllerBack.php">
+    <entry file="file://$PROJECT_DIR$/app/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-792">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="401">
+          <caret line="59" column="35" lean-forward="false" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ExcelController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="54" column="39" lean-forward="false" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="39" />
-          <folding>
-            <marker date="1499104401903" expanded="true" signature="2647:3277" ph="SELECT `aler... alert_comments" />
-          </folding>
         </state>
       </provider>
     </entry>

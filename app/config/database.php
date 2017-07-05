@@ -54,10 +54,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => '104.197.133.79',
-			'database'  => 'ttaudit_auditors',
-			'username'  => 'root',
-			'password'  => 'Fbrsjgfc09',
+			'host'      => 'xxxxx',
+			'database'  => 'xxxxxx',
+			'username'  => 'rxxxxxoot',
+			'password'  => 'xxxxxxx',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
