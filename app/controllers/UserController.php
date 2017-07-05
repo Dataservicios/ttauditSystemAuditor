@@ -5,6 +5,7 @@ use Auditor\Repositories\UserRepo;
 use Auditor\Managers\AccountManager;
 use Auditor\Managers\UserManager;
 
+
 class UserController extends BaseController{
 
     protected $userRepo;
@@ -12,6 +13,68 @@ class UserController extends BaseController{
     public function __construct(UserRepo $userRepo)
     {
         $this->userRepo = $userRepo;
+    }
+
+
+    public function listStoreAuditPalmeraNow(){
+        $id = Input::only('id');
+        $company_id = Input::only('company_id');
+        if ($company_id['company_id']==47){
+            $poll_id=627;
+        }else{
+            $poll_id=879;
+        }
+
+        $sql = "SELECT 
+              `f`.`company_id`,
+              `a`.`store_id`,
+              `b`.`type`,
+              `b`.`codclient`,
+              `b`.`fullname`,
+              `b`.`address`,
+              `b`.`district`,
+              `b`.`region`,
+              `b`.`ubigeo`,
+              `b`.`comment`,
+              `b`.`ejecutivo`,
+              `b`.`coordinador`,
+              `e`.`fullname` AS `auditor`,
+              DATE_FORMAT(`a`.`created_at`, '%d/%m/%Y') AS `fecha`,
+              MIN(DATE_FORMAT(`a`.`created_at`, '%H:%i:%s')) AS `hora`
+            FROM
+              `poll_details` `a`
+              LEFT OUTER JOIN `stores` `b` ON (`a`.`store_id` = `b`.`id`)
+              LEFT OUTER JOIN `company_stores` `f` ON (`a`.`store_id` = `f`.`store_id`)
+              LEFT OUTER JOIN `users` `e` ON (`a`.`auditor` = `e`.`id`)
+            WHERE
+              `f`.`company_id` = '".$company_id['company_id']."'  AND 
+              `a`.`auditor` = '".$id['id']."' AND
+              `a`.`poll_id` = '".$poll_id."' AND
+              date_format(`a`.`created_at`, '%d/%m/%Y') = date_format(now(), '%d/%m/%Y') 
+            GROUP BY
+              `f`.`company_id`,
+              `a`.`store_id`,
+              `b`.`type`,
+              `b`.`codclient`,
+              `b`.`fullname`,
+              `b`.`address`,
+              `b`.`district`,
+              `b`.`region`,
+              `b`.`ubigeo`,
+              `b`.`comment`,
+              `b`.`latitude`,
+              `b`.`longitude`,
+              `b`.`ejecutivo`,
+              `b`.`coordinador`,
+              `e`.`fullname`,
+              `b`.`distributor`,
+              DATE_FORMAT(`a`.`created_at`, '%d/%m/%Y')
+                ";
+
+        $consulta=DB::select($sql);
+        $success =1;
+
+        return \Response::json([ 'success'=>$success ,"roadsDetail" => $consulta]);
     }
 
     public function listUsers()

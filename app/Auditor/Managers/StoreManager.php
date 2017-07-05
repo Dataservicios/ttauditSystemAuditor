@@ -14,6 +14,7 @@ class StoreManager extends BaseManager {
     public function getRules()
     {
         $rules = [
+            'cadenaRuc' => 'required',
             'fullname' => 'required',
             'address' => 'required',
             'district' => 'required',

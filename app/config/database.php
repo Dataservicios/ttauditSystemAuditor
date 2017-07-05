@@ -54,10 +54,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
+			'host'      => '104.197.133.79',
 			'database'  => 'ttaudit_auditors',
 			'username'  => 'root',
-			'password'  => 'irmagaguevara',
+			'password'  => 'Fbrsjgfc09',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

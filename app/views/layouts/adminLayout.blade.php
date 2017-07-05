@@ -28,6 +28,7 @@
     @yield('reportCSS')
 </head>
 <body>
+
     <div class="container-full-width">
             <header>
                 <div class="logo-header">
@@ -43,9 +44,10 @@
                                 <ul>
                                     <li><a href="{{ route('admin') }}"><span class="icon-user activate"></span><span class="menu-text">USUARIO</span></a></li>
                                     <li><a href="{{ route('listCompanies') }}"><span class="icon-client"></span><span  class="menu-text">EMPRESAS</span></a></li>
-                                    <li><a href="{{ route('listStores') }}"><span class="icon-puntoventa"></span><span  class="menu-text">PUNTOS DE VENTA</span></a></li>
-                                    <li><a href="{{ route('insertSpace') }}"><span class="icon-auditoria"></span><span  class="menu-text">AUDITORIAS</span></a></li>
-                                    <li><a href=""><span class="icon-reporte"></span><span class="menu-text">REPORTES</span></a></li>
+                                    <li><a href="{{ route('listStores') }}"><span class="icon-puntoventa"></span><span  class="menu-text">PUNTOS</span></a></li>
+                                    <li><a href="{{ route('listRoads') }}"><span class="icon-puntoventa"></span><span  class="menu-text">RUTAS</span></a></li>
+                                    <li><a href="{{ route('auditsHome') }}"><span class="icon-auditoria"></span><span  class="menu-text">AUDITORIAS</span></a></li>
+                                    <li><a href="{{ route('auditsMonitoreo') }}"><span class="icon-reporte"></span><span class="menu-text">MONITOREO</span></a></li>
                                 </ul>
                         @endif
                         @if (Auth::user()->type=='auditor')
@@ -89,7 +91,7 @@
 
     </script>
     @yield('scripts_angular')
-
+    @yield('scripts_ajax')
     <script>
 
         $('.prueba').on( "click", function( event ) {

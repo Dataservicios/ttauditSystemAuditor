@@ -25,7 +25,7 @@
                                             <b> UBIGEO:  </b>{{$audios['ubigeo']}}<br/>
                                         </div>
                                         <div class="col-sm-4">
-                                            <audio src="../../media/audio/{{$audios['archivo']}}" controls preload="none"  >
+                                            <audio src="{{$audios['archivo']}}" controls preload="none"  >
                                                 "HTML5 audio not supported";
                                             </audio>
                                         </div>

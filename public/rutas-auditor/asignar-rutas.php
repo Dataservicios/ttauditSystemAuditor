@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="css/mapa-styles.css"/>
     <style>
         /* Z-index of #mask must lower than #boxes .window */
+        p{
+            margin: 2px;
+        }
         #mask {
             position:absolute;
             z-index:9000;
@@ -22,7 +25,6 @@
             z-index:9999;
             padding:20px;
         }
-
 
         /* Customize your modal window here, you can add background image too */
         #boxes #dialog {
@@ -40,10 +42,6 @@
 </head>
 <body>
 <div class="contenedor">
-
-
-
-
     <div id="boxes">
         <!-- #customize your modal window here -->
         <div id="dialog" class="window">
@@ -52,7 +50,7 @@
             <!--                <a href="#" class="close">Close it</a>-->
 
             <input type="text" id="name_ruta" ><br>
-
+            <p id="mensaje" style="color: red ; font-weight: bold"></p>
             <button type="button" id="guarda_ruta">GUARDAR RUTA</button>
         </div>
         <!-- Do not remove div#mask, because you'll need it to fill the whole screen -->
@@ -68,6 +66,10 @@
         </div>
         <div>
             <p style="border: 0; margin: 4px ; border-bottom: 1px dotted #ffffff">Nº de PDVS: <span id="pdv"></span></p>
+        </div>
+
+        <div id="puntosEmpresa">
+
         </div>
         <div>
             <p style="border: 0; margin: 4px ; border-bottom: 1px dotted #ffffff">Selecionados: <span id="pdvSelected"></span></p>
@@ -102,19 +104,12 @@
 
 <script type="text/javascript" src="lib/jquery.js"></script>
 <!-- google maps -->
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<!--<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7tL9pwWTxpywD6zMUDw32yaml7lr9oi4"></script>
 <script type="text/javascript" src="lib/mapa/infobox.js"></script>
 
 
 <script>
-
-
-    // $("div").click(function () {
-    //
-    //      $("p").slideToggle("slow");
-    //
-    //
-    //    });
 
     $('#usuarioName').html('<?php echo $_GET['user'] ?>');
     $(document).ready(function() {
@@ -135,35 +130,33 @@
                 $("#tools").css("visibility","visible");
             }
 
-
-
-            /*	if($(this).css('left') == '185px') {
-             $(this).css('left', '0px');
-             $(this).next().hide();
-             }
-             else {
-             $(this).css('left','185px');
-             $(this).next().show();
-             }*/
         });
     });
 
     var _map;
     //var _geocoder;
     var _markers=[];
+    var _markersCompany=[];
     var _infoBox;
+    var countIBK=0,countRiqra=0,countBayer= 0,countBayerV= 0,countAlicorp= 0,countAlicorpHulk= 0,countAlicorpAASS=0, countAlicorpClientes=0,countKasnet=0 , countFullCarga=0, countBCP=0 ,countBIM=0;
+    var dominio = "http://ttaudit.com";
+   //var dominio = "http://appfiliaibk.com/";
+   // var dominio = "http://localhost/ttaudit.com/backend/ttaudit1/public";
+
 
    // var marker;
     $(document).ready(function($) {
+
+
         function init () {
             setupMapa(jQuery('#map_canvas')[0]);
         }
         function setupMapa(div){
             // Carga los datos de las burbujas de un JSON externo
-            //http://ttaudit.com/getPointStores
+
             //lib/mapa/burbujas.json
-           $.post('http://ttaudit.com/getPointStoresForCompanyDepartament',{ company_id : <?php echo $_GET['company_id'] ?>,departament : "<?php echo $_GET['departament'] ?>" }, function(json){
-            //$.post('http://localhost:8080/getPointStoresForCompanyDepartament',{ company_id : <?php echo $_GET['company_id'] ?>,departament : "<?php echo $_GET['departament'] ?>" }, function(json){
+           $.post(dominio + '/getPointStoresForCompanyDepartament',{ departament : "<?php echo $_GET['departament'] ?>" }, function(json){
+
                 //if (item.latitud != 0 && item.longitud != 0){
                 console.log(json.length);
                if(json.length==0){
@@ -202,18 +195,70 @@
         //----------------------- ---
         // Rellena el mapa de burbujitas con los datos del json
         function populateMap(data){
+
             var total_puntos = 0;
             $.each(data, function(i, item){
-               // console.log(item);
+                valor = item.latitud + item.longitud ;
+                console.log(item);
+
+
                 total_puntos ++;
                 var icono;
-                // if(item.status=="true") {
-                icono='img/burbuja-map-active.png'
-                //icono = google.maps.SymbolPath.CIRCLE;
-                // } else {
-                //     icono='img/burbuja-map.png'
-                // }
-                 var marker = new google.maps.Marker({
+
+                 if(item.customer_id ==1) {
+
+                     if(item.company_id==23){
+                         countKasnet ++;
+                         icono='img/maker_kasnet.png'
+                     }else if (item.company_id==24) {
+                         countFullCarga ++;
+                         icono='img/maker_full_carga.png'
+
+                     }else if (item.company_id==25) {
+                         countBCP ++;
+                         icono='img/maker_bcp.png'
+
+                     } else {
+                         icono='img/maker_interbank.png';
+                         countIBK ++;
+                     }
+
+                    //icono = google.maps.SymbolPath.CIRCLE;
+                 } else if (item.customer_id ==5 ) {
+
+                     if(item.company_id==77){
+                         countBayerV ++;
+                         icono='img/ic_marker_bayer_v.png'
+                     }else {
+                         countBayer ++;
+                         icono='img/maker_bayer.png'
+                     }
+
+                 } else if (item.customer_id ==4 ) {
+                     if(item.company_id==15){
+                         countAlicorpAASS ++;
+                         icono='img/maker_alicorp_aass.png'
+                     } else if(item.company_id==48 ){
+                         countAlicorpClientes ++;
+                         icono='img/maker_alicorp_cliente.png'
+                     } else if(item.company_id==62 ){
+                         countAlicorpHulk ++;
+                         icono='img/ic_marker_alicorp_h.png'
+
+                     }else {
+                         countAlicorp ++;
+                         icono='img/maker_alicorp.png'
+                     }
+                 } else if (item.customer_id == 7 ) {
+                     countBIM ++;
+                     icono='img/maker_bim.png'
+
+                 } else if (item.customer_id == 10 ) {
+                    countRiqra ++;
+                    icono='img/ic_marker_riqra.png'
+                 }
+
+                var marker = new google.maps.Marker({
                     id 		:i,
                     clickable 	:true,
                     position  	:new google.maps.LatLng(item.latitud, item.longitud),
@@ -225,21 +270,54 @@
                 // Escucho los eventos de raton sobre las burbujas
                 //if(item.status=="true") {
                 google.maps.event.addListener(marker, 'click', function() {
-                    openInfoBox(marker, item);
+                    openInfoBox(marker, item, icono);
                 });
-                openInfoBox(marker, item);
+                //openInfoBox(marker, item);
                 // }
+
+               // _markersCompany[i] = [marker,item.customer_id];
+                _markersCompany[i] = [marker,item.customer_id];
+               // selectShowHidenMarker(_markersCompany);
                 // Escucho los eventos de raton sobre las burbujas
                 _markers[i] = marker;
+
             });
 
-            console.log(total_puntos);
+            // Añadiendo cantidad total de stores por Company
+            if(countAlicorp > 0) $('#puntosEmpresa').append('<p><input class="customer_id" type="checkbox"  checked="checked"  value="4"><img src="img/maker_alicorp.png"  > ' + countAlicorp +' PDVS </p>')
+            if(countIBK > 0) $('#puntosEmpresa').append('<p><input class="customer_id" type="checkbox"  checked="checked"  value="1"><img src="img/maker_interbank.png"  > ' + countIBK +' PDVS </p>')
+            if(countRiqra > 0) $('#puntosEmpresa').append('<p><input class="customer_id" type="checkbox"  checked="checked"  value="1"><img src="img/ic_marker_riqra.png"  > ' + countRiqra +' PDVS </p>')
+            if(countKasnet > 0) $('#puntosEmpresa').append('<p><input class="customer_id" type="checkbox"  checked="checked"  value="1"><img src="img/maker_kasnet.png"  > ' + countKasnet +' PDVS </p>')
+            if(countFullCarga > 0) $('#puntosEmpresa').append('<p><input class="customer_id" type="checkbox"  checked="checked"  value="1"><img src="img/maker_full_carga.png"  > ' + countFullCarga +' PDVS </p>')
+            if(countBCP > 0) $('#puntosEmpresa').append('<p><input class="customer_id" type="checkbox"  checked="checked"  value="1"><img src="img/maker_bcp.png"  > ' + countBCP +' PDVS </p>')
+            if(countAlicorpAASS > 0) $('#puntosEmpresa').append('<p><input class="customer_id" type="checkbox"  checked="checked"  value="4"><img src="img/maker_alicorp_aass.png"  > ' + countAlicorpAASS +' PDVS</p>')
+            if(countAlicorpHulk > 0) $('#puntosEmpresa').append('<p><input class="customer_id" type="checkbox"  checked="checked"  value="4"><img src="img/ic_marker_alicorp_h.png"  > ' + countAlicorpHulk +' PDVS</p>')
+            if(countAlicorpClientes > 0) $('#puntosEmpresa').append('<p><input class="customer_id" type="checkbox"  checked="checked"  value="4"><img src="img/maker_alicorp_cliente.png"  > ' + countAlicorpClientes +' PDVS</p>')
+            if(countBayer > 0) $('#puntosEmpresa').append('<p><input class="customer_id" type="checkbox"  checked="checked"  value="5" ><img src="img/maker_bayer.png"  > ' + countBayer +' PDVS</p>')
+            if(countBayerV > 0) $('#puntosEmpresa').append('<p><input class="customer_id" type="checkbox"  checked="checked"  value="5" ><img src="img/ic_marker_bayer_v.png"  > ' + countBayerV +' PDVS</p>')
+            if(countBIM > 0) $('#puntosEmpresa').append('<p><input class="customer_id" type="checkbox"  checked="checked"  value="7" ><img src="img/maker_bim.png"  > ' + countBIM +' PDVS</p>')
+
+
+
+
             $('#pdv').html(total_puntos);
+
+//            function selectShowHidenMarker (marker) {
+//                console.log(marker);
+//
+//                $.each(marker, function(i, item){
+//
+//
+//
+//                });
+//            }
+
             // Abre la ventana de info cuando se hace click sobre una burbuja
-            function openInfoBox(marker, item) {
+            function openInfoBox(marker, item,icono) {
                 _map.panTo(marker.position);
                 var myOptions = {
-                    content 			:createInfoboxHtml(item.codclient, item.fullname, item.departamento, item.address, item.referencia, item.district ,item.id)
+                   // content 			:createInfoboxHtml(item.cadenaRuc,item.tipo,item.codclient, item.fullname, item.departamento, item.address, item.referencia, item.district ,item.id, item.company_id)
+                    content 			:createInfoboxHtml(item.cadenaRuc,item.tipo,item.codclient, item.fullname, item.departamento, item.address, item.referencia, item.district ,item.id, item.company_id,item.campaigne)
                     ,alignBottom 			:true
                     ,disableAutoPan 		:false
                     ,maxWidth 			:0
@@ -262,8 +340,8 @@
                 google.maps.event.addListener(_infoBox, 'domready', function() {
                     jQuery('.IFclose', '.infoBox').unbind('click', closeInfoBox);
                     jQuery('.IFclose', '.infoBox').bind('click', closeInfoBox);
-                    $('#add').unbind('click', addPDV(marker));
-                    $('#add').bind('click', addPDV(marker));
+                    $('#add').unbind('click', addPDV(marker,icono));
+                    $('#add').bind('click', addPDV(marker,icono));
                     //marker.icon="img/delete.png";
                     //$('.IFclose', '.infoBox').bind('click', closeInfoBox);
                 });
@@ -273,13 +351,21 @@
 
             // Devuelve el HTML de la cartela de informacion de la burbuja
             //createInfoboxHtml(item.fullname, item.address, item.urbanization, item.district ,item.id)
-            function createInfoboxHtml(codclient,fullname, departamento, address, referencia,district,id) {
+            function createInfoboxHtml(cadenaRuc,tipo,codclient,fullname, departamento, address, referencia,district,id,company_id,campaigne) {
                 var boxText = document.createElement("div");
+                var textCadena = "";
+                if (codclient == ""){
+                    textCadena = tipo;
+                }else{
+                    textCadena = codclient;
+                }
                 boxText.innerHTML = "<div class='IFcontainer'>"+
                     "<a href='#' class='IFclose'></a>"+
-                    "<div id='IFtitleBox'>" + fullname + "</div>"+
-                    "<span class='codigo' style='visibility:hidden'>" + id + "</span>"+
-                    "<div class='contenido'>Codigo: "+ codclient + "</div>"+
+                    "<div id='IFtitleBox'>" + cadenaRuc + " - " + fullname + "</div>"+
+                    "<span class='codigo' >" + id + "</span>"+
+                    "<span class='company_id' style='visibility:hidden'>" + company_id + "</span>"+
+                    "<div class='contenido'>Campaña: "+ campaigne + "</div>"+
+                    "<div class='contenido'>Codigo: "+ textCadena + "</div>"+
                     "<div class='contenido'>Dirección: "+ address + "</div>"+
                     "<div class='contenido'>Referencia: "+ referencia + "</div>"+
                     "<div class='contenido'>Distrito: "+ district + "</div>"+
@@ -297,7 +383,7 @@
             }
 
             //Añadiendo PDV
-            function addPDV(val){
+            function addPDV(val,icono){
                 return function(e) {
                     // your code that does something with param
                     e.preventDefault();
@@ -324,111 +410,89 @@
                         return;
                     } else {
                         $('#tiendas ').append("<p id='"
-                            + $('.codigo').text()
-                            + "'>"+ $('#IFtitleBox').text()
+                            + $('.codigo').text() +"' company-id='" + $('.company_id').text() + "'>"
+                            + $('#IFtitleBox').text()
+                            + " <img src='" + icono +"' height='20'/> "
                             +"(<span class='cod'>" + $('.codigo').text()
-                           // + "</span>)" + "<a href='#'  id=code" + $('.codigo').text()  + " onClick=deletePDV(" +  $('.codigo').text() +  "); ><img src='img/delete.png' alt=''/></a></p>");
-                            + "</span>)" + "<a href='#'  id=code" + $('.codigo').text() + " data-id=" + $('.codigo').text() +"><img src='img/delete.png' alt=''/></a></p>");
+                            + "</span>)" + "<a href='#'  id=code" + $('.codigo').text() + " data-id=" + $('.codigo').text()  +"><img src='img/delete.png' alt=''/></a></p>");
                     }
 
-                    val.setIcon("img/burbuja-map.png");
+                    //val.setIcon("img/burbuja-map.png");
+                    val.setVisible(false);
                     links = $("#code" + $('.codigo').text());
                     links.on("click",  function(e) {
                         e.preventDefault();
                         //console.log($(this).attr("data-id"));
                         selected = $('#' + $(this).attr("data-id")).remove();
-                        val.setIcon("img/burbuja-map-active.png");
-
+                       // val.setIcon("img/burbuja-map-active.png");
+                        val.setVisible(true);
                         elemetSelected=0;
                         $(".cod").each(function( index ) {
                             elemetSelected ++ ;
                         });
                         //console.log(elemetSelected);
                         $('#pdvSelected').html(elemetSelected);
-
                     });
 
                     elemetSelected=0;
                     $(".cod").each(function( index ) {
                         elemetSelected ++ ;
                     });
+
                     //console.log(elemetSelected);
                     $('#pdvSelected').html(elemetSelected);
+
+                    // Cierra la ventana de info
+                    _infoBox.close();
 
                 };
             }
 
 
-            // function addPDV(e) {
-            //    // your code that does something with param
-            //    e.preventDefault();
-            //    //="img/delete.png";
-            //    //$('#tiendas ').append("<p id='" + $('#codigo').text() + "'>"+ $('#IFtitleBox').text() +"</p>")
-            //    // $('#tiendas ').append("<p>"+ $('#IFtitleBox').text() +"(<span>" + $('.codigo').text() + "</span>)</p>")
-            //    var contador = 0;
-            //    //console.log( "codigo: " +$('.codigo').text());
-            //    $(".cod").each(function( index ) {
-            //        //contador ++ ;
-            //        //console.log( index + ": " +   $(this).text());
-            //        var codgigo1 = "";
-            //        var codgigo2 = "" ;
-            //        codgigo1 = $(this).text();
-            //        codgigo2 = $(".codigo").text() ;
-            //        if (codgigo1 == codgigo2) {
-            //            //$( "span" ).text( "Stopped at div index #" + index );
-            //            contador ++;
-            //            return false;
-            //        } else {
-            //            //$('#tiendas ').append("<p>"+ $('#IFtitleBox').text() +"(<span>" + $('.codigo').text() + "</span>)</p>")
-            //            contador=0;
-            //        }
-            //
-            //        //_markers[5].setIcon({
-            //        //    path: google.maps.SymbolPath.CIRCLE,
-            //        //    scale: 10,
-            //        //    fillColor: "#00F",
-            //        //    fillOpacity: 0.8,
-            //        //    strokeWeight: 1
-            //        //});
-            //    });
-            //    if(contador > 0){
-            //        return;
-            //    } else {
-            //        $('#tiendas ').append("<p id='" + $('.codigo').text() + "'>"+ $('#IFtitleBox').text() +"(<span class='cod'>" + $('.codigo').text() + "</span>)" + "<a href='#' onClick=deletePDV(" +  $('.codigo').text() + ")><img src='img/delete.png' alt=''/></a></p>");
-            //    }
-            //    console.log(_infoBox);
-            //
-            //
-            //
-            //};
+
+            $(".customer_id").click(function(){
+                id=$(this).val();
+                if($(this).is(':checked')){
+//                    marker.setVisible(true);
+//                    marker_open.setVisible(true);
+//                    marker_close.setVisible(true);
+                    //alert($(this).val());
+
+                    $.each(_markersCompany, function(i,item){
+                        //item[0].setVisible(true);
+                        if(id == item[1] ){
+                            item[0].setVisible(true);
+                            setTimeout(function(){ item[0].setAnimation(null); }, 1500);
+                            console.log(item[0]);
+                        }
+
+                    });
+
+                }else{
+//                    marker.setVisible(false);
+//                    marker_open.setVisible(false);
+//                    marker_close.setVisible(false);
+                     $.each(_markersCompany, function(i,item){
+                    //item[0].setVisible(true);
+                            if(id == item[1] ){
+                                item[0].setVisible(false);
+                                console.log(item[0]);
+                            }
+
+                     });
+                }
+
+
+            });
 
         }
         init();
-
-
     });
 
-    function deletePDV(id ){
-        // console.log("rtrtyrty");
-        //$( "#"+ id ).remove();
-
-       // console.log(marker);
-
-//        marker.setIcon({
-//                path: google.maps.SymbolPath.CIRCLE,
-//                scale: 10,
-//                fillColor: "#00F",
-//                fillOpacity: 0.8,
-//                strokeWeight: 1
-//            });
-    };
-
-//    $('#guardar').on( "click",  function() {
-//        event.preventDefault();
-//       alert("Holla");
-//    });
 
 
+
+    // -------------------------------PANEL--------------------------------
     //select all the a tag with name equal to modal
     $('#guardar').click(function(e) {
         //Cancel the link behavior
@@ -474,34 +538,48 @@
     });
 
 
+    ///-------------------------------- Save Road-----------------------------------
     $('#guarda_ruta').click(function(e) {
         e.preventDefault();
         var company_id ;
         var nombre = $('#name_ruta').val();
         var data_store = [];
-        $('#tiendas p').each(function(index, element ) {
 
-            data_store[index]=element.id
-            console.log(element.id);
+        //var str_datos="";
+        $('#tiendas p').each(function(index, element ) {
+            company_id = $(this).attr("company-id");
+            //console.log($(this).attr("company-id"));
+            data_store[index]= element.id + "|" + company_id ;
+            //str_datos = str_datos + element.id + "|" + company_id  ;
+            //console.log(str_datos);
         });
 
         if(data_store.length < 1) {
-
-            alert("Debe seleccionar almenos una ruta");
+            alert("Debe seleccionar al menos una ruta");
             return;
         } else {
 
-            $.post('http://ttaudit.com/saveRoute',
-                    { nombreRuta : nombre,  company_id : <?php echo $_GET['company_id'] ?> , user_id : <?php echo $_GET['user_id'] ?> , id_store : data_store },
+            $("#guarda_ruta").prop( "disabled", true );
+            $("#mensaje").text("Espere se está guardando la ruta ...");
+
+            console.log(data_store);
+            var response = $.post(dominio + '/saveRoute',  { nombreRuta : nombre, user_id : <?php echo $_GET['user_id'] ?> , id_store : data_store},
                 function(data){
                 //if (item.latitud != 0 && item.longitud != 0){
                     //console.log(data);
+                    if(data.success==1 ){
+                        location.reload();
+                    } else if(data.success==0) {
+                        alert( "No se pudo guardar los datos inténtelo nuevamente" );
+                        location.reload();
+                    }
 
-                if(data.success==1 ){
-                    location.reload();
-                }
+               } );
 
-                } );
+            response.fail(function() {
+                alert( "Error no pudo recibir respuesta del servidor" );
+                location.reload();
+            })
         }
 
 

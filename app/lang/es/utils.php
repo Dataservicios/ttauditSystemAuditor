@@ -3,7 +3,8 @@ return [
     'type' => [
         'admin'     =>  'Administrador',
         'auditor'   =>  'Auditor',
-        'company'   =>  'Empresa'
+        'company'   =>  'Empresa',
+        'executive'   =>  'Ejecutivo Cliente'
     ],
     "store"          => array(
         "Bar" => "Bar",

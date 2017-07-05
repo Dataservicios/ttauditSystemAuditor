@@ -1,7 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd059e92-c4d3-44f3-af6b-bf90b40e39c3" name="Default" comment="" />
+    <list default="true" id="cd059e92-c4d3-44f3-af6b-bf90b40e39c3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/iconmoon/systemauditor.eot" afterPath="$PROJECT_DIR$/public/fonts/iconmoon/systemauditor.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/iconmoon/systemauditor.ttf" afterPath="$PROJECT_DIR$/public/fonts/iconmoon/systemauditor.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/iconmoon/systemauditor.woff" afterPath="$PROJECT_DIR$/public/fonts/iconmoon/systemauditor.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/backend.iml" afterPath="$PROJECT_DIR$/.idea/backend.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Entities/Company.php" afterPath="$PROJECT_DIR$/app/Auditor/Entities/Company.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Entities/ControlTime.php" afterPath="$PROJECT_DIR$/app/Auditor/Entities/ControlTime.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Entities/Media.php" afterPath="$PROJECT_DIR$/app/Auditor/Entities/Media.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Entities/PollDetail.php" afterPath="$PROJECT_DIR$/app/Auditor/Entities/PollDetail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Entities/PollOption.php" afterPath="$PROJECT_DIR$/app/Auditor/Entities/PollOption.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Entities/PollOptionDetail.php" afterPath="$PROJECT_DIR$/app/Auditor/Entities/PollOptionDetail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Entities/Presence.php" afterPath="$PROJECT_DIR$/app/Auditor/Entities/Presence.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Entities/PresenceDetail.php" afterPath="$PROJECT_DIR$/app/Auditor/Entities/PresenceDetail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Entities/Product.php" afterPath="$PROJECT_DIR$/app/Auditor/Entities/Product.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Entities/Publicity.php" afterPath="$PROJECT_DIR$/app/Auditor/Entities/Publicity.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Entities/PublicityDetail.php" afterPath="$PROJECT_DIR$/app/Auditor/Entities/PublicityDetail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Entities/Road.php" afterPath="$PROJECT_DIR$/app/Auditor/Entities/Road.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Entities/RoadDetail.php" afterPath="$PROJECT_DIR$/app/Auditor/Entities/RoadDetail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Entities/Store.php" afterPath="$PROJECT_DIR$/app/Auditor/Entities/Store.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Managers/MediaManager.php" afterPath="$PROJECT_DIR$/app/Auditor/Managers/MediaManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Managers/StoreManager.php" afterPath="$PROJECT_DIR$/app/Auditor/Managers/StoreManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/AuditRoadStoreRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/AuditRoadStoreRepo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/BaseRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/BaseRepo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/CategoryProductRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/CategoryProductRepo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/CompanyRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/CompanyRepo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/CompanyStoreRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/CompanyStoreRepo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/MediaRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/MediaRepo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/PollDetailRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/PollDetailRepo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/PollOptionDetailRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/PollOptionDetailRepo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/PollOptionRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/PollOptionRepo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/PollRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/PollRepo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/PresenceDetailRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/PresenceDetailRepo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/PresenceRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/PresenceRepo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/ProductRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/ProductRepo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/PublicitiesDetailRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/PublicitiesDetailRepo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/RoadDetailRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/RoadDetailRepo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/RoadRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/RoadRepo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/StoreRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/StoreRepo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/UserCompanyRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/UserCompanyRepo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auditor/Repositories/UserRepo.php" afterPath="$PROJECT_DIR$/app/Auditor/Repositories/UserRepo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/app.php" afterPath="$PROJECT_DIR$/app/config/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/database.php" afterPath="$PROJECT_DIR$/app/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/mail.php" afterPath="$PROJECT_DIR$/app/config/mail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/session.php" afterPath="$PROJECT_DIR$/app/config/session.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/AuthController.php" afterPath="$PROJECT_DIR$/app/controllers/AuthController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/BaseController.php" afterPath="$PROJECT_DIR$/app/controllers/BaseController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/HomeController.php" afterPath="$PROJECT_DIR$/app/controllers/HomeController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/ReportColgateController.php" afterPath="$PROJECT_DIR$/app/controllers/ReportColgateController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/ReportController.php" afterPath="$PROJECT_DIR$/app/controllers/ReportController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/RoadController.php" afterPath="$PROJECT_DIR$/app/controllers/RoadController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/StoreController.php" afterPath="$PROJECT_DIR$/app/controllers/StoreController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/UserController.php" afterPath="$PROJECT_DIR$/app/controllers/UserController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/.gitignore" afterPath="$PROJECT_DIR$/app/database/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/es/utils.php" afterPath="$PROJECT_DIR$/app/lang/es/utils.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/cache/.gitignore" afterPath="$PROJECT_DIR$/app/storage/cache/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/debugbar/.gitignore" afterPath="$PROJECT_DIR$/app/storage/debugbar/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/logs/.gitignore" afterPath="$PROJECT_DIR$/app/storage/logs/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/meta/.gitignore" afterPath="$PROJECT_DIR$/app/storage/meta/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/sessions/.gitignore" afterPath="$PROJECT_DIR$/app/storage/sessions/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/views/.gitignore" afterPath="$PROJECT_DIR$/app/storage/views/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/emails/localCerrado.blade.php" afterPath="$PROJECT_DIR$/app/views/emails/localCerrado.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/adminLayout.blade.php" afterPath="$PROJECT_DIR$/app/views/layouts/adminLayout.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/login.blade.php" afterPath="$PROJECT_DIR$/app/views/login.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/report/inicio.blade.php" afterPath="$PROJECT_DIR$/app/views/report/inicio.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/report/inicioColgate.blade.php" afterPath="$PROJECT_DIR$/app/views/report/inicioColgate.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/report/interbank/audios.blade.php" afterPath="$PROJECT_DIR$/app/views/report/interbank/audios.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/report/interbank/audit.blade.php" afterPath="$PROJECT_DIR$/app/views/report/interbank/audit.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/report/interbank/detailPollSiNo.blade.php" afterPath="$PROJECT_DIR$/app/views/report/interbank/detailPollSiNo.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/report/interbank/reportExcel.blade.php" afterPath="$PROJECT_DIR$/app/views/report/interbank/reportExcel.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/report/partials/menuLeft.blade.php" afterPath="$PROJECT_DIR$/app/views/report/partials/menuLeft.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/roads/list.blade.php" afterPath="$PROJECT_DIR$/app/views/roads/list.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/store/list.blade.php" afterPath="$PROJECT_DIR$/app/views/store/list.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/store/partials/menuLeft.blade.php" afterPath="$PROJECT_DIR$/app/views/store/partials/menuLeft.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/store/store.blade.php" afterPath="$PROJECT_DIR$/app/views/store/store.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/mapa-styles.css" afterPath="$PROJECT_DIR$/public/css/mapa-styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/stylesheet.min.css" afterPath="$PROJECT_DIR$/public/css/stylesheet.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/iconmoon/systemauditor.svg" afterPath="$PROJECT_DIR$/public/fonts/iconmoon/systemauditor.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-Bold-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-Bold-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-BoldItalic-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-BoldItalic-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-ExtraBold-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-ExtraBold-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-ExtraBoldItalic-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-ExtraBoldItalic-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-Italic-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-Italic-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-Light-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-Light-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-LightItalic-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-LightItalic-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-Regular-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-Regular-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-Semibold-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-Semibold-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-SemiboldItalic-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-SemiboldItalic-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/affix.js" afterPath="$PROJECT_DIR$/public/js/affix.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/alert.js" afterPath="$PROJECT_DIR$/public/js/alert.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/burbujas.json" afterPath="$PROJECT_DIR$/public/js/burbujas.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/button.js" afterPath="$PROJECT_DIR$/public/js/button.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/carousel.js" afterPath="$PROJECT_DIR$/public/js/carousel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/collapse.js" afterPath="$PROJECT_DIR$/public/js/collapse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/dropdown.js" afterPath="$PROJECT_DIR$/public/js/dropdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/graficos/chart.js" afterPath="$PROJECT_DIR$/public/js/graficos/chart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/modal.js" afterPath="$PROJECT_DIR$/public/js/modal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/new-mapa.js" afterPath="$PROJECT_DIR$/public/js/new-mapa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/popover.js" afterPath="$PROJECT_DIR$/public/js/popover.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/script-mapa.js" afterPath="$PROJECT_DIR$/public/js/script-mapa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/script-mapa.min.js" afterPath="$PROJECT_DIR$/public/js/script-mapa.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/scrollspy.js" afterPath="$PROJECT_DIR$/public/js/scrollspy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tab.js" afterPath="$PROJECT_DIR$/public/js/tab.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tests/unit/affix.js" afterPath="$PROJECT_DIR$/public/js/tests/unit/affix.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tests/unit/alert.js" afterPath="$PROJECT_DIR$/public/js/tests/unit/alert.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tests/unit/button.js" afterPath="$PROJECT_DIR$/public/js/tests/unit/button.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tests/unit/carousel.js" afterPath="$PROJECT_DIR$/public/js/tests/unit/carousel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tests/unit/collapse.js" afterPath="$PROJECT_DIR$/public/js/tests/unit/collapse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tests/unit/dropdown.js" afterPath="$PROJECT_DIR$/public/js/tests/unit/dropdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tests/unit/modal.js" afterPath="$PROJECT_DIR$/public/js/tests/unit/modal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tests/unit/phantom.js" afterPath="$PROJECT_DIR$/public/js/tests/unit/phantom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tests/unit/popover.js" afterPath="$PROJECT_DIR$/public/js/tests/unit/popover.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tests/unit/scrollspy.js" afterPath="$PROJECT_DIR$/public/js/tests/unit/scrollspy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tests/unit/tab.js" afterPath="$PROJECT_DIR$/public/js/tests/unit/tab.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tests/unit/tooltip.js" afterPath="$PROJECT_DIR$/public/js/tests/unit/tooltip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tests/vendor/jquery.min.js" afterPath="$PROJECT_DIR$/public/js/tests/vendor/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tests/vendor/qunit.js" afterPath="$PROJECT_DIR$/public/js/tests/vendor/qunit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tooltip.js" afterPath="$PROJECT_DIR$/public/js/tooltip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/transition.js" afterPath="$PROJECT_DIR$/public/js/transition.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/rutas-auditor/asignar-rutas.php" afterPath="$PROJECT_DIR$/public/rutas-auditor/asignar-rutas.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/rutas-auditor/index.html" afterPath="$PROJECT_DIR$/public/rutas-auditor/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/rutas-auditor/lib/jquery.js" afterPath="$PROJECT_DIR$/public/rutas-auditor/lib/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/rutas-auditor/lib/mapa/burbujas.json" afterPath="$PROJECT_DIR$/public/rutas-auditor/lib/mapa/burbujas.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/rutas-auditor/lib/mapa/infobox.js" afterPath="$PROJECT_DIR$/public/rutas-auditor/lib/mapa/infobox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/rutas-auditor/lib/mapa/script-mapa.js" afterPath="$PROJECT_DIR$/public/rutas-auditor/lib/mapa/script-mapa.js" />
+    </list>
     <ignored path="backend.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -12,7 +142,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -21,24 +150,374 @@
     <favorites_list name="backend" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="asignar-rutas.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/rutas-auditor/asignar-rutas.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-31.384615">
-              <caret line="203" column="35" selection-start-line="203" selection-start-column="35" selection-end-line="203" selection-end-column="35" />
+            <state relative-caret-position="85316">
+              <caret line="3887" column="29" lean-forward="false" selection-start-line="3887" selection-start-column="17" selection-end-line="3887" selection-end-column="29" />
               <folding>
-                <marker date="1446736168839" expanded="true" signature="10464:10481" placeholder="..." />
+                <element signature="e#224046#224999#2#PHP" expanded="false" />
+                <marker date="1499053768844" expanded="true" signature="25355:25851" ph="SELECT COUNT... roads_resume" />
+                <marker date="1499053768844" expanded="true" signature="26473:26869" ph="SELECT r.*, roads" />
+                <marker date="1499053768844" expanded="true" signature="26595:26685" ph="select road_... road_details" />
+                <marker date="1499053768844" expanded="true" signature="27190:27630" ph="SELECT COUNT... roads_resume" />
+                <marker date="1499053768844" expanded="true" signature="27679:27929" ph="SELECT store... roads_resume" />
+                <marker date="1499053768844" expanded="true" signature="28338:28836" ph="SELECT COUNT... market_details" />
+                <marker date="1499053768844" expanded="true" signature="28885:29373" ph="SELECT `stor... stores" />
+                <marker date="1499053768844" expanded="true" signature="29690:30112" ph="SELECT COUNT... roads_resume" />
+                <marker date="1499053768844" expanded="true" signature="30411:31453" ph="SELECT `road... roads_resume" />
+                <marker date="1499053768844" expanded="true" signature="32099:32525" ph="SELECT id, c... stores" />
+                <marker date="1499053768844" expanded="true" signature="32724:33295" ph="SELECT store... stores" />
+                <marker date="1499053768844" expanded="true" signature="33523:34036" ph="SELECT store... stores" />
+                <marker date="1499053768844" expanded="true" signature="34365:34487" ph="SELECT compa... company_stores" />
+                <marker date="1499053768844" expanded="true" signature="34577:34738" ph="SELECT a.id,... company_audits" />
+                <marker date="1499053768844" expanded="true" signature="35155:35343" ph="SELECT audit... audit_road_stores" />
+                <marker date="1499053768844" expanded="true" signature="35994:36070" ph="SELECT s.id,... polls" />
+                <marker date="1499053768844" expanded="true" signature="36843:36933" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="37038:37162" ph="UPDATE audit... " />
+                <marker date="1499053768844" expanded="true" signature="37657:37732" ph="UPDATE store... " />
+                <marker date="1499053768844" expanded="true" signature="38079:38255" ph="SELECT id FR... company_audits" />
+                <marker date="1499053768844" expanded="true" signature="38345:38444" ph="SELECT id, q... polls" />
+                <marker date="1499053768844" expanded="true" signature="39467:39779" ph="SELECT count... stores" />
+                <marker date="1499053768844" expanded="true" signature="39964:40147" ph="INSERT INTO stores... " />
+                <marker date="1499053768844" expanded="true" signature="40409:40494" ph="SELECT count... company_stores" />
+                <marker date="1499053768844" expanded="true" signature="40609:40708" ph="INSERT INTO company_stores... " />
+                <marker date="1499053768844" expanded="true" signature="40813:40918" ph="INSERT INTO road_details... " />
+                <marker date="1499053768844" expanded="true" signature="41043:41164" ph="INSERT INTO audit_road_stores... " />
+                <marker date="1499053768844" expanded="true" signature="41765:42188" ph="select a.pol... poll_details" />
+                <marker date="1499053768844" expanded="true" signature="43289:43463" ph="SELECT count... poll_details" />
+                <marker date="1499053768844" expanded="true" signature="43691:43820" ph="SELECT user_... roads_resume" />
+                <marker date="1499053768844" expanded="true" signature="44406:44537" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="44799:44867" ph="SELECT creat... poll_details" />
+                <marker date="1499053768844" expanded="true" signature="44954:45103" ph="SELECT a.cad... stores" />
+                <marker date="1499053768844" expanded="true" signature="45356:45421" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="45511:45584" ph="SELECT fulln... companies" />
+                <marker date="1499053768844" expanded="true" signature="45734:45853" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="46655:46831" ph="SELECT archi... medias" />
+                <marker date="1499053768844" expanded="true" signature="50229:50352" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="50799:50906" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="51273:51338" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="51564:51682" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="51906:52025" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="52534:52658" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="53056:53121" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="53347:53465" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="53689:53808" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="54246:54368" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="54814:54933" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="55445:55575" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="55986:56051" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="56277:56395" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="56619:56738" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="57240:57370" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="57781:57846" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="58072:58190" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="58414:58533" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="58829:58952" ph="UPDATE audit... " />
+                <marker date="1499053768844" expanded="true" signature="59938:60160" ph="SELECT count... poll_details" />
+                <marker date="1499053768844" expanded="true" signature="60266:60396" ph="SELECT user_... roads_resume" />
+                <marker date="1499053768844" expanded="true" signature="60484:60558" ph="SELECT fulln... companies" />
+                <marker date="1499053768844" expanded="true" signature="61116:61256" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="61760:61903" ph="SELECT a.cad... stores" />
+                <marker date="1499053768844" expanded="true" signature="62973:63212" ph="SELECT m.id,... poll_details" />
+                <marker date="1499053768844" expanded="true" signature="63439:63491" ph="update poll_... " />
+                <marker date="1499053768844" expanded="true" signature="63657:63708" ph="update poll_... " />
+                <marker date="1499053768844" expanded="true" signature="63801:63897" ph="SELECT m.com... poll_details" />
+                <marker date="1499053768844" expanded="true" signature="64557:64635" ph="SELECT m.ful... products" />
+                <marker date="1499053768844" expanded="true" signature="66943:67023" ph="SELECT a.ema... users" />
+                <marker date="1499053768844" expanded="true" signature="69471:69594" ph="UPDATE audit... " />
+                <marker date="1499053768844" expanded="true" signature="69836:69977" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="70243:70366" ph="UPDATE audit... " />
+                <marker date="1499053768844" expanded="true" signature="70672:70785" ph="SELECT a.cad... stores" />
+                <marker date="1499053768844" expanded="true" signature="71065:71242" ph="SELECT archi... medias" />
+                <marker date="1499053768844" expanded="true" signature="71332:71398" ph="SELECT creat... poll_details" />
+                <marker date="1499053768844" expanded="true" signature="74117:74292" ph="SELECT count... poll_details" />
+                <marker date="1499053768844" expanded="true" signature="74436:74546" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="75922:76147" ph="SELECT count... poll_details" />
+                <marker date="1499053768844" expanded="true" signature="76566:76711" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="77187:77252" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="77479:77597" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="77821:77940" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="78480:78625" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="79101:79166" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="79393:79511" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="79735:79854" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="80394:80547" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="81039:81104" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="81331:81449" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="81673:81792" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="82332:82486" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="82978:83043" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="83270:83388" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="83612:83731" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="84271:84416" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="84892:84957" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="85184:85315" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="85565:85697" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="86263:86383" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="86809:86874" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="87101:87232" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="87482:87614" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="88180:88322" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="89172:89240" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="89467:89609" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="89869:90012" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="90588:90717" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="91070:91138" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="91264:91383" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="91701:91824" ph="UPDATE audit... " />
+                <marker date="1499053768844" expanded="true" signature="92391:92589" ph="SELECT count... stores" />
+                <marker date="1499053768844" expanded="true" signature="92774:92895" ph="INSERT INTO stores... " />
+                <marker date="1499053768844" expanded="true" signature="93086:93171" ph="SELECT count... company_stores" />
+                <marker date="1499053768844" expanded="true" signature="93286:93385" ph="INSERT INTO company_stores... " />
+                <marker date="1499053768844" expanded="true" signature="94391:94605" ph="SELECT count... poll_details" />
+                <marker date="1499053768844" expanded="true" signature="94983:95116" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="95570:95704" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="95963:96039" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="96218:96346" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="96568:96697" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="97075:97208" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="97654:97719" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="97868:97997" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="98232:98308" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="98433:98562" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="98940:99057" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="99471:99536" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="99685:99814" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="100049:100125" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="100250:100379" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="101758:101932" ph="SELECT count... poll_details" />
+                <marker date="1499053768844" expanded="true" signature="102213:102342" ph="SELECT user_... roads_resume" />
+                <marker date="1499053768844" expanded="true" signature="102499:102572" ph="SELECT fulln... companies" />
+                <marker date="1499053768844" expanded="true" signature="103082:103331" ph="SELECT b.id,... stores" />
+                <marker date="1499053768844" expanded="true" signature="103410:103661" ph="SELECT b.id,... stores" />
+                <marker date="1499053768844" expanded="true" signature="103742:103990" ph="SELECT b.id,... stores" />
+                <marker date="1499053768844" expanded="true" signature="104258:104391" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="104647:104715" ph="SELECT creat... poll_details" />
+                <marker date="1499053768844" expanded="true" signature="105338:105486" ph="INSERT INTO alerts... " />
+                <marker date="1499053768844" expanded="true" signature="106877:107023" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="107567:107707" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="107973:108049" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="108228:108365" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="108587:108716" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="109159:109302" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="109561:109637" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="109816:109953" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="110175:110304" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="110594:110662" ph="SELECT creat... poll_details" />
+                <marker date="1499053768844" expanded="true" signature="111215:111363" ph="INSERT INTO alerts... " />
+                <marker date="1499053768844" expanded="true" signature="112747:112885" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="113349:113483" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="113758:113834" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="114013:114141" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="114379:114508" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="114902:115047" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="115513:115574" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="115801:115929" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="116173:116302" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="116757:116882" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="117326:117458" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="117909:118063" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="118557:118674" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="118896:118972" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="119151:119279" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="119499:119628" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="120011:120166" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="120605:120670" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="120881:121009" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="121245:121374" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="121800:121941" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="122215:122283" ph="SELECT creat... poll_details" />
+                <marker date="1499053768844" expanded="true" signature="122363:122434" ph="SELECT a.ubi... stores" />
+                <marker date="1499053768844" expanded="true" signature="123600:123731" ph="SELECT archi... medias" />
+                <marker date="1499053768844" expanded="true" signature="124109:124257" ph="INSERT INTO alerts... " />
+                <marker date="1499053768844" expanded="true" signature="125625:125690" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="125840:125969" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="126848:126979" ph="SELECT archi... medias" />
+                <marker date="1499053768844" expanded="true" signature="127501:127649" ph="INSERT INTO alerts... " />
+                <marker date="1499053768844" expanded="true" signature="129465:129614" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="130043:130146" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="130352:130480" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="130716:130845" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="131279:131436" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="131881:131984" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="132190:132318" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="132554:132683" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="136479:136520" ph="UPDATE alert... " />
+                <marker date="1499053768844" expanded="true" signature="137858:137899" ph="UPDATE alert... " />
+                <marker date="1499053768844" expanded="true" signature="138063:138186" ph="UPDATE audit... " />
+                <marker date="1499053768844" expanded="true" signature="138899:139006" ph="INSERT INTO medias... " />
+                <marker date="1499053768844" expanded="true" signature="139798:139918" ph="INSERT INTO medias... " />
+                <marker date="1499053768844" expanded="true" signature="140539:140654" ph="INSERT INTO medias... " />
+                <marker date="1499053768844" expanded="true" signature="141293:141413" ph="INSERT INTO medias... " />
+                <marker date="1499053768844" expanded="true" signature="141977:142075" ph="INSERT INTO medias... " />
+                <marker date="1499053768844" expanded="true" signature="143163:143246" ph="UPDATE road_... " />
+                <marker date="1499053768844" expanded="true" signature="143324:143509" ph="INSERT INTO control_time... " />
+                <marker date="1499053768844" expanded="true" signature="143858:143940" ph="SELECT * FRO... road_details" />
+                <marker date="1499053768844" expanded="true" signature="144031:144084" ph="UPDATE roads... " />
+                <marker date="1499053768844" expanded="true" signature="144883:144966" ph="UPDATE road_... " />
+                <marker date="1499053768844" expanded="true" signature="145044:145216" ph="INSERT INTO control_time... " />
+                <marker date="1499053768844" expanded="true" signature="145539:145621" ph="SELECT * FRO... road_details" />
+                <marker date="1499053768844" expanded="true" signature="145712:145765" ph="UPDATE roads... " />
+                <marker date="1499053768844" expanded="true" signature="146556:146728" ph="INSERT INTO control_time... " />
+                <marker date="1499053768844" expanded="true" signature="147468:147541" ph="UPDATE publi... " />
+                <marker date="1499053768844" expanded="true" signature="149186:149261" ph="INSERT INTO roads... " />
+                <marker date="1499053768844" expanded="true" signature="149573:149676" ph="INSERT INTO road_details... " />
+                <marker date="1499053768844" expanded="true" signature="149772:149856" ph="SELECT audit... company_audits" />
+                <marker date="1499053768844" expanded="true" signature="150018:150129" ph="INSERT INTO audit_road_stores... " />
+                <marker date="1499053768844" expanded="true" signature="150265:150321" ph="UPDATE store... " />
+                <marker date="1499053768844" expanded="true" signature="150388:150476" ph="UPDATE compa... " />
+                <marker date="1499053768844" expanded="true" signature="150846:150889" ph="SELECT id FR... products" />
+                <marker date="1499053768844" expanded="true" signature="150985:151074" ph="INSERT INTO product_detail... " />
+                <marker date="1499053768844" expanded="true" signature="151617:151658" ph="SELECT id FR... stores" />
+                <marker date="1499053768844" expanded="true" signature="151809:151907" ph="INSERT INTO company_stores... " />
+                <marker date="1499053768844" expanded="true" signature="152023:152136" ph="INSERT INTO road_details... " />
+                <marker date="1499053768844" expanded="true" signature="152247:152360" ph="INSERT INTO road_details... " />
+                <marker date="1499053768844" expanded="true" signature="152459:152573" ph="INSERT INTO market_details... " />
+                <marker date="1499053768844" expanded="true" signature="152872:152944" ph="SELECT audit... company_audits" />
+                <marker date="1499053768844" expanded="true" signature="153065:153185" ph="INSERT INTO audit_road_stores... " />
+                <marker date="1499053768844" expanded="true" signature="154834:154912" ph="SELECT store... road_details" />
+                <marker date="1499053768844" expanded="true" signature="155157:155257" ph="SELECT point... market_details" />
+                <marker date="1499053768844" expanded="true" signature="155482:155589" ph="UPDATE audit... " />
+                <marker date="1499053768844" expanded="true" signature="155721:155793" ph="SELECT audit... company_audits" />
+                <marker date="1499053768844" expanded="true" signature="155950:156070" ph="INSERT INTO audit_road_stores... " />
+                <marker date="1499053768844" expanded="true" signature="156249:156362" ph="INSERT INTO road_details... " />
+                <marker date="1499053768844" expanded="true" signature="156748:156800" ph="SELECT id FR... stores" />
+                <marker date="1499053768844" expanded="true" signature="156984:157081" ph="INSERT INTO company_stores... " />
+                <marker date="1499053768844" expanded="true" signature="157274:157480" ph="SELECT id,fu... stores" />
+                <marker date="1499053768844" expanded="true" signature="157728:158149" ph="SELECT store... company_stores" />
+                <marker date="1499053768844" expanded="true" signature="158536:158616" ph="SELECT users... users" />
+                <marker date="1499053768844" expanded="true" signature="158835:158975" ph="SELECT roads... roads" />
+                <marker date="1499053768844" expanded="true" signature="159196:159588" ph="SELECT store... stores" />
+                <marker date="1499053768844" expanded="true" signature="159816:159941" ph="SELECT distr... stores" />
+                <marker date="1499053768844" expanded="true" signature="160232:160515" ph="SELECT `pres... presences" />
+                <marker date="1499053768844" expanded="true" signature="160896:161079" ph="SELECT ejecu... stores" />
+                <marker date="1499053768844" expanded="true" signature="161504:161696" ph="SELECT id,ru... stores" />
+                <marker date="1499053768844" expanded="true" signature="161996:162405" ph="SELECT `stor... companies" />
+                <marker date="1499053768844" expanded="true" signature="162643:162944" ph="SELECT `stor... company_stores" />
+                <marker date="1499053768844" expanded="true" signature="163123:163198" ph="SELECT id,fu... users" />
+                <marker date="1499053768844" expanded="true" signature="163417:163777" ph="SELECT `poll... polls" />
+                <marker date="1499053768844" expanded="true" signature="164006:164380" ph="SELECT `poll... polls" />
+                <marker date="1499053768844" expanded="true" signature="164561:164611" ph="SELECT id,fu... companies" />
+                <marker date="1499053768844" expanded="true" signature="165068:165270" ph="SELECT store... stores" />
+                <marker date="1499053768844" expanded="true" signature="165556:165851" ph="SELECT produ... products" />
+                <marker date="1499053768844" expanded="true" signature="165881:166239" ph="SELECT produ... products" />
+                <marker date="1499053768844" expanded="true" signature="166478:166996" ph="SELECT `prod... product_detail" />
+                <marker date="1499053768844" expanded="true" signature="167495:167721" ph="SELECT id FR... poll_details" />
+                <marker date="1499053768844" expanded="true" signature="167813:167935" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="168088:168164" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="168263:168487" ph="SELECT id FR... poll_option_details" />
+                <marker date="1499053768844" expanded="true" signature="168601:168735" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="170941:171117" ph="SELECT count... poll_details" />
+                <marker date="1499053768844" expanded="true" signature="171148:171377" ph="SELECT count... poll_details" />
+                <marker date="1499053768844" expanded="true" signature="171570:171645" ph="SELECT fulln... companies" />
+                <marker date="1499053768844" expanded="true" signature="172495:172626" ph="SELECT user_... roads_resume" />
+                <marker date="1499053768844" expanded="true" signature="172951:173086" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="173637:173813" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="174135:174486" ph="UPDATE poll_... " />
+                <marker date="1499053768844" expanded="true" signature="174948:175058" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="175280:175413" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="175669:175803" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="176228:176381" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="176679:176755" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="176881:177000" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="177334:177477" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="177766:177867" ph="UPDATE road_... " />
+                <marker date="1499053768844" expanded="true" signature="178187:178294" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="178506:178582" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="178708:178827" ph="INSERT INTO poll_option_details... " />
+                <marker date="1499053768844" expanded="true" signature="178990:179092" ph="UPDATE road_... " />
+                <marker date="1499053768844" expanded="true" signature="179212:179335" ph="UPDATE audit... " />
+                <marker date="1499053768844" expanded="true" signature="180593:180701" ph="SELECT a.tip... stores" />
+                <marker date="1499053768844" expanded="true" signature="180786:180854" ph="SELECT creat... poll_details" />
+                <marker date="1499053768844" expanded="true" signature="181712:181890" ph="SELECT archi... medias" />
+                <marker date="1499053768844" expanded="true" signature="185345:185425" ph="SELECT id FR... presences" />
+                <marker date="1499053768844" expanded="true" signature="185599:185840" ph="SELECT id FR... presence_details" />
+                <marker date="1499053768844" expanded="true" signature="185944:186089" ph="INSERT INTO presence_details... " />
+                <marker date="1499053768844" expanded="true" signature="187137:187404" ph="SELECT id FR... poll_details" />
+                <marker date="1499053768844" expanded="true" signature="187435:187693" ph="SELECT id FR... poll_details" />
+                <marker date="1499053768844" expanded="true" signature="187845:187980" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="188174:188302" ph="INSERT INTO poll_details... " />
+                <marker date="1499053768844" expanded="true" signature="188705:189066" ph="UPDATE poll_... " />
+                <marker date="1499053768844" expanded="true" signature="189260:189607" ph="UPDATE poll_... " />
+                <marker date="1499053768844" expanded="true" signature="189843:190074" ph="SELECT id FR... publicity_details" />
+                <marker date="1499053768844" expanded="true" signature="190178:190302" ph="INSERT INTO publicity_details... " />
+                <marker date="1499053768844" expanded="true" signature="190649:190960" ph="UPDATE publi... " />
+                <marker date="1499053768844" expanded="true" signature="191179:191281" ph="UPDATE road_... " />
+                <marker date="1499053768844" expanded="true" signature="191402:191525" ph="UPDATE audit... " />
+                <marker date="1499053768844" expanded="true" signature="192123:192203" ph="SELECT id FR... presences" />
+                <marker date="1499053768844" expanded="true" signature="192389:192529" ph="UPDATE prese... " />
+                <marker date="1499053768844" expanded="true" signature="193176:193256" ph="SELECT id FR... presences" />
+                <marker date="1499053768844" expanded="true" signature="193443:193573" ph="UPDATE prese... " />
+                <marker date="1499053768844" expanded="true" signature="194233:194356" ph="UPDATE audit... " />
+                <marker date="1499053768844" expanded="true" signature="194526:194609" ph="UPDATE road_... " />
+                <marker date="1499053768844" expanded="true" signature="195242:195894" ph="SELECT `prod... product_store_region" />
+                <marker date="1499053768844" expanded="true" signature="196658:197150" ph="SELECT `publ... publicity_store" />
+                <marker date="1499053768844" expanded="true" signature="197406:197629" ph="SELECT `publ... publicities" />
+                <marker date="1499053768844" expanded="true" signature="198358:198434" ph="UPDATE store... " />
+                <marker date="1499053768844" expanded="true" signature="198576:198684" ph="SELECT a.tip... stores" />
+                <marker date="1499053768844" expanded="true" signature="198750:198935" ph="SELECT `cust... companies" />
+                <marker date="1499053768844" expanded="true" signature="201122:201345" ph="SELECT `publ... publicities" />
+                <marker date="1499053768844" expanded="true" signature="201577:201700" ph="SELECT store... market_details" />
+                <marker date="1499053768844" expanded="true" signature="202120:202734" ph="SELECT `publ... publicities" />
+                <marker date="1499053768844" expanded="true" signature="203035:203761" ph="SELECT `publ... publicities" />
+                <marker date="1499053768844" expanded="true" signature="204061:204517" ph="SELECT `publ... publicities" />
+                <marker date="1499053768844" expanded="true" signature="205233:205568" ph="SELECT id FR... publicity_details" />
+                <marker date="1499053768844" expanded="true" signature="205672:205824" ph="INSERT INTO publicity_details... " />
+                <marker date="1499053768844" expanded="true" signature="206088:206208" ph="UPDATE audit... " />
+                <marker date="1499053768844" expanded="true" signature="207020:207306" ph="SELECT id FR... publicity_details" />
+                <marker date="1499053768844" expanded="true" signature="207410:207549" ph="INSERT INTO publicity_details... " />
+                <marker date="1499053768844" expanded="true" signature="207785:207905" ph="UPDATE audit... " />
+                <marker date="1499053768844" expanded="true" signature="208288:208583" ph="SELECT produ... products" />
+                <marker date="1499053768844" expanded="true" signature="208613:209122" ph="SELECT produ... products" />
+                <marker date="1499053768844" expanded="true" signature="209393:209675" ph="SELECT publi... publicities" />
+                <marker date="1499053768844" expanded="true" signature="209705:210053" ph="SELECT publi... publicities" />
+                <marker date="1499053768844" expanded="true" signature="210734:210814" ph="SELECT id FR... presences" />
+                <marker date="1499053768844" expanded="true" signature="211015:211147" ph="INSERT INTO presence_details... " />
+                <marker date="1499053768844" expanded="true" signature="211273:211381" ph="INSERT INTO scores... " />
+                <marker date="1499053768844" expanded="true" signature="211540:211660" ph="UPDATE audit... " />
+                <marker date="1499053768844" expanded="true" signature="212019:212605" ph="SELECT `stor... company_stores" />
+                <marker date="1499053768844" expanded="true" signature="213004:213542" ph="SELECT `road... roads_resume" />
+                <marker date="1499053768844" expanded="true" signature="213907:214451" ph="SELECT `road... roads_resume" />
+                <marker date="1499053768844" expanded="true" signature="214550:215295" ph="SELECT `a`.`... poll_details" />
+                <marker date="1499053768844" expanded="true" signature="215671:216137" ph="SELECT store... company_stores" />
+                <marker date="1499053768844" expanded="true" signature="216610:216710" ph="INSERT INTO scores... " />
+                <marker date="1499053768844" expanded="true" signature="217687:217842" ph="INSERT INTO publicity_details... " />
+                <marker date="1499053768844" expanded="true" signature="218110:218218" ph="INSERT INTO scores... " />
+                <marker date="1499053768844" expanded="true" signature="218575:218678" ph="INSERT INTO score_details... " />
+                <marker date="1499053768844" expanded="true" signature="218795:218915" ph="UPDATE audit... " />
+                <marker date="1499053768844" expanded="true" signature="219552:219671" ph="INSERT INTO auditinvoices_details... " />
+                <marker date="1499053768844" expanded="true" signature="219796:219904" ph="INSERT INTO scores... " />
+                <marker date="1499053768844" expanded="true" signature="220063:220183" ph="UPDATE audit... " />
+                <marker date="1499053768844" expanded="true" signature="220917:220971" ph="SELECT id,op... poll_options" />
+                <marker date="1499053768844" expanded="true" signature="221026:221184" ph="SELECT b.ema... stores" />
+                <marker date="1499053768844" expanded="true" signature="221436:221556" ph="SELECT archi... medias" />
+                <marker date="1499053768844" expanded="true" signature="222545:222665" ph="SELECT b.ema... stores" />
+                <marker date="1499053768844" expanded="true" signature="223236:223612" ph="SELECT versi... versiones" />
+                <marker date="1499053768844" expanded="true" signature="224299:224917" ph="SELECT store... company_stores" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/rutas-auditor/index.html">
+      <file leaf-file-name="ExcelController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/ExcelController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43333334">
-              <caret line="86" column="37" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
+            <state relative-caret-position="171">
+              <caret line="54" column="39" lean-forward="false" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="39" />
+              <folding>
+                <marker date="1499104401903" expanded="true" signature="2647:3277" ph="SELECT `aler... alert_comments" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReportControllerBack.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/ReportControllerBack.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-792">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -46,30 +525,44 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>excel</find>
+      <find>$productRepo</find>
+    </findStrings>
+  </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="true" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/views/layouts/adminLayout.blade.php" />
-        <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/views/auditors/detailPollPhoto.blade.php" />
         <option value="$PROJECT_DIR$/public/js/app.js" />
-        <option value="$PROJECT_DIR$/app/config/database.php" />
         <option value="$PROJECT_DIR$/public/rutas-auditor/asignar-rutas.php" />
         <option value="$PROJECT_DIR$/public/rutas-auditor/index.html" />
+        <option value="$PROJECT_DIR$/app/config/app.php" />
+        <option value="$PROJECT_DIR$/app/config/database.php" />
+        <option value="$PROJECT_DIR$/public/js/graficos/chart.js" />
+        <option value="$PROJECT_DIR$/public/js/graficos/Bayer-chart.js" />
+        <option value="$PROJECT_DIR$/app/views/report/partials/menuPrincipalColgate.blade.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/app/controllers/ExcelController.php" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-  </component>
-  <component name="NamedScopeManager">
-    <order />
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpServers">
     <servers />
@@ -81,21 +574,12 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="2391" />
+    <option name="y" value="-9" />
+    <option name="width" value="2418" />
+    <option name="height" value="1318" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -110,10 +594,12 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -121,29 +607,9 @@
               <option name="myItemId" value="backend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ttauditSystemAuditor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ttauditSystemAuditor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -153,29 +619,29 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ttauditSystemAuditor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rutas-auditor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ttauditSystemAuditor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttauditSystemAuditor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -187,11 +653,23 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../systemauditor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
+    <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -205,10 +683,15 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
@@ -217,8 +700,30 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -227,34 +732,81 @@
       <changelist id="cd059e92-c4d3-44f3-af6b-bf90b40e39c3" name="Default" comment="" />
       <created>1417819075335</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1417819075335</updated>
+      <workItem from="1488761951414" duration="19000" />
+      <workItem from="1488782872851" duration="1392000" />
+      <workItem from="1488813620021" duration="1223000" />
+      <workItem from="1488856496482" duration="5000" />
+      <workItem from="1489615457378" duration="1447000" />
+      <workItem from="1489971354840" duration="79000" />
+      <workItem from="1490645405965" duration="610000" />
+      <workItem from="1491329885840" duration="4610000" />
+      <workItem from="1499047427063" duration="9577000" />
+      <workItem from="1499208429116" duration="841000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="19803000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="2391" y="-9" width="2418" height="1318" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17857143" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15827645" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27857143" sideWeight="0.5166382" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938188" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2598123" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27857143" sideWeight="0.48336178" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="EXTERNAL D:/rootweb/ttaudit.com/ttauditSystemAuditor">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -272,364 +824,681 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/database/seeds/ProductTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.78413284">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_01_22_124721_create_space_details_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6223507">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_12_09_052641_create_stores_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3102767">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/seeds/StoreTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="28.692308">
-          <caret line="458" column="44" selection-start-line="458" selection-start-column="44" selection-end-line="459" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/seeds/CompanyStoreTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.153847">
-          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/seeds/RoadTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.4615383">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/seeds/RoadDetailTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.307693">
-          <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_01_22_124711_create_spaces_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_01_22_125037_create_publicity_details_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_01_22_125204_create_presences_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_01_22_125226_create_presence_details_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_02_03_203603_create_audit_road_stores_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_12_09_165326_create_company_stores_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_12_09_165817_create_category_products_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_12_10_020826_create_user_companies_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5895954">
-          <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="91" />
+        <state relative-caret-position="0">
+          <caret line="19" column="69" lean-forward="false" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="91" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_01_22_172659_create_polls_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        <state relative-caret-position="0">
+          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/seeds/UserTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34501845">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/seeds/UserCompanyTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.115385">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_04_07_004106_create_poll_options_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="37" />
+        <state relative-caret-position="0">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_04_07_030837_create_poll_option_details_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+        <state relative-caret-position="0">
+          <caret line="14" column="60" lean-forward="false" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_01_22_172752_create_poll_details_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="37" />
+        <state relative-caret-position="0">
+          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_01_22_124615_create_road_details_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        <state relative-caret-position="0">
+          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Auditor/Entities/PollDetail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.035940804">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="27" />
+        <state relative-caret-position="0">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Auditor/Entities/PollOption.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.035940804">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        <state relative-caret-position="0">
+          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Auditor/Entities/PollOptionDetail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.035940804">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        <state relative-caret-position="0">
+          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Auditor/Entities/PollRange.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.035940804">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        <state relative-caret-position="0">
+          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Auditor/Entities/Media.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.035940804">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        <state relative-caret-position="0">
+          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_04_07_032019_create_poll_ranges_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="51" />
+        <state relative-caret-position="0">
+          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_04_07_041447_create_medias_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        <state relative-caret-position="0">
+          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/seeds/AuditTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+        <state relative-caret-position="0">
+          <caret line="45" column="42" lean-forward="false" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/seeds/CompanyAuditTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        <state relative-caret-position="0">
+          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/AuditorsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8436782">
-          <caret line="121" column="51" selection-start-line="121" selection-start-column="36" selection-end-line="121" selection-end-column="51" />
+        <state relative-caret-position="0">
+          <caret line="121" column="51" lean-forward="false" selection-start-line="121" selection-start-column="36" selection-end-line="121" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36049107">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        <state relative-caret-position="0">
+          <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/auditors/inicio.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/adminLayout.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64827585">
-          <caret line="90" column="29" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="29.307692">
-          <caret line="106" column="51" selection-start-line="106" selection-start-column="51" selection-end-line="106" selection-end-column="51" />
+        <state relative-caret-position="0">
+          <caret line="90" column="29" lean-forward="false" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/start.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/auditors/detailPollPhoto.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3091954">
-          <caret line="67" column="31" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="67" column="31" lean-forward="false" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/rutas-auditor/geolocalizacionUser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.2471263">
-          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35172415">
-          <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29310346">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/paths.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0816092">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/index.php" />
+    <entry file="file://$USER_HOME$/Desktop/paths.php" />
     <entry file="file://$PROJECT_DIR$/bootstrap/paths.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/app.php">
+    <entry file="file://$USER_HOME$/Desktop/app.php" />
+    <entry file="file://$USER_HOME$/Desktop/autoload.php" />
+    <entry file="file://$PROJECT_DIR$/public/rutas-auditor/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        <state relative-caret-position="2068">
+          <caret line="94" column="33" lean-forward="false" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/autoload.php">
+    <entry file="file://$PROJECT_DIR$/app/config/mail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+        <state relative-caret-position="484">
+          <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/rutas-auditor/asignar-rutas.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-31.384615">
-          <caret line="203" column="35" selection-start-line="203" selection-start-column="35" selection-end-line="203" selection-end-column="35" />
+        <state relative-caret-position="352">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/graficos/chart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-528">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/graficos/Bayer-chart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="47" column="32" lean-forward="false" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/clienteBayer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1732">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/report/partials/menuLeft.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/report/partials/menuLeftMediaConcept.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/report/partials/menuLeftPrincipal.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/report/partials/menuPrincipalAlicorp.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/report/partials/menuPrincipalInterbank.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/report/partials/menuPrincipalColgate.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="32" column="62" lean-forward="false" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="34" column="32" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-999">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="62" column="30" lean-forward="true" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85316">
+          <caret line="3887" column="29" lean-forward="false" selection-start-line="3887" selection-start-column="17" selection-end-line="3887" selection-end-column="29" />
           <folding>
-            <marker date="1446736168839" expanded="true" signature="10464:10481" placeholder="..." />
+            <element signature="e#224046#224999#2#PHP" expanded="false" />
+            <marker date="1499053768844" expanded="true" signature="25355:25851" ph="SELECT COUNT... roads_resume" />
+            <marker date="1499053768844" expanded="true" signature="26473:26869" ph="SELECT r.*, roads" />
+            <marker date="1499053768844" expanded="true" signature="26595:26685" ph="select road_... road_details" />
+            <marker date="1499053768844" expanded="true" signature="27190:27630" ph="SELECT COUNT... roads_resume" />
+            <marker date="1499053768844" expanded="true" signature="27679:27929" ph="SELECT store... roads_resume" />
+            <marker date="1499053768844" expanded="true" signature="28338:28836" ph="SELECT COUNT... market_details" />
+            <marker date="1499053768844" expanded="true" signature="28885:29373" ph="SELECT `stor... stores" />
+            <marker date="1499053768844" expanded="true" signature="29690:30112" ph="SELECT COUNT... roads_resume" />
+            <marker date="1499053768844" expanded="true" signature="30411:31453" ph="SELECT `road... roads_resume" />
+            <marker date="1499053768844" expanded="true" signature="32099:32525" ph="SELECT id, c... stores" />
+            <marker date="1499053768844" expanded="true" signature="32724:33295" ph="SELECT store... stores" />
+            <marker date="1499053768844" expanded="true" signature="33523:34036" ph="SELECT store... stores" />
+            <marker date="1499053768844" expanded="true" signature="34365:34487" ph="SELECT compa... company_stores" />
+            <marker date="1499053768844" expanded="true" signature="34577:34738" ph="SELECT a.id,... company_audits" />
+            <marker date="1499053768844" expanded="true" signature="35155:35343" ph="SELECT audit... audit_road_stores" />
+            <marker date="1499053768844" expanded="true" signature="35994:36070" ph="SELECT s.id,... polls" />
+            <marker date="1499053768844" expanded="true" signature="36843:36933" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="37038:37162" ph="UPDATE audit... " />
+            <marker date="1499053768844" expanded="true" signature="37657:37732" ph="UPDATE store... " />
+            <marker date="1499053768844" expanded="true" signature="38079:38255" ph="SELECT id FR... company_audits" />
+            <marker date="1499053768844" expanded="true" signature="38345:38444" ph="SELECT id, q... polls" />
+            <marker date="1499053768844" expanded="true" signature="39467:39779" ph="SELECT count... stores" />
+            <marker date="1499053768844" expanded="true" signature="39964:40147" ph="INSERT INTO stores... " />
+            <marker date="1499053768844" expanded="true" signature="40409:40494" ph="SELECT count... company_stores" />
+            <marker date="1499053768844" expanded="true" signature="40609:40708" ph="INSERT INTO company_stores... " />
+            <marker date="1499053768844" expanded="true" signature="40813:40918" ph="INSERT INTO road_details... " />
+            <marker date="1499053768844" expanded="true" signature="41043:41164" ph="INSERT INTO audit_road_stores... " />
+            <marker date="1499053768844" expanded="true" signature="41765:42188" ph="select a.pol... poll_details" />
+            <marker date="1499053768844" expanded="true" signature="43289:43463" ph="SELECT count... poll_details" />
+            <marker date="1499053768844" expanded="true" signature="43691:43820" ph="SELECT user_... roads_resume" />
+            <marker date="1499053768844" expanded="true" signature="44406:44537" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="44799:44867" ph="SELECT creat... poll_details" />
+            <marker date="1499053768844" expanded="true" signature="44954:45103" ph="SELECT a.cad... stores" />
+            <marker date="1499053768844" expanded="true" signature="45356:45421" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="45511:45584" ph="SELECT fulln... companies" />
+            <marker date="1499053768844" expanded="true" signature="45734:45853" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="46655:46831" ph="SELECT archi... medias" />
+            <marker date="1499053768844" expanded="true" signature="50229:50352" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="50799:50906" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="51273:51338" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="51564:51682" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="51906:52025" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="52534:52658" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="53056:53121" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="53347:53465" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="53689:53808" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="54246:54368" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="54814:54933" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="55445:55575" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="55986:56051" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="56277:56395" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="56619:56738" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="57240:57370" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="57781:57846" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="58072:58190" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="58414:58533" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="58829:58952" ph="UPDATE audit... " />
+            <marker date="1499053768844" expanded="true" signature="59938:60160" ph="SELECT count... poll_details" />
+            <marker date="1499053768844" expanded="true" signature="60266:60396" ph="SELECT user_... roads_resume" />
+            <marker date="1499053768844" expanded="true" signature="60484:60558" ph="SELECT fulln... companies" />
+            <marker date="1499053768844" expanded="true" signature="61116:61256" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="61760:61903" ph="SELECT a.cad... stores" />
+            <marker date="1499053768844" expanded="true" signature="62973:63212" ph="SELECT m.id,... poll_details" />
+            <marker date="1499053768844" expanded="true" signature="63439:63491" ph="update poll_... " />
+            <marker date="1499053768844" expanded="true" signature="63657:63708" ph="update poll_... " />
+            <marker date="1499053768844" expanded="true" signature="63801:63897" ph="SELECT m.com... poll_details" />
+            <marker date="1499053768844" expanded="true" signature="64557:64635" ph="SELECT m.ful... products" />
+            <marker date="1499053768844" expanded="true" signature="66943:67023" ph="SELECT a.ema... users" />
+            <marker date="1499053768844" expanded="true" signature="69471:69594" ph="UPDATE audit... " />
+            <marker date="1499053768844" expanded="true" signature="69836:69977" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="70243:70366" ph="UPDATE audit... " />
+            <marker date="1499053768844" expanded="true" signature="70672:70785" ph="SELECT a.cad... stores" />
+            <marker date="1499053768844" expanded="true" signature="71065:71242" ph="SELECT archi... medias" />
+            <marker date="1499053768844" expanded="true" signature="71332:71398" ph="SELECT creat... poll_details" />
+            <marker date="1499053768844" expanded="true" signature="74117:74292" ph="SELECT count... poll_details" />
+            <marker date="1499053768844" expanded="true" signature="74436:74546" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="75922:76147" ph="SELECT count... poll_details" />
+            <marker date="1499053768844" expanded="true" signature="76566:76711" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="77187:77252" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="77479:77597" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="77821:77940" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="78480:78625" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="79101:79166" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="79393:79511" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="79735:79854" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="80394:80547" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="81039:81104" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="81331:81449" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="81673:81792" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="82332:82486" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="82978:83043" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="83270:83388" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="83612:83731" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="84271:84416" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="84892:84957" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="85184:85315" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="85565:85697" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="86263:86383" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="86809:86874" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="87101:87232" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="87482:87614" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="88180:88322" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="89172:89240" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="89467:89609" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="89869:90012" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="90588:90717" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="91070:91138" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="91264:91383" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="91701:91824" ph="UPDATE audit... " />
+            <marker date="1499053768844" expanded="true" signature="92391:92589" ph="SELECT count... stores" />
+            <marker date="1499053768844" expanded="true" signature="92774:92895" ph="INSERT INTO stores... " />
+            <marker date="1499053768844" expanded="true" signature="93086:93171" ph="SELECT count... company_stores" />
+            <marker date="1499053768844" expanded="true" signature="93286:93385" ph="INSERT INTO company_stores... " />
+            <marker date="1499053768844" expanded="true" signature="94391:94605" ph="SELECT count... poll_details" />
+            <marker date="1499053768844" expanded="true" signature="94983:95116" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="95570:95704" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="95963:96039" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="96218:96346" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="96568:96697" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="97075:97208" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="97654:97719" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="97868:97997" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="98232:98308" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="98433:98562" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="98940:99057" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="99471:99536" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="99685:99814" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="100049:100125" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="100250:100379" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="101758:101932" ph="SELECT count... poll_details" />
+            <marker date="1499053768844" expanded="true" signature="102213:102342" ph="SELECT user_... roads_resume" />
+            <marker date="1499053768844" expanded="true" signature="102499:102572" ph="SELECT fulln... companies" />
+            <marker date="1499053768844" expanded="true" signature="103082:103331" ph="SELECT b.id,... stores" />
+            <marker date="1499053768844" expanded="true" signature="103410:103661" ph="SELECT b.id,... stores" />
+            <marker date="1499053768844" expanded="true" signature="103742:103990" ph="SELECT b.id,... stores" />
+            <marker date="1499053768844" expanded="true" signature="104258:104391" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="104647:104715" ph="SELECT creat... poll_details" />
+            <marker date="1499053768844" expanded="true" signature="105338:105486" ph="INSERT INTO alerts... " />
+            <marker date="1499053768844" expanded="true" signature="106877:107023" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="107567:107707" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="107973:108049" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="108228:108365" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="108587:108716" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="109159:109302" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="109561:109637" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="109816:109953" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="110175:110304" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="110594:110662" ph="SELECT creat... poll_details" />
+            <marker date="1499053768844" expanded="true" signature="111215:111363" ph="INSERT INTO alerts... " />
+            <marker date="1499053768844" expanded="true" signature="112747:112885" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="113349:113483" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="113758:113834" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="114013:114141" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="114379:114508" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="114902:115047" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="115513:115574" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="115801:115929" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="116173:116302" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="116757:116882" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="117326:117458" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="117909:118063" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="118557:118674" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="118896:118972" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="119151:119279" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="119499:119628" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="120011:120166" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="120605:120670" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="120881:121009" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="121245:121374" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="121800:121941" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="122215:122283" ph="SELECT creat... poll_details" />
+            <marker date="1499053768844" expanded="true" signature="122363:122434" ph="SELECT a.ubi... stores" />
+            <marker date="1499053768844" expanded="true" signature="123600:123731" ph="SELECT archi... medias" />
+            <marker date="1499053768844" expanded="true" signature="124109:124257" ph="INSERT INTO alerts... " />
+            <marker date="1499053768844" expanded="true" signature="125625:125690" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="125840:125969" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="126848:126979" ph="SELECT archi... medias" />
+            <marker date="1499053768844" expanded="true" signature="127501:127649" ph="INSERT INTO alerts... " />
+            <marker date="1499053768844" expanded="true" signature="129465:129614" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="130043:130146" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="130352:130480" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="130716:130845" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="131279:131436" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="131881:131984" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="132190:132318" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="132554:132683" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="136479:136520" ph="UPDATE alert... " />
+            <marker date="1499053768844" expanded="true" signature="137858:137899" ph="UPDATE alert... " />
+            <marker date="1499053768844" expanded="true" signature="138063:138186" ph="UPDATE audit... " />
+            <marker date="1499053768844" expanded="true" signature="138899:139006" ph="INSERT INTO medias... " />
+            <marker date="1499053768844" expanded="true" signature="139798:139918" ph="INSERT INTO medias... " />
+            <marker date="1499053768844" expanded="true" signature="140539:140654" ph="INSERT INTO medias... " />
+            <marker date="1499053768844" expanded="true" signature="141293:141413" ph="INSERT INTO medias... " />
+            <marker date="1499053768844" expanded="true" signature="141977:142075" ph="INSERT INTO medias... " />
+            <marker date="1499053768844" expanded="true" signature="143163:143246" ph="UPDATE road_... " />
+            <marker date="1499053768844" expanded="true" signature="143324:143509" ph="INSERT INTO control_time... " />
+            <marker date="1499053768844" expanded="true" signature="143858:143940" ph="SELECT * FRO... road_details" />
+            <marker date="1499053768844" expanded="true" signature="144031:144084" ph="UPDATE roads... " />
+            <marker date="1499053768844" expanded="true" signature="144883:144966" ph="UPDATE road_... " />
+            <marker date="1499053768844" expanded="true" signature="145044:145216" ph="INSERT INTO control_time... " />
+            <marker date="1499053768844" expanded="true" signature="145539:145621" ph="SELECT * FRO... road_details" />
+            <marker date="1499053768844" expanded="true" signature="145712:145765" ph="UPDATE roads... " />
+            <marker date="1499053768844" expanded="true" signature="146556:146728" ph="INSERT INTO control_time... " />
+            <marker date="1499053768844" expanded="true" signature="147468:147541" ph="UPDATE publi... " />
+            <marker date="1499053768844" expanded="true" signature="149186:149261" ph="INSERT INTO roads... " />
+            <marker date="1499053768844" expanded="true" signature="149573:149676" ph="INSERT INTO road_details... " />
+            <marker date="1499053768844" expanded="true" signature="149772:149856" ph="SELECT audit... company_audits" />
+            <marker date="1499053768844" expanded="true" signature="150018:150129" ph="INSERT INTO audit_road_stores... " />
+            <marker date="1499053768844" expanded="true" signature="150265:150321" ph="UPDATE store... " />
+            <marker date="1499053768844" expanded="true" signature="150388:150476" ph="UPDATE compa... " />
+            <marker date="1499053768844" expanded="true" signature="150846:150889" ph="SELECT id FR... products" />
+            <marker date="1499053768844" expanded="true" signature="150985:151074" ph="INSERT INTO product_detail... " />
+            <marker date="1499053768844" expanded="true" signature="151617:151658" ph="SELECT id FR... stores" />
+            <marker date="1499053768844" expanded="true" signature="151809:151907" ph="INSERT INTO company_stores... " />
+            <marker date="1499053768844" expanded="true" signature="152023:152136" ph="INSERT INTO road_details... " />
+            <marker date="1499053768844" expanded="true" signature="152247:152360" ph="INSERT INTO road_details... " />
+            <marker date="1499053768844" expanded="true" signature="152459:152573" ph="INSERT INTO market_details... " />
+            <marker date="1499053768844" expanded="true" signature="152872:152944" ph="SELECT audit... company_audits" />
+            <marker date="1499053768844" expanded="true" signature="153065:153185" ph="INSERT INTO audit_road_stores... " />
+            <marker date="1499053768844" expanded="true" signature="154834:154912" ph="SELECT store... road_details" />
+            <marker date="1499053768844" expanded="true" signature="155157:155257" ph="SELECT point... market_details" />
+            <marker date="1499053768844" expanded="true" signature="155482:155589" ph="UPDATE audit... " />
+            <marker date="1499053768844" expanded="true" signature="155721:155793" ph="SELECT audit... company_audits" />
+            <marker date="1499053768844" expanded="true" signature="155950:156070" ph="INSERT INTO audit_road_stores... " />
+            <marker date="1499053768844" expanded="true" signature="156249:156362" ph="INSERT INTO road_details... " />
+            <marker date="1499053768844" expanded="true" signature="156748:156800" ph="SELECT id FR... stores" />
+            <marker date="1499053768844" expanded="true" signature="156984:157081" ph="INSERT INTO company_stores... " />
+            <marker date="1499053768844" expanded="true" signature="157274:157480" ph="SELECT id,fu... stores" />
+            <marker date="1499053768844" expanded="true" signature="157728:158149" ph="SELECT store... company_stores" />
+            <marker date="1499053768844" expanded="true" signature="158536:158616" ph="SELECT users... users" />
+            <marker date="1499053768844" expanded="true" signature="158835:158975" ph="SELECT roads... roads" />
+            <marker date="1499053768844" expanded="true" signature="159196:159588" ph="SELECT store... stores" />
+            <marker date="1499053768844" expanded="true" signature="159816:159941" ph="SELECT distr... stores" />
+            <marker date="1499053768844" expanded="true" signature="160232:160515" ph="SELECT `pres... presences" />
+            <marker date="1499053768844" expanded="true" signature="160896:161079" ph="SELECT ejecu... stores" />
+            <marker date="1499053768844" expanded="true" signature="161504:161696" ph="SELECT id,ru... stores" />
+            <marker date="1499053768844" expanded="true" signature="161996:162405" ph="SELECT `stor... companies" />
+            <marker date="1499053768844" expanded="true" signature="162643:162944" ph="SELECT `stor... company_stores" />
+            <marker date="1499053768844" expanded="true" signature="163123:163198" ph="SELECT id,fu... users" />
+            <marker date="1499053768844" expanded="true" signature="163417:163777" ph="SELECT `poll... polls" />
+            <marker date="1499053768844" expanded="true" signature="164006:164380" ph="SELECT `poll... polls" />
+            <marker date="1499053768844" expanded="true" signature="164561:164611" ph="SELECT id,fu... companies" />
+            <marker date="1499053768844" expanded="true" signature="165068:165270" ph="SELECT store... stores" />
+            <marker date="1499053768844" expanded="true" signature="165556:165851" ph="SELECT produ... products" />
+            <marker date="1499053768844" expanded="true" signature="165881:166239" ph="SELECT produ... products" />
+            <marker date="1499053768844" expanded="true" signature="166478:166996" ph="SELECT `prod... product_detail" />
+            <marker date="1499053768844" expanded="true" signature="167495:167721" ph="SELECT id FR... poll_details" />
+            <marker date="1499053768844" expanded="true" signature="167813:167935" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="168088:168164" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="168263:168487" ph="SELECT id FR... poll_option_details" />
+            <marker date="1499053768844" expanded="true" signature="168601:168735" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="170941:171117" ph="SELECT count... poll_details" />
+            <marker date="1499053768844" expanded="true" signature="171148:171377" ph="SELECT count... poll_details" />
+            <marker date="1499053768844" expanded="true" signature="171570:171645" ph="SELECT fulln... companies" />
+            <marker date="1499053768844" expanded="true" signature="172495:172626" ph="SELECT user_... roads_resume" />
+            <marker date="1499053768844" expanded="true" signature="172951:173086" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="173637:173813" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="174135:174486" ph="UPDATE poll_... " />
+            <marker date="1499053768844" expanded="true" signature="174948:175058" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="175280:175413" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="175669:175803" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="176228:176381" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="176679:176755" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="176881:177000" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="177334:177477" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="177766:177867" ph="UPDATE road_... " />
+            <marker date="1499053768844" expanded="true" signature="178187:178294" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="178506:178582" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="178708:178827" ph="INSERT INTO poll_option_details... " />
+            <marker date="1499053768844" expanded="true" signature="178990:179092" ph="UPDATE road_... " />
+            <marker date="1499053768844" expanded="true" signature="179212:179335" ph="UPDATE audit... " />
+            <marker date="1499053768844" expanded="true" signature="180593:180701" ph="SELECT a.tip... stores" />
+            <marker date="1499053768844" expanded="true" signature="180786:180854" ph="SELECT creat... poll_details" />
+            <marker date="1499053768844" expanded="true" signature="181712:181890" ph="SELECT archi... medias" />
+            <marker date="1499053768844" expanded="true" signature="185345:185425" ph="SELECT id FR... presences" />
+            <marker date="1499053768844" expanded="true" signature="185599:185840" ph="SELECT id FR... presence_details" />
+            <marker date="1499053768844" expanded="true" signature="185944:186089" ph="INSERT INTO presence_details... " />
+            <marker date="1499053768844" expanded="true" signature="187137:187404" ph="SELECT id FR... poll_details" />
+            <marker date="1499053768844" expanded="true" signature="187435:187693" ph="SELECT id FR... poll_details" />
+            <marker date="1499053768844" expanded="true" signature="187845:187980" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="188174:188302" ph="INSERT INTO poll_details... " />
+            <marker date="1499053768844" expanded="true" signature="188705:189066" ph="UPDATE poll_... " />
+            <marker date="1499053768844" expanded="true" signature="189260:189607" ph="UPDATE poll_... " />
+            <marker date="1499053768844" expanded="true" signature="189843:190074" ph="SELECT id FR... publicity_details" />
+            <marker date="1499053768844" expanded="true" signature="190178:190302" ph="INSERT INTO publicity_details... " />
+            <marker date="1499053768844" expanded="true" signature="190649:190960" ph="UPDATE publi... " />
+            <marker date="1499053768844" expanded="true" signature="191179:191281" ph="UPDATE road_... " />
+            <marker date="1499053768844" expanded="true" signature="191402:191525" ph="UPDATE audit... " />
+            <marker date="1499053768844" expanded="true" signature="192123:192203" ph="SELECT id FR... presences" />
+            <marker date="1499053768844" expanded="true" signature="192389:192529" ph="UPDATE prese... " />
+            <marker date="1499053768844" expanded="true" signature="193176:193256" ph="SELECT id FR... presences" />
+            <marker date="1499053768844" expanded="true" signature="193443:193573" ph="UPDATE prese... " />
+            <marker date="1499053768844" expanded="true" signature="194233:194356" ph="UPDATE audit... " />
+            <marker date="1499053768844" expanded="true" signature="194526:194609" ph="UPDATE road_... " />
+            <marker date="1499053768844" expanded="true" signature="195242:195894" ph="SELECT `prod... product_store_region" />
+            <marker date="1499053768844" expanded="true" signature="196658:197150" ph="SELECT `publ... publicity_store" />
+            <marker date="1499053768844" expanded="true" signature="197406:197629" ph="SELECT `publ... publicities" />
+            <marker date="1499053768844" expanded="true" signature="198358:198434" ph="UPDATE store... " />
+            <marker date="1499053768844" expanded="true" signature="198576:198684" ph="SELECT a.tip... stores" />
+            <marker date="1499053768844" expanded="true" signature="198750:198935" ph="SELECT `cust... companies" />
+            <marker date="1499053768844" expanded="true" signature="201122:201345" ph="SELECT `publ... publicities" />
+            <marker date="1499053768844" expanded="true" signature="201577:201700" ph="SELECT store... market_details" />
+            <marker date="1499053768844" expanded="true" signature="202120:202734" ph="SELECT `publ... publicities" />
+            <marker date="1499053768844" expanded="true" signature="203035:203761" ph="SELECT `publ... publicities" />
+            <marker date="1499053768844" expanded="true" signature="204061:204517" ph="SELECT `publ... publicities" />
+            <marker date="1499053768844" expanded="true" signature="205233:205568" ph="SELECT id FR... publicity_details" />
+            <marker date="1499053768844" expanded="true" signature="205672:205824" ph="INSERT INTO publicity_details... " />
+            <marker date="1499053768844" expanded="true" signature="206088:206208" ph="UPDATE audit... " />
+            <marker date="1499053768844" expanded="true" signature="207020:207306" ph="SELECT id FR... publicity_details" />
+            <marker date="1499053768844" expanded="true" signature="207410:207549" ph="INSERT INTO publicity_details... " />
+            <marker date="1499053768844" expanded="true" signature="207785:207905" ph="UPDATE audit... " />
+            <marker date="1499053768844" expanded="true" signature="208288:208583" ph="SELECT produ... products" />
+            <marker date="1499053768844" expanded="true" signature="208613:209122" ph="SELECT produ... products" />
+            <marker date="1499053768844" expanded="true" signature="209393:209675" ph="SELECT publi... publicities" />
+            <marker date="1499053768844" expanded="true" signature="209705:210053" ph="SELECT publi... publicities" />
+            <marker date="1499053768844" expanded="true" signature="210734:210814" ph="SELECT id FR... presences" />
+            <marker date="1499053768844" expanded="true" signature="211015:211147" ph="INSERT INTO presence_details... " />
+            <marker date="1499053768844" expanded="true" signature="211273:211381" ph="INSERT INTO scores... " />
+            <marker date="1499053768844" expanded="true" signature="211540:211660" ph="UPDATE audit... " />
+            <marker date="1499053768844" expanded="true" signature="212019:212605" ph="SELECT `stor... company_stores" />
+            <marker date="1499053768844" expanded="true" signature="213004:213542" ph="SELECT `road... roads_resume" />
+            <marker date="1499053768844" expanded="true" signature="213907:214451" ph="SELECT `road... roads_resume" />
+            <marker date="1499053768844" expanded="true" signature="214550:215295" ph="SELECT `a`.`... poll_details" />
+            <marker date="1499053768844" expanded="true" signature="215671:216137" ph="SELECT store... company_stores" />
+            <marker date="1499053768844" expanded="true" signature="216610:216710" ph="INSERT INTO scores... " />
+            <marker date="1499053768844" expanded="true" signature="217687:217842" ph="INSERT INTO publicity_details... " />
+            <marker date="1499053768844" expanded="true" signature="218110:218218" ph="INSERT INTO scores... " />
+            <marker date="1499053768844" expanded="true" signature="218575:218678" ph="INSERT INTO score_details... " />
+            <marker date="1499053768844" expanded="true" signature="218795:218915" ph="UPDATE audit... " />
+            <marker date="1499053768844" expanded="true" signature="219552:219671" ph="INSERT INTO auditinvoices_details... " />
+            <marker date="1499053768844" expanded="true" signature="219796:219904" ph="INSERT INTO scores... " />
+            <marker date="1499053768844" expanded="true" signature="220063:220183" ph="UPDATE audit... " />
+            <marker date="1499053768844" expanded="true" signature="220917:220971" ph="SELECT id,op... poll_options" />
+            <marker date="1499053768844" expanded="true" signature="221026:221184" ph="SELECT b.ema... stores" />
+            <marker date="1499053768844" expanded="true" signature="221436:221556" ph="SELECT archi... medias" />
+            <marker date="1499053768844" expanded="true" signature="222545:222665" ph="SELECT b.ema... stores" />
+            <marker date="1499053768844" expanded="true" signature="223236:223612" ph="SELECT versi... versiones" />
+            <marker date="1499053768844" expanded="true" signature="224299:224917" ph="SELECT store... company_stores" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/rutas-auditor/index.html">
+    <entry file="file://$PROJECT_DIR$/app/controllers/ReportControllerBack.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43333334">
-          <caret line="86" column="37" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
+        <state relative-caret-position="-792">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/ExcelController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="54" column="39" lean-forward="false" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="39" />
+          <folding>
+            <marker date="1499104401903" expanded="true" signature="2647:3277" ph="SELECT `aler... alert_comments" />
+          </folding>
         </state>
       </provider>
     </entry>

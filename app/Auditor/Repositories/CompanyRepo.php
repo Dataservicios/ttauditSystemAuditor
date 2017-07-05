@@ -53,4 +53,46 @@ class CompanyRepo extends BaseRepo{
         //dd(\DB::select($sql));
     }
 
+    public function getCompaniesForClient($client_id,$visible="1",$estudio="")
+    {
+        if ($estudio<>""){
+            if ($visible=="T"){
+                $consulta = Company::where('customer_id', $client_id)->where('estudio',$estudio)->get();
+            }else{
+                $consulta = Company::where('customer_id', $client_id)->where('visible',$visible)->where('estudio',$estudio)->get();
+            }
+        }else{
+            if ($visible=="T"){
+                $consulta = Company::where('customer_id', $client_id)->get();
+            }else{
+                $consulta = Company::where('customer_id', $client_id)->where('visible',$visible)->get();
+            }
+        }
+
+
+        return $consulta;
+    }
+
+    public function getCurrentCampaigns()
+    {
+        $consulta = Company::where('active', 1)->get();
+        return $consulta;
+    }
+
+    public function getFirstCurrentCampaigns($customer_id="0",$study_id="0")
+    {
+        if ($customer_id=="0"){
+            $consulta = Company::where('active', 1)->where('visible',1)->orderBy('id','DESC')->first();
+        }else{
+            if ($study_id=="0"){
+                $consulta = Company::where('customer_id',$customer_id)->where('active', 1)->where('visible',1)->orderBy('id','DESC')->first();
+            }else{
+                $consulta = Company::where('customer_id',$customer_id)->where('active', 1)->where('visible',1)->where('study_id',$study_id)->orderBy('id','DESC')->first();
+            }
+
+        }
+
+        return $consulta;
+    }
+
 } 

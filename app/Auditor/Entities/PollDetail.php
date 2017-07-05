@@ -9,4 +9,14 @@ class PollDetail extends \Eloquent {
     {
         return $this->belongsto('Auditor\Entities\Poll');
     }
+
+    public function product()
+    {
+        return $this->belongsto('Auditor\Entities\Product');
+    }
+
+    public function publicity()
+    {
+        return $this->belongsto('Auditor\Entities\Publicity');
+    }
 }

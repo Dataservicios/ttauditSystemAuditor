@@ -1,7 +1,7 @@
 <?php
 namespace Auditor\Entities;
 class Store extends \Eloquent {
-    protected $fillable = array('fullname','type','owner','address','urbanization','district','region','ubigeo','distributor','latitude','longitude','photo','ejecutivo','rubro');
+    protected $fillable = array('cadenaRuc','fullname','type','owner','address','urbanization','district','region','ubigeo','distributor','latitude','longitude','photo','ejecutivo','rubro');
     protected $perPage = 15;
     protected $table = 'stores';
 
@@ -13,6 +13,11 @@ class Store extends \Eloquent {
     public function companyStores()
     {
         return $this->hasMany('Auditor\Entities\CompanyStore');
+    }
+
+    public function publicitiesStore()
+    {
+        return $this->hasMany('Auditor\Entities\PublicityStore');
     }
 
 }

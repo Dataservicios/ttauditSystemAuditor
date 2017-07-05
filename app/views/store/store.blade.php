@@ -25,6 +25,13 @@
                                             {{ $errors->first('fullname', '<div class="alert alert-danger" role="alert">:message</div>') }}
                                         </div>
                                     </div>
+                                    <div class="form-group">
+                                        {{ Form::label('cadenaRuc', 'Cadena/Ruc',['class' => 'col-sm-4 control-label']) }}
+                                        <div class="col-sm-8">
+                                            {{ Form::text('cadenaRuc', null, ['class' => 'form-control']) }}
+                                            {{ $errors->first('cadenaRuc', '<div class="alert alert-danger" role="alert">:message</div>') }}
+                                        </div>
+                                    </div>
 
                                     <div class="form-group">
                                         {{ Form::label('latitude', 'Latitud',['class' => 'col-sm-4 control-label']) }}

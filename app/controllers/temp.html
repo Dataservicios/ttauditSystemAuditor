@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+);
+DELIMITER $$
+
+DROP PROCEDURE IF EXISTS `sp_consulta_reporte_company_23` $$
+CREATE DEFINER=`root`@`%` PROCEDURE `sp_consulta_reporte_company_23`()
+BEGIN
+DROP TEMPORARY TABLE IF EXISTS tmp_comercios;
+CREATE TEMPORARY TABLE IF NOT EXISTS tmp_comercios ( INDEX(store_id) ) AS
+(
+select * FROM comercio_excel_company_23
+);
+
+
+DROP TEMPORARY TABLE IF EXISTS tmp_sino;
+CREATE TEMPORARY TABLE IF NOT EXISTS tmp_sino ( INDEX(company_id, store_id, poll_id) ) AS
+(
+select * FROM respuestas_sino_company_23
+where store_id in (select store_id from tmp_comercios)
+);
+
+
+DROP TEMPORARY TABLE IF EXISTS tmp_opciones;
+CREATE TEMPORARY TABLE IF NOT EXISTS tmp_opciones ( INDEX(store_id, poll_id ) ) AS
+(
+select a.poll_id, a.store_id, a.Respuesta, a.Foto, b.options, b.limite, b.otro
+from tmp_sino a
+left outer join respuestas_opciones_company_23 b
+on (a.poll_id = b.poll_id and a.store_id = b.store_id)
+where a.store_id in (select store_id from tmp_comercios)
+);
+
+
+DROP TEMPORARY TABLE IF EXISTS preg_259;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_259 ( INDEX(store_id ) ) AS
+(
+select * from tmp_sino where poll_id = 259
+);
+
+
+DROP TEMPORARY TABLE IF EXISTS preg_260;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_260 ( INDEX(store_id ) ) AS
+(
+select store_id,
+respuesta,
+sum(case when options = '260a' then 1 else 0 end) as a,
+sum(case when options = '260b' then 1 else 0 end) as b,
+sum(case when options = '260c' then 1 else 0 end) as c,
+sum(case when options = '260d' then 1 else 0 end) as d,
+sum(case when options = '260e' then 1 else 0 end) as e,
+sum(case when options = '260f' then 1 else 0 end) as f,
+foto
+from tmp_opciones
+where poll_id = 260
+group by store_id, respuesta, foto
+);
+
+DROP TEMPORARY TABLE IF EXISTS preg_261;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_261 ( INDEX(store_id ) ) AS
+(
+select store_id,
+respuesta,
+sum(case when options = '261a' then 1 else 0 end) as a,
+sum(case when options = '261b' then 1 else 0 end) as b,
+sum(case when options = '261c' then 1 else 0 end) as c,
+foto
+from tmp_opciones
+where poll_id = 261
+group by store_id, respuesta, foto
+);
+
+DROP TEMPORARY TABLE IF EXISTS preg_262;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_262 ( INDEX(store_id ) ) AS
+(
+select store_id,
+respuesta,
+sum(case when options = '262a' then 1 else 0 end) as a,
+sum(case when options = '262b' then 1 else 0 end) as b,
+sum(case when options = '262c' then 1 else 0 end) as c,
+sum(case when options = '262d' then 1 else 0 end) as d,
+sum(case when options = '262e' then 1 else 0 end) as e,
+sum(case when options = '262f' then 1 else 0 end) as f,
+otro,
+foto
+from tmp_opciones
+where poll_id = 262
+group by store_id, respuesta, foto
+);
+
+
+
+DROP TEMPORARY TABLE IF EXISTS preg_263;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_263 ( INDEX(store_id ) ) AS
+(
+select store_id,
+respuesta,
+sum(case when options = '263a' then 1 else 0 end) as a,
+sum(case when options = '263b' then 1 else 0 end) as b,
+sum(case when options = '263c' then 1 else 0 end) as c,
+foto
+from tmp_opciones
+where poll_id = 263
+group by store_id, respuesta, foto
+);
+
+
+DROP TEMPORARY TABLE IF EXISTS preg_264;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_264 ( INDEX(store_id ) ) AS
+(
+select * from tmp_sino where poll_id = 264
+);
+
+
+DROP TEMPORARY TABLE IF EXISTS preg_265;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_265 ( INDEX(store_id ) ) AS
+(
+select * from tmp_sino where poll_id = 265
+);
+
+
+DROP TEMPORARY TABLE IF EXISTS preg_266;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_266 ( INDEX(store_id ) ) AS
+(
+select * from tmp_sino where poll_id = 266
+);
+
+DROP TEMPORARY TABLE IF EXISTS preg_267;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_267 ( INDEX(store_id ) ) AS
+(
+select store_id,
+respuesta,
+sum(case when options = '267a' then 1 else 0 end) as a,
+sum(case when options = '267b' then 1 else 0 end) as b,
+sum(case when options = '267c' then 1 else 0 end) as c,
+sum(case when options = '267d' then 1 else 0 end) as d,
+foto,
+limite
+from tmp_opciones
+where poll_id = 267
+group by store_id, respuesta, foto, limite
+);
+
+DROP TEMPORARY TABLE IF EXISTS preg_268;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_268 ( INDEX(store_id ) ) AS
+(
+select * from tmp_sino where poll_id = 268
+);
+
+
+DROP TEMPORARY TABLE IF EXISTS preg_269;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_269 ( INDEX(store_id ) ) AS
+(
+select * from tmp_sino where poll_id = 269
+);
+
+
+DROP TEMPORARY TABLE IF EXISTS preg_270;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_270 ( INDEX(store_id ) ) AS
+(
+select * from tmp_sino where poll_id = 270
+);
+
+
+DROP TEMPORARY TABLE IF EXISTS preg_271;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_271 ( INDEX(store_id ) ) AS
+(
+select store_id,
+respuesta,
+sum(case when options = '271a' then 1 else 0 end) as a,
+sum(case when options = '271b' then 1 else 0 end) as b,
+sum(case when options = '271c' then 1 else 0 end) as c,
+foto
+from tmp_opciones
+where poll_id = 271
+group by store_id, respuesta, foto
+);
+
+
+DROP TEMPORARY TABLE IF EXISTS preg_272;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_272 ( INDEX(store_id ) ) AS
+(
+select store_id,
+respuesta,
+sum(case when options = '272a' then 1 else 0 end) as a,
+sum(case when options = '272b' then 1 else 0 end) as b,
+sum(case when options = '272c' then 1 else 0 end) as c,
+foto
+from tmp_opciones
+where poll_id = 272
+group by store_id, respuesta, foto
+);
+
+
+DROP TEMPORARY TABLE IF EXISTS preg_273;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_273 ( INDEX(store_id ) ) AS
+(
+select store_id,
+respuesta,
+sum(case when options = '273a' then 1 else 0 end) as a,
+sum(case when options = '273b' then 1 else 0 end) as b,
+foto
+from tmp_opciones
+where poll_id = 273
+group by store_id, respuesta, foto
+);
+
+
+DROP TEMPORARY TABLE IF EXISTS preg_274;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_274 ( INDEX(store_id ) ) AS
+(
+select * from tmp_sino where poll_id = 274
+);
+
+
+DROP TEMPORARY TABLE IF EXISTS preg_275;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_275 ( INDEX(store_id ) ) AS
+(
+select * from tmp_sino where poll_id = 275
+);
+
+
+DROP TEMPORARY TABLE IF EXISTS preg_276;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_276 ( INDEX(store_id ) ) AS
+(
+select * from tmp_sino where poll_id = 276
+);
+
+
+DROP TEMPORARY TABLE IF EXISTS preg_277;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_277 ( INDEX(store_id ) ) AS
+(
+select * from tmp_sino where poll_id = 277
+);
+
+
+DROP TEMPORARY TABLE IF EXISTS preg_278;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_278 ( INDEX(store_id ) ) AS
+(
+select store_id,
+respuesta,
+sum(case when options = '278a' then 1 else 0 end) as a,
+sum(case when options = '278b' then 1 else 0 end) as b,
+sum(case when options = '278c' then 1 else 0 end) as c,
+sum(case when options = '278d' then 1 else 0 end) as d,
+sum(case when options = '278e' then 1 else 0 end) as e,
+sum(case when options = '278f' then 1 else 0 end) as f,
+foto
+from tmp_opciones
+where poll_id = 278
+group by store_id, respuesta, foto
+);
+
+DROP TEMPORARY TABLE IF EXISTS preg_279;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_279 ( INDEX(store_id ) ) AS
+(
+select store_id,
+respuesta,
+sum(case when options = '279a' then 1 else 0 end) as a,
+sum(case when options = '279b' then 1 else 0 end) as b,
+sum(case when options = '279c' then 1 else 0 end) as c,
+sum(case when options = '279d' then 1 else 0 end) as d,
+foto,
+limite
+from tmp_opciones
+where poll_id = 279
+group by store_id, respuesta, foto, limite
+);
+
+DROP TEMPORARY TABLE IF EXISTS preg_280;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_280 ( INDEX(store_id ) ) AS
+(
+select store_id,
+respuesta,
+sum(case when options = '280a' then 1 else 0 end) as a,
+sum(case when options = '280b' then 1 else 0 end) as b,
+sum(case when options = '280c' then 1 else 0 end) as c,
+sum(case when options = '280d' then 1 else 0 end) as d,
+foto,
+limite
+from tmp_opciones
+where poll_id = 280
+group by store_id, respuesta, foto, limite
+);
+
+DROP TEMPORARY TABLE IF EXISTS preg_281;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_281 ( INDEX(store_id ) ) AS
+(
+select * from tmp_sino where poll_id = 281
+);
+
+
+DROP TEMPORARY TABLE IF EXISTS preg_282;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_282 ( INDEX(store_id ) ) AS
+(
+select store_id,
+respuesta,
+sum(case when options = '282a' then 1 else 0 end) as a,
+sum(case when options = '282b' then 1 else 0 end) as b,
+sum(case when options = '282c' then 1 else 0 end) as c,
+sum(case when options = '282d' then 1 else 0 end) as d,
+sum(case when options = '282e' then 1 else 0 end) as e,
+sum(case when options = '282f' then 1 else 0 end) as f,
+sum(case when options = '282g' then 1 else 0 end) as g,
+foto,
+limite
+from tmp_opciones
+where poll_id = 282
+group by store_id, respuesta, foto, limite
+);
+
+DROP TEMPORARY TABLE IF EXISTS preg_283;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_283 ( INDEX(store_id ) ) AS
+(
+select store_id,
+respuesta,
+sum(case when options = '283a' then 1 else 0 end) as a,
+sum(case when options = '283b' then 1 else 0 end) as b,
+sum(case when options = '283c' then 1 else 0 end) as c,
+sum(case when options = '283d' then 1 else 0 end) as d,
+foto,
+limite
+from tmp_opciones
+where poll_id = 283
+group by store_id, respuesta, foto, limite
+);
+
+
+DROP TEMPORARY TABLE IF EXISTS preg_284;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_284 ( INDEX(store_id ) ) AS
+(
+select store_id,
+respuesta,
+sum(case when options = '284a' then 1 else 0 end) as a,
+sum(case when options = '284b' then 1 else 0 end) as b,
+sum(case when options = '284c' then 1 else 0 end) as c,
+foto,
+limite
+from tmp_opciones
+where poll_id = 284
+group by store_id, respuesta, foto, limite
+
+
+DROP TEMPORARY TABLE IF EXISTS preg_285;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_285 ( INDEX(store_id ) ) AS
+(
+select store_id,
+respuesta,
+sum(case when options = '285a' then 1 else 0 end) as a,
+sum(case when options = '285b' then 1 else 0 end) as b,
+sum(case when options = '285c' then 1 else 0 end) as c,
+sum(case when options = '285d' then 1 else 0 end) as d,
+sum(case when options = '285e' then 1 else 0 end) as e,
+sum(case when options = '285f' then 1 else 0 end) as f,
+sum(case when options = '285g' then 1 else 0 end) as g,
+foto,
+limite
+from tmp_opciones
+where poll_id = 285
+group by store_id, respuesta, foto, limite
+
+);
+
+
+DROP TEMPORARY TABLE IF EXISTS preg_286;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_286 ( INDEX(store_id ) ) AS
+(
+select * from tmp_sino where poll_id = 286
+);
+
+
+DROP TEMPORARY TABLE IF EXISTS preg_287;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_287 ( INDEX(store_id ) ) AS
+(
+select * from tmp_sino where poll_id = 287
+);
+
+
+DROP TEMPORARY TABLE IF EXISTS preg_288;
+CREATE TEMPORARY TABLE IF NOT EXISTS preg_288 ( INDEX(store_id ) ) AS
+(
+select * from tmp_sino where poll_id = 288
+);
+
+
+
+select
+tmp_comercios.store_id,
+tmp_comercios.codclient,
+tmp_comercios.fullname,
+tmp_comercios.address,
+tmp_comercios.district,
+tmp_comercios.region,
+tmp_comercios.ubigeo,
+tmp_comercios.latitude,
+tmp_comercios.longitude,
+tmp_comercios.ejecutivo,
+tmp_comercios.coordinador,
+tmp_comercios.fecha,
+tmp_comercios.hora,
+tmp_comercios.auditor,
+(case when preg_259.Respuesta > 0 then 2 else preg_259.Respuesta end) as '259_Respuesta',
+preg_259.Comentario as '259_Comentario',
+(case when preg_262.Respuesta > 0 then 2 else preg_262.Respuesta end) as '262_Respuesta',
+(case when preg_262.a > 0 then 2 else preg_262.a end) as '262_a',
+(case when preg_262.b > 0 then 2 else preg_262.b end) as '262_b',
+(case when preg_262.c > 0 then 2 else preg_262.c end) as '262_c',
+(case when preg_262.d > 0 then 2 else preg_262.d end) as '262_d',
+(case when preg_262.e > 0 then 2 else preg_262.e end) as '262_e',
+(case when preg_262.f > 0 then 2 else preg_262.f end) as '262_f',
+preg_262.otro as '262_Otro',
+preg_262.Foto as '262_Foto',
+(case when preg_263.Respuesta > 0 then 2 else preg_263.Respuesta end) as '263_Respuesta',
+(case when preg_263.a > 0 then 2 else preg_263.a end) as '263_a',
+(case when preg_263.b > 0 then 2 else preg_263.b end) as '263_b',
+(case when preg_263.c > 0 then 2 else preg_263.c end) as '263_c',
+preg_263.Foto as '263_Foto',
+(case when preg_264.Respuesta > 0 then 2 else preg_264.Respuesta end) as '264_Respuesta',
+preg_264.comentario as '264_comentario',
+(case when preg_265.Respuesta > 0 then 2 else preg_265.Respuesta end) as '265_Respuesta',
+preg_265.comentario as '265_comentario',
+(case when preg_266.Respuesta > 0 then 2 else preg_266.Respuesta end) as '266_Respuesta',
+(case when preg_269.Respuesta > 0 then 2 else preg_269.Respuesta end) as '269_Respuesta',
+(case when preg_270.Respuesta > 0 then 2 else preg_270.Respuesta end) as '270_Respuesta',
+(case when preg_271.a > 0 then 2 else preg_271.a end) as '271_a',
+(case when preg_271.b > 0 then 2 else preg_271.b end) as '271_b',
+(case when preg_271.c > 0 then 2 else preg_271.c end) as '271_c',
+(case when preg_272.a > 0 then 2 else preg_272.a end) as '272_a',
+(case when preg_272.b > 0 then 2 else preg_272.b end) as '272_b',
+(case when preg_272.c > 0 then 2 else preg_272.c end) as '272_c',
+(case when preg_273.a > 0 then 2 else preg_273.a end) as '273_a',
+(case when preg_273.b > 0 then 2 else preg_273.b end) as '273_b',
+(case when preg_274.Respuesta > 0 then 2 else preg_274.Respuesta end) as '274_Respuesta',
+preg_275.Opcion as '275_Opcion',
+(case when preg_276.Respuesta > 0 then 2 else preg_276.Respuesta end) as '276_Respuesta',
+(case when preg_277.Respuesta > 0 then 2 else preg_277.Respuesta end) as '277_Respuesta',
+preg_277.Foto as '277_Foto',
+(case when preg_278.a > 0 then 2 else preg_278.a end) as '278_a',
+(case when preg_278.b > 0 then 2 else preg_278.b end) as '278_b',
+(case when preg_278.c > 0 then 2 else preg_278.c end) as '278_c',
+(case when preg_278.d > 0 then 2 else preg_278.d end) as '278_d',
+(case when preg_278.e > 0 then 2 else preg_278.e end) as '278_e',
+(case when preg_278.f > 0 then 2 else preg_278.f end) as '278_f',
+(case when preg_282.a > 0 then 2 else preg_282.a end) as '282_a',
+(case when preg_282.b > 0 then 2 else preg_282.b end) as '282_b',
+(case when preg_282.c > 0 then 2 else preg_282.c end) as '282_c',
+(case when preg_282.d > 0 then 2 else preg_282.d end) as '282_d',
+(case when preg_282.e > 0 then 2 else preg_282.e end) as '282_e',
+(case when preg_282.f > 0 then 2 else preg_282.f end) as '282_f',
+(case when preg_282.g > 0 then 2 else preg_282.g end) as '282_g',
+preg_282.limite as '282_Opcion',
+(case when preg_283.a > 0 then 2 else preg_283.a end) as '283_a',
+(case when preg_283.b > 0 then 2 else preg_283.b end) as '283_b',
+(case when preg_283.c > 0 then 2 else preg_283.c end) as '283_c',
+(case when preg_283.d > 0 then 2 else preg_283.d end) as '283_d',
+preg_283.limite as '283_Opcion',
+(case when preg_284.a > 0 then 2 else preg_284.a end) as '284_a',
+(case when preg_284.b > 0 then 2 else preg_284.b end) as '284_b',
+(case when preg_284.c > 0 then 2 else preg_284.c end) as '284_c',
+preg_284.limite as '284_Opcion',
+(case when preg_285.Respuesta > 0 then 2 else preg_285.Respuesta end) as '285_Respuesta',
+(case when preg_285.a > 0 then 2 else preg_285.a end) as '285_a',
+(case when preg_285.b > 0 then 2 else preg_285.b end) as '285_b',
+(case when preg_285.c > 0 then 2 else preg_285.c end) as '285_c',
+(case when preg_285.d > 0 then 2 else preg_285.d end) as '285_d',
+(case when preg_285.e > 0 then 2 else preg_285.e end) as '285_e',
+(case when preg_285.f > 0 then 2 else preg_285.f end) as '285_f',
+(case when preg_285.g > 0 then 2 else preg_285.g end) as '285_g',
+(case when preg_286.Respuesta > 0 then 2 else preg_286.Respuesta end) as '286_Respuesta',
+(case when preg_287.Respuesta > 0 then 2 else preg_287.Respuesta end) as '287_Respuesta',
+preg_288.comentario as '288_comentario',
+(case when preg_267.a > 0 then 2 else preg_267.a end) as '267_a',
+(case when preg_267.b > 0 then 2 else preg_267.b end) as '267_b',
+(case when preg_267.c > 0 then 2 else preg_267.c end) as '267_c',
+(case when preg_267.d > 0 then 2 else preg_267.d end) as '267_d',
+(case when preg_279.a > 0 then 2 else preg_279.a end) as '279_a',
+(case when preg_279.b > 0 then 2 else preg_279.b end) as '279_b',
+(case when preg_279.c > 0 then 2 else preg_279.c end) as '279_c',
+(case when preg_279.d > 0 then 2 else preg_279.d end) as '279_d',
+(case when preg_260.a > 0 then 2 else preg_260.a end) as '260_a',
+(case when preg_260.b > 0 then 2 else preg_260.b end) as '260_b',
+(case when preg_260.c > 0 then 2 else preg_260.c end) as '260_c',
+(case when preg_260.d > 0 then 2 else preg_260.d end) as '260_d',
+(case when preg_260.e > 0 then 2 else preg_260.e end) as '260_e',
+(case when preg_260.f > 0 then 2 else preg_260.f end) as '260_f',
+(case when preg_261.Respuesta > 0 then 2 else preg_261.Respuesta end) as '261_Respuesta',
+(case when preg_261.a > 0 then 2 else preg_261.a end) as '261_a',
+(case when preg_261.b > 0 then 2 else preg_261.b end) as '261_b',
+(case when preg_261.c > 0 then 2 else preg_261.c end) as '261_c',
+preg_261.foto as '261_Foto',
+(case when preg_280.a > 0 then 2 else preg_280.a end) as '280_a',
+(case when preg_280.b > 0 then 2 else preg_280.b end) as '280_b',
+(case when preg_280.c > 0 then 2 else preg_280.c end) as '280_c',
+(case when preg_280.d > 0 then 2 else preg_280.d end) as '280_d',
+(case when preg_268.Respuesta > 0 then 2 else preg_268.Respuesta end) as '268_Respuesta',
+(case when preg_281.Respuesta > 0 then 2 else preg_281.Respuesta end) as '281_Respuesta'
+from tmp_comercios
+left outer join preg_259 on (tmp_comercios.store_id = preg_259.store_id )
+left outer join preg_262 on (tmp_comercios.store_id = preg_262.store_id )
+left outer join preg_263 on (tmp_comercios.store_id = preg_263.store_id )
+left outer join preg_264 on (tmp_comercios.store_id = preg_264.store_id )
+left outer join preg_265 on (tmp_comercios.store_id = preg_265.store_id )
+left outer join preg_266 on (tmp_comercios.store_id = preg_266.store_id )
+left outer join preg_269 on (tmp_comercios.store_id = preg_269.store_id )
+left outer join preg_270 on (tmp_comercios.store_id = preg_270.store_id )
+left outer join preg_271 on (tmp_comercios.store_id = preg_271.store_id )
+left outer join preg_272 on (tmp_comercios.store_id = preg_272.store_id )
+left outer join preg_273 on (tmp_comercios.store_id = preg_273.store_id )
+left outer join preg_274 on (tmp_comercios.store_id = preg_274.store_id )
+left outer join preg_275 on (tmp_comercios.store_id = preg_275.store_id )
+left outer join preg_276 on (tmp_comercios.store_id = preg_276.store_id )
+left outer join preg_277 on (tmp_comercios.store_id = preg_277.store_id )
+left outer join preg_278 on (tmp_comercios.store_id = preg_278.store_id )
+left outer join preg_282 on (tmp_comercios.store_id = preg_282.store_id )
+left outer join preg_283 on (tmp_comercios.store_id = preg_283.store_id )
+left outer join preg_284 on (tmp_comercios.store_id = preg_284.store_id )
+left outer join preg_285 on (tmp_comercios.store_id = preg_285.store_id )
+left outer join preg_286 on (tmp_comercios.store_id = preg_286.store_id )
+left outer join preg_287 on (tmp_comercios.store_id = preg_287.store_id )
+left outer join preg_288 on (tmp_comercios.store_id = preg_288.store_id )
+left outer join preg_267 on (tmp_comercios.store_id = preg_267.store_id )
+left outer join preg_279 on (tmp_comercios.store_id = preg_279.store_id )
+left outer join preg_260 on (tmp_comercios.store_id = preg_260.store_id )
+left outer join preg_261 on (tmp_comercios.store_id = preg_261.store_id )
+left outer join preg_280 on (tmp_comercios.store_id = preg_280.store_id )
+left outer join preg_268 on (tmp_comercios.store_id = preg_268.store_id )
+left outer join preg_281 on (tmp_comercios.store_id = preg_281.store_id )
+ORDER BY tmp_comercios.fecha Desc, tmp_comercios.hora DESC;
+END $$
+
+DELIMITER ;
+</body>
+</html>

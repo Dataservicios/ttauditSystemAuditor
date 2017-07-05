@@ -23,9 +23,16 @@ class UserCompanyRepo extends BaseRepo{
               FROM
               user_companies  INNER JOIN companies ON (user_companies.company_id = companies.id)
               WHERE
-              user_companies.user_id = '".$user_id."'";
+              user_companies.user_id = '".$user_id."' and companies.active=1 order by id desc";
         $consulta=\DB::select($sql);
         return $consulta;
     }
+
+    public function getUsersForCompany($company_id)
+    {
+        return UserCompany::where('company_id',$company_id)->get();
+    }
+
+
 
 } 

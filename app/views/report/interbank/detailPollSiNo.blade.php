@@ -1,14 +1,14 @@
 @extends('layouts/adminLayout')
 @section('content')
 <section>
-    @include('report/partials/menuLeft')
+    @include('report/partials/menuPrincipalInterbank')
     <div class="cuerpo">
         <div class="cuerpo-content">
             <!--sección titulo y buscador-->
 
             <div class="row pt pb">
                 <div class="col-sm-12">
-                    <h4 class="report-title">Lista de Detalle Respuesta NO Pregunta: {{$question->question}}</h4>
+                    <h4 class="report-title">Lista de Detalle Respuesta @if($pregSino==0) NO @else SI @endif Pregunta: {{$question->question}}</h4>
 
                     @if($city<>"0")
                         <div id="alertaFiltro" class="alert alert-info alert-dismissible" role="alert">
@@ -43,7 +43,7 @@
                                     </div>
                                 @else
                                     <div class="panel-heading">
-                                        <h3 class="panel-title"><span class="badge">{{$index +1}} </span> {{$detailStore['codclient'].' - '.$detailStore['fullname']}}</h3>
+                                        <h3 class="panel-title"><span class="badge">{{$index +1}} </span> {{$detailStore['codclient'].' - '.$detailStore['fullname'].'('.$detailStore['store_id'].')'}}</h3>
                                     </div>
                                     <div class="panel-body">
 
@@ -52,7 +52,12 @@
                                                 <b> DEPARTAMENTO:  </b>{{$detailStore['departamento']}}<br/>
                                                 <b> PROVINCIA:  </b>{{$detailStore['Provincia']}} <br/>
                                                 <b> DISTRITO:  </b>{{$detailStore['distrito']}}<br/>
-                                                <b> COMENTARIO:  </b>{{$detailStore['comentario']}}<br/>
+                                                @if ($detailStore['comentario']<>'')
+                                                <b> COMENTARIO DE LA PREGUNTA:  </b>{{$detailStore['comentario']}}<br/>
+                                                @endif
+                                                @if($detailStore['otroComentario']<>'')
+                                                <b> OTROS COMENTARIOS:  </b>{{$detailStore['otroComentario']}}<br/>
+                                                @endif
                                                 <b> FECHA:  </b>{{$detailStore['fecha']}}<br/>
                                             </div>
                                             <div class="col-sm-4">

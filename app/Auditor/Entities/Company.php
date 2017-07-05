@@ -25,8 +25,19 @@ class Company extends \Eloquent {
         return $this->hasMany('Auditor\Entities\UserCompany');
     }
 
+    public function roadDetails()
+    {
+        return $this->hasMany('Auditor\Entities\RoadDetail');
+    }
+
     public function getPaginateProductsAttribute()
     {
         return Product::where('company_id', $this->id)->paginate();
     }
+
+    public function customer()
+    {
+        return $this->belongsto('Auditor\Entities\Customer');
+    }
+
 }

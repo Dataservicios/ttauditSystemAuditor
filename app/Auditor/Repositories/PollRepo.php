@@ -32,6 +32,21 @@ class PollRepo extends BaseRepo{
         return $polls;
     }
 
+    public function getIdsForQuestionForCompany($question,$company_id="0")
+    {
+        if ($company_id=="0"){
+            $polls = Poll::join('company_audits','polls.company_audit_id','=','company_audits.id')->select('polls.id','polls.sino','polls.options','polls.created_at','company_audits.company_id','polls.company_audit_id')->where('polls.question', $question)->get();
+        }else{
+            $polls = Poll::join('company_audits','polls.company_audit_id','=','company_audits.id')->select('polls.id','polls.sino','polls.options','polls.created_at','company_audits.company_id','polls.company_audit_id')->where('company_audits.company_id', $company_id)->where('polls.question', $question)->get();
+        }
+        //dd($polls);
+        return $polls;
+    }
 
+    public function getQuestionsWithPhotos($company_id)
+    {
+        $polls = Poll::join('company_audits','polls.company_audit_id','=','company_audits.id')->select('polls.id','polls.question','polls.sino','polls.options','polls.created_at','company_audits.company_id','polls.company_audit_id')->where('company_audits.company_id', $company_id)->where('polls.media', 1)->get();
+        return $polls;
+    }
 
 } 

@@ -1,7 +1,7 @@
 @extends('layouts/adminLayout')
 @section('content')
 <section>
-    @include('report/partials/menuLeftColgate')
+    @include('report/partials/menuPrincipalColgate')
     @if ($userType == 'company')
     <div class="cuerpo">
         <div class="cuerpo-content">

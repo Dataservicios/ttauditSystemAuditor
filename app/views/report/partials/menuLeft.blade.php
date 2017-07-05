@@ -45,11 +45,23 @@
 
                         @endforeach
                             @if ($CantidadStoresAudits<>0)
-                                @if(($audit_id=='audios') and ($audit_id<>0))
-                                    <li class="active"><a href="{{ route('reportAudios') }}"> <span class="icon-listausuario"></span>  Lista de audios</a></li>
-                                @else
-                                    <li><a href="{{ route('reportAudios') }}"> <span class="icon-listausuario"></span>  Lista de audios</a></li>
+                                @if($company_id==1)
+                                    @if ( $audit_id =='Interbank-Ola1' )
+                                        <li class="active"><a href="{{ route('reportAudios' , 'Interbank-Ola1') }}"> <span class="icon-listausuario"></span>  Lista de audios IBK Ola1</a></li>
+                                    @else
+                                        <li><a href="{{ route('reportAudios' , 'Interbank-Ola1') }}"> <span class="icon-listausuario"></span>  Lista de audios IBK Ola1</a></li>
+                                    @endif
                                 @endif
+
+                                @if($company_id==8)
+                                        @if ( $audit_id =='Interbank-Ola2' )
+                                            <li class="active"><a href="{{ route('reportAudios' , 'Interbank-Ola2') }}"> <span class="icon-listausuario"></span>  Lista de audios IBK Ola2</a></li>
+                                        @else
+                                            <li><a href="{{ route('reportAudios' , 'Interbank-Ola2') }}"> <span class="icon-listausuario"></span>  Lista de audios IBK Ola2</a></li>
+                                        @endif
+                                @endif
+
+
                             @endif
 
 

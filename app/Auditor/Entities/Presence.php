@@ -2,6 +2,7 @@
 namespace Auditor\Entities;
 class Presence extends \Eloquent {
 	protected $fillable = [];
+    protected $perPage = 100;
 
     /*public function audit()
     {

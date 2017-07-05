@@ -12,4 +12,9 @@ class RoadDetail extends \Eloquent {
     {
         return $this->belongsto('Auditor\Entities\Store');
     }
+
+    public function company()
+    {
+        return $this->belongsto('Auditor\Entities\Company');
+    }
 }

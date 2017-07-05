@@ -27,4 +27,14 @@ class ProductRepo extends BaseRepo{
             }, 'products.company'])->get();
     }
 
+    public function getProductsForCampaigne($company_id)
+    {
+        return Product::where('company_id',$company_id)->get();
+    }
+
+    public function getProductsForCity($company_id,$city)
+    {
+
+    }
+
 } 

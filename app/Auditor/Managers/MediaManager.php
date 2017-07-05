@@ -14,7 +14,6 @@ class MediaManager extends BaseManager {
     public function getRules()
     {
         $rules = [
-            'poll_id' => 'required',
             'store_id'      => 'required'
         ];
         return $rules;

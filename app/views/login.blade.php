@@ -18,8 +18,17 @@
                             @if (Auth::user()->type=='admin')
                                 {{ Redirect::to('admin/panel'); }}
                             @endif
-                            @if (Auth::user()->type=='company')
-                                {{ Redirect::to('report'); }}
+                            @if ((Auth::user()->type=='company') or (Auth::user()->type=='executive'))
+                                @if (Auth::user()->userCompany[count(Auth::user()->userCompany)-1]->company->customer_id == 5)
+                                    {{ Redirect::to('reportBayer'); }}
+                                @endif
+                                @if (Auth::user()->userCompany[count(Auth::user()->userCompany)-1]->company->customer_id == 4)
+                                    {{ Redirect::to('reportAlicorp'); }}
+                                @endif
+                                @if (Auth::user()->userCompany[count(Auth::user()->userCompany)-1]->company->customer_id == 1)
+                                    {{ Redirect::to('report'); }}
+                                @endif
+
                             @endif
                         @else
                             {{ Form::open(['route' => 'login', 'method' => 'POST', 'role' => 'form', 'class' => '']) }}

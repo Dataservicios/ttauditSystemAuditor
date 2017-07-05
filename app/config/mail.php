@@ -28,7 +28,7 @@ return array(
 	|
 	*/
 
-	'host' => 'smtp.mailgun.org',
+	'host' => 'mail.ttaudit.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -41,7 +41,7 @@ return array(
 	|
 	*/
 
-	'port' => 587,
+	'port' => 25,
 
 	/*
 	|--------------------------------------------------------------------------
@@ -54,7 +54,7 @@ return array(
 	|
 	*/
 
-	'from' => array('address' => null, 'name' => null),
+	'from' => array('address' => 'sistema@ttaudit.com', 'name' => 'Sistema Auditorias TTaudit'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -67,8 +67,7 @@ return array(
 	|
 	*/
 
-	'encryption' => 'tls',
-
+	/*'encryption' => 'tls',*/
 	/*
 	|--------------------------------------------------------------------------
 	| SMTP Server Username
@@ -80,7 +79,7 @@ return array(
 	|
 	*/
 
-	'username' => null,
+	'username' => 'auditorias@ttaudit.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -93,7 +92,7 @@ return array(
 	|
 	*/
 
-	'password' => null,
+	'password' => 'franbrsj09',
 
 	/*
 	|--------------------------------------------------------------------------

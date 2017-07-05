@@ -16,8 +16,6 @@
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="{{ route('listStores') }}"> <span class="icon-listausuario"></span> Listar Puntos <span class="sr-only">(current)</span></a></li>
                     <li><a href="{{ route('newStore') }}"> <span class="icon-nuevousuario"></span>  Nuevo Punto</a></li>
-                    <li><a href="{{ URL::to('http://ttaudit.com/rutas-auditor/index.html') }}" target="_blank"> <span class="icon-nuevousuario"></span>  Crear rutas</a></li>
-                    <li><a href="{{ route('listRoads') }}"> <span class="icon-nuevousuario"></span>  Listar Rutas</a></li>
                 </ul>
             </div>
         </div><!-- /.container-fluid -->

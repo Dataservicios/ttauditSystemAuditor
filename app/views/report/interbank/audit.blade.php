@@ -1,30 +1,14 @@
 @extends('layouts/adminLayout')
 @section('content')
 <section>
-    @include('report/partials/menuLeft')
+    @include('report/partials/menuPrincipalInterbank')
     <div class="cuerpo">
+
         <div class="cuerpo-content">
 
-                <div class="row pt pb">
+            <div class="row pt pb">
                     <div class="col-sm-12">
                         <h4 class="report-title">{{$audit->fullname}}</h4>
-
-                        <div class="row pt pb">
-                            <div class="col-sm-12 center">
-                                <div class="btn-group" role="group" aria-label="...">
-                                      <div   class="btn btn-default btn-si">Total Agentes</div>
-                                      <div   class="btn btn-default btn-valor">{{$cantidadStoresForCompany}}</div>
-                                </div>
-                                <div class="btn-group" role="group" aria-label="...">
-                                      <div   class="btn btn-default btn-si">Total Agentes Auditados</div>
-                                      <div   class="btn btn-default btn-valor">{{$CantidadStoresAudits}}</div>
-                                </div>
-                                <div class="btn-group" role="group" aria-label="...">
-                                      <div   class="btn btn-default btn-no">Total Agentes Sin Auditar</div>
-                                      <div   class="btn btn-default btn-valor">{{$cantidadStoresForCompany-$CantidadStoresAudits}}</div>
-                                </div>
-                            </div>
-                        </div>
 
                         <!-- Inicio de  Alerta para filtros -->
                         @if($city<>"0")
@@ -62,8 +46,8 @@
                                     <div class="form-group">
                                         {{ Form::hidden('audit_id', $audit_id) }}
                                         <label for="ciudad">Ciudad</label>
-                                        {{Form::select('ciudad', array('0' => 'Seleccionar', 'Lima' => 'Lima','Arequipa'=>'Arequipa','Chincha'=>'Chincha','Ica'=>'Ica','Pisco'=>'Pisco','Trujillo'=>'Trujillo','1'=>'Todo Lima','2'=>'Todo Arequipa','3'=>'Toda Ica','4'=>'Todo Trujillo','5'=>'Todo Provincias'), '0', ['id'=>'ciudad','onchange'=>'ejecutaEvento(this,1)','class' => 'form-control']);}}
-
+                                        {{--{{Form::select('ciudad', array('0' => 'Seleccionar', 'Lima' => 'Lima','Piura'=>'Piura','Callao'=>'Callao','1'=>'Todo Lima','2'=>'Todo Arequipa','3'=>'Toda Ica','4'=>'Todo Trujillo','5'=>'Todo Provincias'), '0', ['id'=>'ciudad','onchange'=>'ejecutaEvento(this,1)','class' => 'form-control']);}}--}}
+                                        {{Form::select('ciudad', $ciudades, '0', ['id'=>'ciudad','onchange'=>'ejecutaEvento(this,1)','class' => 'form-control']);}}
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
@@ -103,7 +87,69 @@
                         {{ Form::close() }}
                         <!-- Fin Filtros con combos-->
 
-                        <div class="row pt pb">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <a href="#" id="change" class="label label-success"> Comparar Estudios </a>
+                                </div>
+                            </div>
+
+
+                            <!-- Inicio de  omparación Campaña -->
+                            <div id="alertaCompara" class="alert alert-info  fade in" role="alert" >
+                                <button type="button" class="close"   aria-label="Close"><span aria-hidden="true">×</span></button>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h5> Selecione los estudios que desea comparar</h5>
+                                        {{Form::open(['route' => 'comparationStudies', 'method' => 'POST', 'role' => 'form'], $audit_id)}}
+                                            {{ Form::hidden('audit_id', $audit_id) }}
+                                            {{ Form::hidden('company_id', $company_id) }}
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <label class="radio-inline">
+                                                        <input type="radio" id="unselect" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked="true"> Selección individual
+                                                    </label>
+                                                    <label class="radio-inline">
+                                                        <input type="radio" id="selectall" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Seleccionar todo
+                                                    </label>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <!-- SCROLL PANEL-->
+                                                    <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" class="scrollspy-example">
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                {{Form::checkbox('chk[]',  '1', ['class' => 'checkbox1']);}}Estudio 1
+                                                                {{--<input type="checkbox" class="checkbox1">Estudio 1--}}
+                                                            </label>
+                                                        </div>
+                                                        <div class="checkbox ">
+                                                            <label>
+                                                                {{Form::checkbox('chk[]',  '8', ['class' => 'checkbox1']);}}Estudio 2
+                                                            </label>
+                                                        </div>
+                                                        <div class="checkbox ">
+                                                            <label>
+                                                                {{Form::checkbox('chk[]',  '10', ['class' => 'checkbox1']);}}Estudio 3
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+                                                    <button type="submit" class="btn btn-primary">Comparar</button>
+                                                </div>
+                                            </div>
+
+                                        {{ Form::close() }}
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="row pt pb">
                             <div class="col-sm-12">
                             @foreach ($resumenes as $resumen)
                                 <div class="report-marco ">
@@ -117,9 +163,13 @@
                                         @if ($resumen['sino']==1)
                                         <div class="grafico-circle">
                                             <div id="charSiNo{{$resumen['poll_id']}}" style="width: 100%; height: 400px;" ></div>
-                                            @if (($resumen['poll_id'] == 3) or ($resumen['poll_id'] == 2) or ($resumen['poll_id'] == 12) or ($resumen['poll_id'] == 7) or ($resumen['poll_id'] == 41) or ($resumen['poll_id'] == 45) or ($resumen['poll_id'] == 48) or ($resumen['poll_id'] == 60) or ($resumen['poll_id'] == 43) or ($resumen['poll_id'] == 42) or ($resumen['poll_id'] == 52) or ($resumen['poll_id'] == 47) )
+                                            @if (($resumen['poll_id'] == 3) or ($resumen['poll_id'] == 2) or ($resumen['poll_id'] == 12) or ($resumen['poll_id'] == 7) or ($resumen['poll_id'] == 41) or ($resumen['poll_id'] == 45) or ($resumen['poll_id'] == 48) or ($resumen['poll_id'] == 60) or ($resumen['poll_id'] == 43) or ($resumen['poll_id'] == 42) or ($resumen['poll_id'] == 52) or ($resumen['poll_id'] == 47) or ($resumen['poll_id'] == 73) or ($resumen['poll_id'] == 77) or ($resumen['poll_id'] == 80) or ($resumen['poll_id'] == 92) or ($resumen['poll_id'] == 75) or ($resumen['poll_id'] == 74) or ($resumen['poll_id'] == 79) or ($resumen['poll_id'] == 84))
                                                 <div>
                                                 <a href="{{route('getDetailResultQuestion', $resumen['poll_id']."/".$valores.'-0')}}" class="btn btn-primary btn-sm active" role="button">Ver Detalle Respuesta NO</a> </div>
+                                            @endif
+                                            @if (($resumen['poll_id'] == 70) or ($resumen['poll_id'] == 44) or ($resumen['poll_id'] == 102))
+                                                <div>
+                                                    <a href="{{route('getDetailResultQuestion', $resumen['poll_id']."/".$valores.'-1')}}" class="btn btn-primary btn-sm active" role="button">Ver Detalle Respuesta SI</a> </div>
                                             @endif
 
                                         </div>
@@ -128,14 +178,34 @@
                                         <div class="grafico-circle">
                                             <div id="charOptions{{$resumen['poll_id']}}" style="width: 100%; height: 400px;" ></div>
                                         </div>
-                                            @if ($resumen['poll_id'] == 26)
+                                            @if (($resumen['poll_id'] == 26) or ($resumen['poll_id'] == 66) or ($resumen['poll_id'] == 98))
                                                 <div class="grafico-circle"><label>Detalle Otros</label>
                                                     <div id="charOptionsOther{{$resumen['poll_id']}}" style="width: 100%; height: 400px;" ></div>
                                                 </div>
                                             @endif
+                                            @if ($resumen['poll_id'] == 56)
+                                                <div>
+                                                    <a href="{{route('getDetailResultQuestion', $resumen['poll_id']."/".$valores."-0"."/174")}}" class="btn btn-primary btn-sm active" role="button">Ver Detalle Otros</a> </div>
+                                            @endif
+                                            @if ($resumen['poll_id'] == 88)
+                                                <div>
+                                                    <a href="{{route('getDetailResultQuestion', $resumen['poll_id']."/".$valores."-0"."/242")}}" class="btn btn-primary btn-sm active" role="button">Ver Detalle Otros</a> </div>
+                                            @endif
+                                            @if ($resumen['poll_id'] == 65)
+                                                <div>
+                                                    <a href="{{route('getDetailResultQuestion', $resumen['poll_id']."/".$valores."-0"."/211")}}" class="btn btn-primary btn-sm active" role="button">Ver Detalle Otros</a> </div>
+                                            @endif
+                                            @if ($resumen['poll_id'] == 97)
+                                                <div>
+                                                    <a href="{{route('getDetailResultQuestion', $resumen['poll_id']."/".$valores."-0"."/279")}}" class="btn btn-primary btn-sm active" role="button">Ver Detalle Otros</a> </div>
+                                            @endif
                                             @if ($resumen['poll_id'] == 67)
                                                 <div>
-                                                    <a href="{{route('getDetailResultQuestion', $resumen['poll_id']."/".$valores."-0"."/222")}}" class="btn btn-primary btn-sm active" role="button">Ver Detalle de Local Cerrado</a> </div>
+                                                    <a href="{{route('getDetailResultQuestion', $resumen['poll_id']."/".$valores."-0"."/222")}}" class="btn btn-primary btn-sm active" role="button">Ver Detalle No Disponible</a> </div>
+                                            @endif
+                                            @if ($resumen['poll_id'] == 99)
+                                                <div>
+                                                    <a href="{{route('getDetailResultQuestion', $resumen['poll_id']."/".$valores."-0"."/288")}}" class="btn btn-primary btn-sm active" role="button">Ver Detalle No Disponible</a> </div>
                                             @endif
                                         @endif
                                     </div>
@@ -184,7 +254,7 @@
                     //creaGraficoColumnasPorcentajesDinamic(chartData1,charDiv,true,true);
                     creaGraficoColumnas(chartData1,charDiv,false);
                 </script>
-                @if ($resumen['poll_id'] == 26)
+                @if (($resumen['poll_id'] == 26) or ($resumen['poll_id'] == 66) or ($resumen['poll_id'] == 98))
                     <script>
                         var chartData1 = JSON.parse('{{$resumen['JSONOpcionesOther']}}');
                         var charDiv = "charOptionsOther" + "{{$resumen['poll_id']}}";
@@ -311,4 +381,28 @@
                 window.location.href = "{{ route('auditReport', $audit_id) }}";
             })
         </script>
+<script>
+
+    $('.prueba').on( "click", function( event ) {
+        event.preventDefault();
+        console.log('hola');
+    });
+
+
+
+    //Activa cuadro de comparación de campaªna
+    $( "#change" ).on( "click", function( event ) {
+        event.preventDefault();
+        $('#alertaCompara').show();
+        $('#change').hide();
+//            $("#alertaFiltro").toggleClass("show");
+
+    });
+
+    $('.close').click(function() {
+        $("#alertaCompara").hide();
+        $('#change').show();
+    });
+
+</script>
 @endsection

@@ -2,6 +2,7 @@
 namespace Auditor\Entities;
 class Road extends \Eloquent {
 	protected $fillable = [];
+    protected $perPage = 50;
 
     public function roadDetails()
     {
